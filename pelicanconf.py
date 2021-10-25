@@ -1,4 +1,6 @@
 AUTHOR = 'Ing. Alvaro Rodríguez Scelza'
+COPYRIGHT_NAME = AUTHOR
+COPYRIGHT_YEAR = 2021
 SITENAME = 'Alvaro Scelza'
 SITEURL = ''
 
@@ -24,6 +26,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 THEME = "themes/Flex"
+THEME_COLOR_ENABLE_USER_OVERRIDE = True
 TIMEZONE = 'America/Montevideo'
 
 # Uncomment following line if you want document-relative URLs when developing
