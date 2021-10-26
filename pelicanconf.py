@@ -6,6 +6,7 @@ SITEURL = ''
 
 DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = False
+DISABLE_URL_HASH = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
