@@ -4,7 +4,7 @@ COPYRIGHT_YEAR = 2021
 SITENAME = 'Alvaro Scelza'
 SITEURL = ''
 
-DEFAULT_LANG = 'Spanish'
+DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = False
 
 # Feed generation is usually not desired when developing
@@ -16,12 +16,14 @@ AUTHOR_FEED_RSS = None
 PATH = 'content'
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/ing-alvaro-scelza/'),
+          ('Github', 'https://github.com/loaderon'),
+          ('Stackoverflow', 'https://stackoverflow.com/users/story/5750078'))
 
 THEME = "themes/Flex"
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 TIMEZONE = 'America/Montevideo'
+USE_LESS = True
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

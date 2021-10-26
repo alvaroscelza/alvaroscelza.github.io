@@ -180,6 +180,16 @@
         </form>
       {% endif %}
 
+      <ul class="social">
+        {% for name, link in SOCIAL %}
+          <li>
+            <a href="{{ link }}">
+              <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ name }}.png" alt="{{ name }}" width="45" height="45">
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
       {% if (pages and DISPLAY_PAGES_ON_MENU) or LINKS %}
       <nav>
         <ul class="list">
@@ -217,16 +227,6 @@
         </ul>
       </nav>
       {% endif %}
-
-      <ul class="social">
-        {% for name, link in SOCIAL %}
-          <li>
-            <a {% if name == 'mastodon' %}rel="me"{% endif %} class="sc-{{ name }}" href="{{ link }}" target="_blank">
-              <i class="{% if name in ['envelope', 'rss'] %}fas{% else %}fab{% endif %} fa-{{ name }}"></i>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
     </div>
 
     {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.aside %}
