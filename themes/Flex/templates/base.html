@@ -160,6 +160,8 @@
   {% endif %}
   <aside>
     <div>
+      <h1>{{ SITENAME }}</h1>
+
       <a href="{{ SITEURL }}/">
         {% if SITELOGO %}
         <img src="{{ SITELOGO }}" alt="{{ SITETITLE }}" title="{{ SITETITLE }}">
@@ -167,10 +169,6 @@
         <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/profile.webp" alt="{{ SITETITLE }}" title="{{ SITETITLE }}">
         {% endif %}
       </a>
-
-      <h1>
-        <a href="{{ SITEURL }}/">{{ SITETITLE }}</a>
-      </h1>
 
       {% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
 
