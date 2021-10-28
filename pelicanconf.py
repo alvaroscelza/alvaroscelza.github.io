@@ -18,7 +18,7 @@ PATH = 'content'
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ing-alvaro-scelza/'),
-          ('github', 'https://github.com/loaderon'),
+          ('github', 'https://github.com/alvaroscelza'),
           ('stackoverflow', 'https://stackoverflow.com/users/story/5750078'))
 
 THEME = "themes/Flex"
