@@ -16,5 +16,5 @@ Personal website and blog.
 
 - pelican content
 - ghp-import output -b master
-- checkout master
+- git checkout master
 - git push
