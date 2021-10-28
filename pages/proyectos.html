@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet/less" type="text/css" href="/theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+        disabled="disabled"
+    href="/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+            disabled="disabled"
+          href="/theme/pygments/monokai.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="/theme/pygments/github.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
+
+
+
+
+
+  
+
+
+ 
+
+    <meta name="author" content="Ing. Alvaro Rodríguez Scelza" />
+    <meta name="description" content="" />
+  <meta property="og:site_name" content="Alvaro Scelza"/>
+  <meta property="og:type" content="blog"/>
+  <meta property="og:title" content="Alvaro Scelza"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content=""/>
+
+
+
+  <title>Alvaro Scelza &ndash; Proyectos</title>
+
+</head>
+<body class="light-theme">
+  <aside>
+    <div>
+      <h1>Alvaro Scelza</h1>
+
+      <a href="/">
+        <img src="/theme/img/profile.webp" alt="" title="">
+      </a>
+
+
+
+      <ul class="social">
+          <li>
+            <a href="https://www.linkedin.com/in/ing-alvaro-scelza/">
+              <img src="/theme/img/LinkedIn.png" alt="LinkedIn" width="45" height="45">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/loaderon">
+              <img src="/theme/img/Github.png" alt="Github" width="45" height="45">
+            </a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/users/story/5750078">
+              <img src="/theme/img/Stackoverflow.png" alt="Stackoverflow" width="45" height="45">
+            </a>
+          </li>
+      </ul>
+
+      <nav>
+        <ul class="list">
+
+
+                <li>
+                  <a target="_self"
+                     href="/pages/conocimientos.html">
+                    Conocimientos
+                  </a>
+                </li>
+                <li>
+                  <a target="_self"
+                     href="/pages/proyectos.html">
+                    Proyectos
+                  </a>
+                </li>
+
+        </ul>
+      </nav>
+    </div>
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+    
+    <h1 id="proyectos">Proyectos</h1>
+  </header>
+  <div>
+
+        <div class="text-align-center">
+            <h2>
+                <img src="/images/ripio.png" alt="Ripio" width="50" height="50" class="vertical-align-text-bottom">
+                <span>Ripio</span>
+            </h2>
+            <h3>OTC</h3>
+            <p class="p-with-no-margin-top">
+                Python Django SQLite/PostgreSQL
+                <br>
+                4 meses
+            </p>
+            <p>
+                Ripio comenzó un proceso de partición del equipo monolítico de desarrollo que éramos,
+                en pequeños núcleos a cargo de proyectos puntuales, con el fin de orientarnos a equipos ágiles.
+                En junio de 2021 se me ofreció la posibilidad de liderar uno de estos equipos, encargado de un nuevo proyecto: OTC.
+                OTC es el área de Ripio encargada de nuestros clientes VIP, que operan grandes sumas de dinero.
+                El equipo se formó poco después, estando a mi cargo la dirección de los desarrolladores.
+            </p>
+            <h3>Webhook para procesos de pagos</h3>
+            <p class="p-with-no-margin-top">
+                Python Django PostgreSQL
+                <br>
+                1 mes
+            </p>
+            <p>
+                Luego del desarrollo de un nuevo servicio encargado de la consumición de un proveedor para gestionar
+                pagos con crypto, se necesitaba desarrollar un webhook que recibiera los avisos de pagos desde este
+                proveedor en nuestra aplicación principal Ripio. Se me asignó a mí este desarrollo que implicó gran
+                investigación de nuestro proyecto principal Ripio, un Monolito que lleva más de 9 años de existencia.
+            </p>
+            <h3>Eventually</h3>
+            <p class="p-with-no-margin-top">
+                Javascript NodeJS ExpressJS MongoDB
+                <br>
+                1 mes
+            </p>
+            <p>
+                Se necesitaba construir un microservicio encargado del registro de eventos en una base de datos NoSQL (por temas de performance).
+                Se me asignó a mí este pequeño proyecto de duración 1 mes.
+            </p>
+            <h3>Documentación de Crons</h3>
+            <p class="p-with-no-margin-top">
+                1 mes
+            </p>
+            <p>
+                Se me solicitó realizar un relevamiento completo de todos los crons ejecutados en nuestro monolito
+                Ripio. Para esto tuve que indagar en el código del monolito durante el suficiente tiempo para encontrar
+                todos los crons del mismo y entender cómo funcionaban. Finalmente realicé un diagrama de Nesting/Use
+                para poder visualizar fácilmente cuáles eran, cuántos, dónde se ubicaban y qué dependencias tenían
+                entre ellos.
+            </p>
+            <h3>Documentación de APIs para terceros</h3>
+            <p class="p-with-no-margin-top">
+                1 mes
+            </p>
+            <p>
+                Necesitábamos  crear documentación de nuestras APIs para eventuales consumidores de las mismas,
+                como con
+                <a href="https://www.iprofesional.com/tecnologia/277872-ripio-y-mercado-libre-se-unen-para-llevar-los-bitcoins-al-e-commerce-argentino">
+                    nuestra alianza con Mercado Libre</a>.
+                Nuevamente se me solicitó ayuda para sumergirme en las funcionalidades que nuestras APIs ofrecen,
+                realizar ingeniería inversa y documentar las mismas, esta vez no solo con diagramas arquitectónicos,
+                sino también con <a href="https://swagger.io/">Swagger</a>.
+            </p>
+            <h3>Análisis de Requerimientos para Códigos de Promoción</h3>
+            <p class="p-with-no-margin-top">
+                1 mes
+            </p>
+            <p>
+                Nuestro equipo de Marketing necesitaba ayuda para analizar y diseñar la implementación de nuevos
+                códigos de promoción para captar nuevos usuarios (y eventualmente fidelizar a los ya existentes). Una
+                funcionalidad que hasta el momento se realizaba de manera manual.
+                <br>
+                Implementé varios diagramas de
+                <a href="https://sites.google.com/site/softwarearchitectureinpractice/9-documenting-software-architecture/e-behaviour">
+                    vista de comportamiento</a>, entre ellos, diagramas de casos de uso y de
+                flujo, además de un diagrama de
+                <a href="https://sites.google.com/site/softwarearchitectureinpractice/9-documenting-software-architecture/c-component-and-connector-c-c-views">
+                    Componentes y Conectores</a> y varios de
+                <a href="https://sites.google.com/site/softwarearchitectureinpractice/9-documenting-software-architecture/b-module-views">
+                    Módulos</a>: Nesting, Packages,
+                Decomposition y de clases.
+            </p>
+            <h3>Mejora de documentación de servicio de control de usuarios</h3>
+            <p class="p-with-no-margin-top">
+                1 mes
+            </p>
+            <p>
+                Nuestro servicio de control de usuarios, cuyo nombre mantengo en privado, contiene un set de reglas que
+                controlan en forma automática las acciones de nuestros usuarios: límites de operación entre otros. El
+                desarrollo y mantenimiento de estas reglas se estaba volviendo insostenible debido a la falta de
+                documentación eficiente al respecto. Nuestro equipo perdió la visión global de todas las reglas
+                aplicadas, los casos en que cada una se ejecutaba, los ordenes de prioridad entre ellas, etc.
+                Se me pidió resolver el problema, ante tal me tomé un tiempo en leer, y analizar el único documento
+                sobre el proyecto: una bitácora de cambios donde se fueron anotando las discusiones conversacionales
+                entre el equipo de desarrollo y el de Compliance. Habiendo forjado en mi mente el historial de cambios
+                realizados pude traducir dicho documento bitácora en una serie de documentos de especificación de
+                requerimientos: diagrama de casos de uso, múltiples diagramas de flujo y un documento arquitectónico de
+                análisis de requerimientos funcionales, requerimientos no funcionales y restricciones del negocio.
+            </p>
+            <h3>Procesos de documentación</h3>
+            <p class="p-with-no-margin-top">
+                2 meses
+            </p>
+            <p>
+                Desde mi ingreso, Ripio ha tenido un crecimiento verdaderamente exponencial en la cantidad de
+                empleados: cerca de un 100% el primer año, y un 87.5% el segundo.
+                <br>
+                Los procesos de desarrollo y documentación ad hoc utilizados hasta el momento ya no bastaban. Debido a
+                que mi forma de trabajo personal implica un fuerte nivel de aplicación de procesos y metodologías
+                formales, que incluyen diagramación, documentación Kanban, estimación y demás técnicas aprendidas en mi
+                carrera, se me solicitó que utilizara mis conocimientos en pos de mejorar los procesos de Ripio de cara
+                al equipo de desarrollo. Con este fin elaboré un plan de cambios paulatinos procedurales, basado en
+                <a href="https://en.wikipedia.org/wiki/PDCA">PDCA</a>.
+                <br>
+                Este plan comenzaba con documentación técnica formal y estrictamente guiada por apartados en los
+                archivos Readme.md de cada repositorio de código. Luego exigía la inclusión de diagramas
+                arquitectónicos de alto nivel:
+                <a href="https://sites.google.com/site/softwarearchitectureinpractice/9-documenting-software-architecture/d-allocation-views">
+                    Allocation View</a>,
+                <a href="http://www.faadooengineers.com/online-study/post/eee/software-engineering/1392/component-and-connector-view">
+                    Components & Connectors View</a>. Y posteriormente, de bajo
+                nivel:
+                <a href="https://sites.google.com/site/softwarearchitectureinpractice/9-documenting-software-architecture/b-module-views">
+                    Modules View</a>.
+                <br>
+                As you probably know, this Architectural documentation is based on the book
+                <a href="https://www.pearson.com/uk/educators/higher-education-educators/program/Clements-Documenting-Software-Architectures-Views-and-Beyond-2nd-Edition/PGM914471.html">
+                    Documenting Software Architectures: Views and Beyond</a>. Finalmente comenzamos a utilizar herramientas de
+                gestión de proyectos, como <a href="https://www.atlassian.com/es/software/jira">Jira</a>.
+            </p>
+            <h3>API para pagos con crypto</h3>
+            <p class="p-with-no-margin-top">
+                Python Django PostgreSQL
+                <br>
+                1 año
+            </p>
+            <p>
+                Necesitábamos construir una aplicación para gestionar el nuevo producto de Ripio en Brasil: tarjetas de
+                débito para compras con crypto.
+                Para esto se requería construir una API web con toda la lógica que nuestros equipos de front end
+                consumirían. Esta API tenía dos dificultades principales:
+                <br>
+                1- Debía consumir los servicios de una API de nuestro proveedor de tarjetas y pagos, Conductor.
+                <br>
+                2- Debía gestionar los pagos comunicados por nuestro proveedor  hacia nuestra BD de balances, con lo
+                cual era necesario un estricto control de dichos pagos, para evitar fallas de seguridad y también de
+                concurrencia, evitando por ejemplo, autorizar y ejecutar pagos dobles.
+                <br>
+                Fui uno de los dos desarrolladores de esta API.
+            </p>
+
+            <h2>
+                <img src="/images/bps.png" alt="BPS" width="50" height="50" class="vertical-align-text-bottom">
+                <span>Banco de Previsión Social</span>
+            </h2>
+            <h3>SDES Conectados</h3>
+            <p class="p-with-no-margin-top">
+                1 año
+            </p>
+            <p>
+                En paralelo al proyecto GRP, el departamento de Servicios de Desarrollo de Software (SDES), del cual
+                GRP dependía lanzó un proyecto con el fin de conectar todos los departamentos dependientes de SDES. Se
+                eligió la metodología Design Thinking para este propósito y se me pidió participar debido a mis
+                conocimientos y experiencia con la misma.
+            </p>
+            <h3>Proyecto GRP</h3>
+            <p class="p-with-no-margin-top">
+                Python Odoo PostgreSQL
+                <br>
+                2 años
+            </p>
+            <p>
+                Durante los dos años que trabajé para BPS estuve dedicado al proyecto GRP: un
+                <a href="https://en.wikipedia.org/wiki/Enterprise_resource_planning">ERP</a> gubernamental.
+            </p>
+
+            <h2>
+                <img src="/images/dnm.gif" alt="DNM" width="50" height="50" class="vertical-align-text-bottom">
+                <span>Dirección Nacional de Migración</span>
+            </h2>
+            <h3>Registro de Trámites v2</h3>
+            <p class="p-with-no-margin-top">
+                C# .NET SQL Server
+                <br>
+                1 mes
+            </p>
+            <p>
+                En febrero de 2017 implementé la segunda versión del mismo Software, que solucionaba carencias del
+                anterior, incluyendo aspectos de UI.
+            </p>
+            <h3>Registro de Trámites</h3>
+            <p class="p-with-no-margin-top">
+                php MySQL
+                <br>
+                1 mes
+            </p>
+            <p>
+                En agosto de 2016 construí un pequeño sitio web de back office para la Dirección Nacional de Migración,
+                donde trabajaba haciendo servicio técnico.
+            </p>
+        </div>
+      </div>
+</article>
+
+    <footer>
+<p>&copy; 2021 Ing. Alvaro Rodríguez Scelza</p>
+<p>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="false"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Alvaro Scelza ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>
