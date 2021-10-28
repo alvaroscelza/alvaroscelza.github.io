@@ -1,30 +1,24 @@
 AUTHOR = 'Ing. Alvaro Rodríguez Scelza'
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+CATEGORY_FEED_ATOM = None
 COPYRIGHT_NAME = AUTHOR
 COPYRIGHT_YEAR = 2021
-SITENAME = 'Alvaro Scelza'
-SITEURL = ''
-
 DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = False
 DISABLE_URL_HASH = True
-
-# Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PATH = 'content'
-
-# Social widget
+PLUGINS = ['i18n_subsites']
+PLUGIN_PATHS = ['/pelican-plugins']
+SITENAME = 'Alvaro Scelza'
+SITEURL = ''
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ing-alvaro-scelza/'),
           ('github', 'https://github.com/alvaroscelza'),
           ('stackoverflow', 'https://stackoverflow.com/users/story/5750078'))
-
 THEME = "themes/Flex"
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
 TIMEZONE = 'America/Montevideo'
+TRANSLATION_FEED_ATOM = None
 USE_LESS = True
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
