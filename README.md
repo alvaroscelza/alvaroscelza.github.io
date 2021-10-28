@@ -11,3 +11,10 @@ Personal website and blog.
 - Create virtual environment and activate it. Example: `virtualenv venv`
 - Enter environment: Example: `venv\Scripts\activate`
 - `pip install -r requirements.txt`
+
+## Deployment
+
+- pelican content
+- ghp-import output -b master
+- checkout master
+- git push
