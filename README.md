@@ -1,5 +1,13 @@
-### Hi there 👋
+# Alvaro Scelza
 
-master branch -> production
+Personal website and blog.
 
-develop branch -> develop branch :)
+## Technology stack
+- Python 3
+- Pelican 4
+
+## Installation and running
+
+- Create virtual environment and activate it. Example: `virtualenv venv`
+- Enter environment: Example: `venv\Scripts\activate`
+- `pip install -r requirements.txt`
