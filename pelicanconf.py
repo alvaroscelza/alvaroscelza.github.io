@@ -17,9 +17,9 @@ AUTHOR_FEED_RSS = None
 PATH = 'content'
 
 # Social widget
-SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/ing-alvaro-scelza/'),
-          ('Github', 'https://github.com/loaderon'),
-          ('Stackoverflow', 'https://stackoverflow.com/users/story/5750078'))
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ing-alvaro-scelza/'),
+          ('github', 'https://github.com/loaderon'),
+          ('stackoverflow', 'https://stackoverflow.com/users/story/5750078'))
 
 THEME = "themes/Flex"
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
