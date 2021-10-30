@@ -105,7 +105,7 @@
                 OTC es el área de Ripio encargada de nuestros clientes VIP, que operan grandes sumas de dinero.
                 El equipo se formó poco después, estando a mi cargo la dirección de los desarrolladores.
             </p>
-            <h3>Webhook para procesos de pagos</h3>
+            <h3>Paymatico Webhooks</h3>
             <p class="no-margin-top">
                 Python Django PostgreSQL
                 <br>
@@ -218,11 +218,28 @@
                     Documenting Software Architectures: Views and Beyond</a>. Finalmente comenzamos a utilizar herramientas de
                 gestión de proyectos, como <a href="https://www.atlassian.com/es/software/jira">Jira</a>.
             </p>
-            <h3>API para pagos con crypto</h3>
+            <h3>rp_card_authorizator</h3>
             <p class="no-margin-top">
                 Python Django PostgreSQL
                 <br>
-                2020 a 2021 - 1 año
+                2020 a 2021 - 4 meses
+            </p>
+            <p class="justify-text">
+                Poco tiempo después de terminar la API que ofrecería el servicio de tarjetas para pagos en Brasil, surgió
+                un proyecto similar, pero esta vez en España (con otro proveedor). Nos encontramos ante el desafío de no replicar
+                todo el código del proyecto ya construido, pues su funcionalidad sería casi igual. <br>
+                <br>
+                Si bien al construir la primera versión ya tuvimos en cuenta esto, pues sabíamos que el producto eventualmente
+                podría desear usarse en varios países, con distintos proveedores, existían partes del Software que no eran genéricas. <br>
+                Por eso me tomé el trabajo no solo de ayudar en la construcción del nuevo Software, sino de, personalmente y
+                una vez finalizado, "combinar" ambos proyectos en uno 100% genérico que quedó disponible tanto para los dos
+                proyectos ya en uso, como para cualquier futuro proyecto con requerimientos similares.
+            </p>
+            <h3>rp-conductor</h3>
+            <p class="no-margin-top">
+                Python Django PostgreSQL
+                <br>
+                2020 - 8 meses
             </p>
             <p class="justify-text">
                 Necesitábamos construir una aplicación para gestionar el nuevo producto de Ripio en Brasil: tarjetas de
@@ -231,7 +248,6 @@
                 consumirían. Esta API tenía dos dificultades principales: <br>
                 <br>
                 1- Debía consumir los servicios de una API de nuestro proveedor de tarjetas y pagos, Conductor. <br>
-                <br>
                 2- Debía gestionar los pagos comunicados por nuestro proveedor hacia nuestra BD de balances, con lo
                 cual era necesario un estricto control de dichos pagos, para evitar fallas de seguridad y también de
                 concurrencia, evitando por ejemplo, autorizar y ejecutar pagos dobles. <br>
