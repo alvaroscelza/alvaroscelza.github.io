@@ -22,8 +22,8 @@ JavaScript    | &nbsp;             | 1 año
 &nbsp;        | Sin Framework      | 5 meses
 &nbsp;        | NodeJS - ExpressJS | 2 meses
 &nbsp;        | NodeJS - SailsJS   | 1 mes
+&nbsp;        | NodeJS - Electron  | 1 mes
 &nbsp;        | ReactJS            | 2 meses
-&nbsp;        | Electron           | 1 mes
 C++           | &nbsp;             | 1 año
 &nbsp;        | Sin Framework      | 1 año
 Ruby          | &nbsp;             | 1 año
