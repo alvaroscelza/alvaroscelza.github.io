@@ -10,6 +10,7 @@ Lenguaje      | Framework          | Seniority
 Python        | &nbsp;             | 4+ años
 &nbsp;        | Odoo               | 2 años
 &nbsp;        | Django             | 2+ años
+&nbsp;        | Pelican            | 1 mes
 C#            | &nbsp;             | 3+ años
 &nbsp;        | NET y ASPNET       | 3 años
 &nbsp;        | Unity              | 6 meses
@@ -48,13 +49,14 @@ MySQL         | 6 meses
 MongoDB       | 2 meses
 
 ## Cloud
-Proveedor            | &nbsp;             | Seniority
--------------------- | -----------        | ---------
-Google Cloud         | &nbsp;             | 6 meses
-&nbsp;               | Compute Engine     | 4 meses
-&nbsp;               | App Engine         | 2 meses
-Azure                | &nbsp;             | 4 meses
-Heroku               | &nbsp;             | 1 mes
+Proveedor           | &nbsp;             | Seniority
+------------------- | -----------        | ---------
+Google Cloud        | &nbsp;             | 6 meses
+&nbsp;              | Compute Engine     | 4 meses
+&nbsp;              | App Engine         | 2 meses
+Azure               | &nbsp;             | 4 meses
+Heroku              | &nbsp;             | 1 mes
+GitHub Pages        | &nbsp;             | 1 mes
 
 ## Metodologías y Enfoques
 Nombre                 | &nbsp;      | &nbsp;                           | Seniority
@@ -136,4 +138,4 @@ phpMyAdmin                                | 2 meses
 Selenium                                  | 1 mes
 MarkDown                                  | a demanda
 
-¿Falta algo? Házmelo saber! :)
+¿Falta algo? [Házmelo saber!](/pages/contacto.html) :)
