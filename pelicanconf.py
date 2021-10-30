@@ -7,9 +7,6 @@ COPYRIGHT_YEAR = 2021
 DEFAULT_LANG = 'es'
 DEFAULT_PAGINATION = False
 DISABLE_URL_HASH = True
-EXTRA_PATH_METADATA = {
-    'favicon.ico': {'': 'favicon.ico'},
-}
 FEED_ALL_ATOM = None
 I18N_TEMPLATES_LANG = "en"
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
@@ -24,6 +21,7 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ing-alvaro-scelza/'),
           ('github', 'https://github.com/alvaroscelza'),
           ('stackoverflow', 'https://stackoverflow.com/users/story/5750078'))
 STATIC_PATHS = [
+    'images',
     'favicon.ico',
 ]
 THEME = "themes/Flex"
