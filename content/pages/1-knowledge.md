@@ -110,32 +110,33 @@ Redmine       | 2 años
 Jira          | 1 año
 
 ## Misceláneo
-Nombre                                    | Seniority
---------------------                      | ---------
-Git                                       | 7+ años
-Github                                    | 6+ años
-Gitlab                                    | 4 años
-Postman                                   | 3+ años
-PgAdmin                                   | 3+ años
-REST                                      | 2+ años
-VirtualBox                                | 2 años
-Microsoft IIS                             | 1+ años
-Microsoft SQL Server                      | 1+ años
-Microsoft SQL Server Management Studio    | 1+ años
-Django Rest Framework                     | 1 año
-DBeaver                                   | 1 año
-SourceTree                                | 1 año
-Bitbucket                                 | 6 meses
-Team Foundation Version Control           | 6 meses
-SVN                                       | 6 meses
-jQuery                                    | 6 meses
-Desarrollo de Videojuegos                 | 6 meses
-SOAP                                      | 3 meses
-SOAP UI                                   | 3 meses
-Docker + Docker-Compose                   | 3 meses
-Mongoose                                  | 2 meses
-phpMyAdmin                                | 2 meses
-Selenium                                  | 1 mes
-MarkDown                                  | a demanda
+Nombre                                  | Seniority
+--------------------                    | ---------
+Git                                     | 7+ años
+Github                                  | 6+ años
+Gitlab                                  | 4 años
+Postman                                 | 3+ años
+PgAdmin                                 | 3+ años
+REST                                    | 2+ años
+VirtualBox                              | 2 años
+Microsoft IIS                           | 1+ años
+Microsoft SQL Server                    | 1+ años
+Microsoft SQL Server Management Studio  | 1+ años
+Django Rest Framework                   | 1 año
+DBeaver                                 | 1 año
+SourceTree                              | 1 año
+Bitbucket                               | 6 meses
+Team Foundation Version Control         | 6 meses
+SVN                                     | 6 meses
+jQuery                                  | 6 meses
+Desarrollo de Videojuegos               | 6 meses
+SOAP                                    | 3 meses
+SOAP UI                                 | 3 meses
+Docker + Docker-Compose                 | 3 meses
+Mongoose                                | 2 meses
+phpMyAdmin                              | 2 meses
+Smarty                                  | 2 meses
+Selenium                                | 1 mes
+MarkDown                                | a demanda
 
 ¿Falta algo? [Házmelo saber!](/pages/contacto.html) :)
