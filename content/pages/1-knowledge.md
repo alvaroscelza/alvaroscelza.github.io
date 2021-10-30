@@ -39,14 +39,14 @@ HTML y CSS    | &nbsp;             | a demanda
 Siempre a demanda para consultas específicas a DB. Si bien tuve un aprendizaje avanzado en la Universidad, 
 luego de eso nunca trabajé específicamente en esa área y, por tanto, me volví un poco oxidado en ella.
 
-Motor         | Seniority
-------------- | ------------------
-PostgreSQL    | 4 años
-SQL Server    | 2 años
-Oracle SQL    | 1 año
-SQLite        | 1 año
-MySQL         | 6 meses
-MongoDB       | 2 meses
+Motor                   | Seniority
+----------------------- | ------------------
+PostgreSQL              | 4 años
+Microsoft SQL Server    | 2 años
+Oracle SQL              | 1 año
+SQLite                  | 1 año
+MySQL                   | 6 meses
+MongoDB                 | 2 meses
 
 ## Cloud
 Proveedor           | &nbsp;             | Seniority
@@ -54,7 +54,7 @@ Proveedor           | &nbsp;             | Seniority
 Google Cloud        | &nbsp;             | 6 meses
 &nbsp;              | Compute Engine     | 4 meses
 &nbsp;              | App Engine         | 2 meses
-Azure               | &nbsp;             | 4 meses
+Microsoft Azure     | &nbsp;             | 4 meses
 Heroku              | &nbsp;             | 1 mes
 GitHub Pages        | &nbsp;             | 1 mes
 
