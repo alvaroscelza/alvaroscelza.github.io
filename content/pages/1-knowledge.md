@@ -5,35 +5,36 @@ enfoques y metodologías. <br>
 (Pro tip: ctrl + f para buscar lo que necesitas 🙂)
 
 ## Lenguajes de Programación y Frameworks
-Lenguaje      | Framework          | Seniority
-------------- | ------------------ | ---------
-Python        | &nbsp;             | 4+ años
-&nbsp;        | Odoo               | 2 años
-&nbsp;        | Django             | 2+ años
-&nbsp;        | Pelican            | 1 mes
-C#            | &nbsp;             | 3+ años
-&nbsp;        | NET y ASPNET       | 3 años
-&nbsp;        | Unity              | 6 meses
-Java          | &nbsp;             | 3+ años
-&nbsp;        | Sin Framework      | 2+ años
-&nbsp;        | Java EE            | 6 meses
-&nbsp;        | Android Studio     | 6 meses
-JavaScript    | &nbsp;             | 1 año      
-&nbsp;        | Sin Framework      | 5 meses
-&nbsp;        | NodeJS - ExpressJS | 2 meses
-&nbsp;        | NodeJS - SailsJS   | 1 mes
-&nbsp;        | NodeJS - Electron  | 1 mes
-&nbsp;        | ReactJS            | 2 meses
-C++           | &nbsp;             | 1 año
-&nbsp;        | Sin Framework      | 1 año
-Ruby          | &nbsp;             | 1 año
-&nbsp;        | Ruby on Rails      | 1 año
-Haskell       | &nbsp;             | 1 año
-&nbsp;        | Sin Framework      | 1 año
-PHP           | &nbsp;             | 6 meses
-&nbsp;        | Sin Framework      | 6 meses
-Scilab        | &nbsp;             | 6 meses
-HTML y CSS    | &nbsp;             | a demanda
+Lenguaje      | Framework           | Seniority
+------------- | ------------------- | ---------
+Python        | &nbsp;              | 4+ años
+&nbsp;        | Odoo                | 2 años
+&nbsp;        | Django              | 2+ años
+&nbsp;        | Pelican             | 1 mes
+C#            | &nbsp;              | 3+ años
+&nbsp;        | NET y ASPNET        | 3 años
+&nbsp;        | Unity               | 6 meses
+Java          | &nbsp;              | 3+ años
+&nbsp;        | Sin Framework       | 2+ años
+&nbsp;        | Java EE             | 6 meses
+&nbsp;        | Android Studio      | 6 meses
+JavaScript    | &nbsp;              | 1 año      
+&nbsp;        | Sin Framework       | 5 meses
+&nbsp;        | NodeJS - ExpressJS  | 2 meses
+&nbsp;        | NodeJS - SailsJS    | 1 mes
+&nbsp;        | NodeJS - Electron   | 1 mes
+&nbsp;        | NodeJS - NightmareJS| 1 mes
+&nbsp;        | ReactJS             | 2 meses
+C++           | &nbsp;              | 1 año
+&nbsp;        | Sin Framework       | 1 año
+Ruby          | &nbsp;              | 1 año
+&nbsp;        | Ruby on Rails       | 1 año
+Haskell       | &nbsp;              | 1 año
+&nbsp;        | Sin Framework       | 1 año
+PHP           | &nbsp;              | 6 meses
+&nbsp;        | Sin Framework       | 6 meses
+Scilab        | &nbsp;              | 6 meses
+HTML y CSS    | &nbsp;              | a demanda
 
 ## Bases de Datos
 Siempre a demanda para consultas específicas a DB. Si bien tuve un aprendizaje avanzado en la Universidad, 
