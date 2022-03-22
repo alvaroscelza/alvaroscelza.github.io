@@ -25,7 +25,7 @@ enfoques y metodologías. <br>
 | &nbsp;     | NodeJS - SailsJS     | 1 mes     |
 | &nbsp;     | NodeJS - Electron    | 1 mes     |
 | &nbsp;     | NodeJS - NightmareJS | 1 mes     |
-| &nbsp;     | ReactJS              | 5 meses   |
+| &nbsp;     | ReactJS Library      | 5 meses   |
 | C++        | &nbsp;               | 1 año     |
 | &nbsp;     | Sin Framework        | 1 año     |
 | Ruby       | &nbsp;               | 1 año     |
