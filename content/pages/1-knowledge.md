@@ -25,7 +25,7 @@ enfoques y metodologías. <br>
 | &nbsp;     | NodeJS - SailsJS     | 1 mes     |
 | &nbsp;     | NodeJS - Electron    | 1 mes     |
 | &nbsp;     | NodeJS - NightmareJS | 1 mes     |
-| &nbsp;     | ReactJS              | 2 meses   |
+| &nbsp;     | ReactJS              | 5 meses   |
 | C++        | &nbsp;               | 1 año     |
 | &nbsp;     | Sin Framework        | 1 año     |
 | Ruby       | &nbsp;               | 1 año     |
@@ -35,6 +35,7 @@ enfoques y metodologías. <br>
 | PHP        | &nbsp;               | 6 meses   |
 | &nbsp;     | Sin Framework        | 6 meses   |
 | Scilab     | &nbsp;               | 6 meses   |
+| Vue        | &nbsp;               | 1 mes     |
 | HTML y CSS | &nbsp;               | a demanda |
 
 ## Bases de Datos
@@ -80,10 +81,10 @@ luego de eso nunca trabajé específicamente en esa área y, por tanto, me volv�
 |---------|--------|-----------|
 | Windows | &nbsp; | 20+ años  |
 | Linux   | &nbsp; | 1+ años   |
-| &nbsp;  | Ubuntu | 6 meses   |
+| &nbsp;  | Ubuntu | 8 meses   |
 | &nbsp;  | Mint   | 6 meses   |
 | &nbsp;  | Debian | 4 meses   |
-| Mac     | &nbsp; | 2 años    |
+| Mac     | &nbsp; | 2+ años   |
 
 ## Compiladores
 | Nombre | Seniority |
@@ -127,6 +128,7 @@ luego de eso nunca trabajé específicamente en esa área y, por tanto, me volv�
 | Django Rest Framework                  | 1 año     |
 | DBeaver                                | 1 año     |
 | SourceTree                             | 1 año     |
+| Docker + Docker-Compose                | 8 meses   |
 | Bitbucket                              | 6 meses   |
 | Team Foundation Version Control        | 6 meses   |
 | SVN                                    | 6 meses   |
@@ -134,11 +136,14 @@ luego de eso nunca trabajé específicamente en esa área y, por tanto, me volv�
 | Desarrollo de Videojuegos              | 6 meses   |
 | SOAP                                   | 3 meses   |
 | SOAP UI                                | 3 meses   |
-| Docker + Docker-Compose                | 3 meses   |
 | Mongoose                               | 2 meses   |
 | phpMyAdmin                             | 2 meses   |
 | Smarty                                 | 2 meses   |
 | Selenium                               | 1 mes     |
+| Redis                                  | 1 mes     |
+| Celery                                 | 1 mes     |
+| Flower                                 | 1 mes     |
+| uWSGI                                  | 1 mes     |
 | MarkDown                               | a demanda |
 
 ¿Falta algo? [Házmelo saber!](/pages/contacto.html) :)
