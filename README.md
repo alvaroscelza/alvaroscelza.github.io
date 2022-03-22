@@ -11,6 +11,8 @@ Personal website and blog.
 - Create virtual environment and activate it. Example: `virtualenv venv`
 - Enter environment: Example: `venv\Scripts\activate`
 - `pip install -r requirements.txt`
+- `python -m pelican content` para generar la carpeta 'output'.
+- `python -m pelican --listen --output ./output` para levantar el servidor.
 
 ## Deployment
 
