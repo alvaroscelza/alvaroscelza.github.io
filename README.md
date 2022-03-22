@@ -4,7 +4,7 @@ Personal website and blog.
 
 ## Technology stack
 - Python 3
-- Pelican 4
+- [Pelican 4](https://docs.getpelican.com/en/4.7.2/quickstart.html)
 
 ## Installation and running
 
