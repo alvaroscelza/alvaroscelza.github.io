@@ -3,18 +3,15 @@
 Personal website and blog.
 
 ## Technology stack
-- Python 3
-- [Pelican 4](https://docs.getpelican.com/en/4.7.2/quickstart.html)
+- Javascript ES6
+- [React 18](https://reactjs.org/docs/getting-started.html)
 
 ## Installation and running
 
-- Create virtual environment and activate it. Example: `virtualenv venv`
-- Enter environment: Example: `venv\Scripts\activate`
-- `pip install -r requirements.txt`
-- `python -m pelican content` para generar la carpeta 'output'.
-- `python -m pelican --listen --output ./output` para levantar el servidor.
+- `npm install`
+- `npm start`
 
-## Deployment
+## Deployment WIP
 
 - `pelican content`
 - `ghp-import output -b master`
