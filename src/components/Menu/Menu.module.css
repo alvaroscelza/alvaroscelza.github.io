@@ -1,0 +1,27 @@
+.aside {
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+.h1 {
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 2.4em;
+}
+
+.img {
+    border-radius: 50%;
+    max-width: 140px;
+}
+
+.ul {
+    margin-top: 5px;
+    padding: 0;
+}
