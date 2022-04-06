@@ -22,7 +22,7 @@ const Menu = () => {
                                  link='https://stackoverflow.com/users/5750078/alvaro-rodriguez-scelza?tab=profile'
                                  image={stackoverflowImage}/>
             </ul>
-            <ul className={classes.ul}>
+            <ul className={`${classes.ul} ${classes.topPadding1EM}`}>
                 <InternalLinkListItem text='Knowledge' link='/knowledge'/>
                 <InternalLinkListItem text='Projects' link='/projects'/>
                 <InternalLinkListItem text='Contact' link='/contact'/>
