@@ -1,6 +1,7 @@
 import classes from "./Pages.module.css";
 import {useEffect} from "react";
 import {Link} from "react-router-dom";
+import englishVideo from '../../videos/english.mp4';
 
 const EnglishPage = () => {
     useEffect(() => {
@@ -31,7 +32,7 @@ const EnglishPage = () => {
                 feedback</Link> about it.
             </p>
             <video width="650" height="400" controls>
-                <source src="/images/english.mp4" type="video/mp4"/>
+                <source src={englishVideo} type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>
             <p>
