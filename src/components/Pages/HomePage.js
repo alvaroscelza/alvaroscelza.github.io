@@ -51,11 +51,11 @@ const HomePage = () => {
                     some of them as an employee and others as entrepreneur.
                 </p>
                 <p>
-                    <img className={classes.img} src="https://s.w.org/images/core/emoji/13.1.0/svg/1f1fa-1f1fe.svg"
+                    <img className={classes.emojiIcon} src="https://s.w.org/images/core/emoji/13.1.0/svg/1f1fa-1f1fe.svg"
                          alt="🇺🇾"/> I'm from Uruguay :)
                 </p>
                 <p>
-                    <img className={classes.img} src="https://s.w.org/images/core/emoji/13.1.0/svg/1f1ec-1f1e7.svg"
+                    <img className={classes.emojiIcon} src="https://s.w.org/images/core/emoji/13.1.0/svg/1f1ec-1f1e7.svg"
                          alt="🇬🇧"/>
                     Though <Link to="/lets-speak-english" className={classes.link}>we can speak English</Link>,
                     if you want.
