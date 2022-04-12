@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/finapp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/shootingRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/taurus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/ExternalLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27fyMgM6AG45sq5h5Rp7wg83SOx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="" />
+      <created>1649725392911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649725392911</updated>
+      <workItem from="1649725396736" duration="2057000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated project files">
+      <created>1649725461792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649725461792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated project files" />
+  </component>
+</project>

@@ -8,6 +8,9 @@ import {sunpowerInstantDesignTechnologies, sunpowerInstantDesignDescription} fro
 import {skollarsDescription} from "./ProjectsDatabase/SkollARS/SkollARS";
 import {skollarsWebsiteDescription, skollarsWebsiteTechnologies} from "./ProjectsDatabase/SkollARS/SkollARSWebsite";
 import {personalWebsiteDescription, personalWebsiteTechnologies} from "./ProjectsDatabase/SkollARS/PersonalWebsite";
+import {finappDescription, finappTechnologies} from "./ProjectsDatabase/SkollARS/finapp";
+import {taurusDescription, taurusTechnologies} from "./ProjectsDatabase/SkollARS/taurus";
+import {shootingRangeDescription, shootingRangeTechnologies} from "./ProjectsDatabase/SkollARS/shootingRange";
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -36,6 +39,15 @@ const ProjectsPage = () => {
                 <ProjectTitle restOfTitle="Personal Website"/>
                 {personalWebsiteTechnologies}
                 {personalWebsiteDescription}
+                <ProjectTitle restOfTitle="FinApp"/>
+                {finappTechnologies}
+                {finappDescription}
+                <ProjectTitle restOfTitle="Taurus"/>
+                {taurusTechnologies}
+                {taurusDescription}
+                <ProjectTitle restOfTitle="Shooting Range"/>
+                {shootingRangeTechnologies}
+                {shootingRangeDescription}
             </div>
         </>
     );
