@@ -1,4 +1,5 @@
 import classes from "../../Pages.module.css";
+import ExternalLink from "../../../UI/ExternalLink";
 
 const CompanyTitle = (props) => {
     const image = props.companyImage;
@@ -9,7 +10,7 @@ const CompanyTitle = (props) => {
     return (
         <h2 className={classes.h2}>
             <img className={classes.companyImage} src={image} alt={imageAltText} width="50" height="50"/>
-            <a target="_blank" rel="noopener noreferrer" className={classes.link} href={link}>{name}</a>
+            <ExternalLink link={link} text={name}/>
         </h2>
     );
 }

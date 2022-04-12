@@ -1,6 +1,7 @@
 import ProjectTechnologies from "../../ProjectsPageComponents/ProjectTechnologies";
 import classes from "../../../Pages.module.css";
 import ProjectDescription from "../../ProjectsPageComponents/ProjectDescription";
+import ExternalLink from "../../../../UI/ExternalLink";
 
 const skollarsWebsiteTechnologies =
     <ProjectTechnologies>
@@ -14,10 +15,7 @@ const skollarsWebsiteDescription =
         Website to offer my company's services. Since I presently work full-time with my current customer, this
         project is on pause and its contact form is disabled. <br/>
         <br/>
-        You can see it&nbsp;
-        <a target="_blank" rel="noopener noreferrer" className={classes.link} href="https://skollars.com/">
-            here
-        </a>.
+        You can see it <ExternalLink link="https://skollars.com/" text="here"/>.
     </ProjectDescription>
 
 export {skollarsWebsiteTechnologies, skollarsWebsiteDescription};

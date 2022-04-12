@@ -1,11 +1,10 @@
 import classes from "../../Pages.module.css";
+import ExternalLink from "../../../UI/ExternalLink";
 
 const ProjectTitle = ({titleLink, linkedTitle, restOfTitle}) => {
     return (
         <h3 className={classes.h3}>
-            <a target="_blank" rel="noopener noreferrer" className={classes.link} href={titleLink}>
-                {linkedTitle}
-            </a> {restOfTitle}
+            <ExternalLink link={titleLink} text={linkedTitle}/> {restOfTitle}
         </h3>
     );
 }

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/finapp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/shootingRange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/taurus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/ExternalLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/InternalLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/SocialMediaLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/SocialMediaLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/EnglishPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/EnglishPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/SkollARSWebsite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/SkollARSWebsite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/CompanyTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/CompanyTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/ProjectTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/ProjectTitle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649725392911</updated>
-      <workItem from="1649725396736" duration="2057000" />
+      <workItem from="1649725396736" duration="3418000" />
     </task>
     <task id="LOCAL-00001" summary="updated project files">
       <created>1649725461792</created>
@@ -65,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649725461792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added several projects">
+      <created>1649727511029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649727511029</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated project files" />
+    <MESSAGE value="added several projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="added several projects" />
   </component>
 </project>
