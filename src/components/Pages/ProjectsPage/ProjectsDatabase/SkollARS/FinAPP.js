@@ -5,7 +5,7 @@ const finappTechnologies =
     <ProjectTechnologies>
         Python Django PostgreSQL
         <br/>
-        2021 - 4 meses
+        2021 - 4 months
     </ProjectTechnologies>
 
 const finappDescription =

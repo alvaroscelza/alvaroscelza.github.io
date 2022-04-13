@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/InternalLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/ClaimsAndComplaints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/InstagramUnfollower.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Mortuary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Pimbay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Publisher.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/SocialMediaLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/SocialMediaLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/EnglishPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/EnglishPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/SkollARSWebsite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/SkollARSWebsite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/CompanyTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/CompanyTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/ProjectTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/ProjectTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/finapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/FinAPP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/shootingRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/ShootingRange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/taurus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Taurus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649725392911</updated>
-      <workItem from="1649725396736" duration="3418000" />
+      <workItem from="1649725396736" duration="3477000" />
+      <workItem from="1649810175927" duration="3678000" />
     </task>
     <task id="LOCAL-00001" summary="updated project files">
       <created>1649725461792</created>
@@ -75,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649727511029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactored all links with components">
+      <created>1649728876249</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649728876249</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated project files" />
     <MESSAGE value="added several projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="added several projects" />
+    <MESSAGE value="refactored all links with components" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored all links with components" />
   </component>
 </project>

@@ -8,9 +8,20 @@ import {sunpowerInstantDesignTechnologies, sunpowerInstantDesignDescription} fro
 import {skollarsDescription} from "./ProjectsDatabase/SkollARS/SkollARS";
 import {skollarsWebsiteDescription, skollarsWebsiteTechnologies} from "./ProjectsDatabase/SkollARS/SkollARSWebsite";
 import {personalWebsiteDescription, personalWebsiteTechnologies} from "./ProjectsDatabase/SkollARS/PersonalWebsite";
-import {finappDescription, finappTechnologies} from "./ProjectsDatabase/SkollARS/finapp";
-import {taurusDescription, taurusTechnologies} from "./ProjectsDatabase/SkollARS/taurus";
-import {shootingRangeDescription, shootingRangeTechnologies} from "./ProjectsDatabase/SkollARS/shootingRange";
+import {finappDescription, finappTechnologies} from "./ProjectsDatabase/SkollARS/FinAPP";
+import {taurusDescription, taurusTechnologies} from "./ProjectsDatabase/SkollARS/Taurus";
+import {shootingRangeDescription, shootingRangeTechnologies} from "./ProjectsDatabase/SkollARS/ShootingRange";
+import {mortuaryDescription, mortuaryTechnologies} from "./ProjectsDatabase/SkollARS/Mortuary";
+import {
+    claimsAndComplaintsDescription,
+    claimsAndComplaintsTechnologies
+} from "./ProjectsDatabase/SkollARS/ClaimsAndComplaints";
+import {publisherDescription, publisherTechnologies} from "./ProjectsDatabase/SkollARS/Publisher";
+import {
+    instagramUnfollowerDescription,
+    instagramUnfollowerTechnologies
+} from "./ProjectsDatabase/SkollARS/InstagramUnfollower";
+import {pimbayDescription, pimbayTechnologies} from "./ProjectsDatabase/SkollARS/Pimbay";
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -48,6 +59,21 @@ const ProjectsPage = () => {
                 <ProjectTitle restOfTitle="Shooting Range"/>
                 {shootingRangeTechnologies}
                 {shootingRangeDescription}
+                <ProjectTitle restOfTitle="Mortuary DEMAL SA"/>
+                {mortuaryTechnologies}
+                {mortuaryDescription}
+                <ProjectTitle restOfTitle="Claims and Complaints"/>
+                {claimsAndComplaintsTechnologies}
+                {claimsAndComplaintsDescription}
+                <ProjectTitle restOfTitle="publisher"/>
+                {publisherTechnologies}
+                {publisherDescription}
+                <ProjectTitle restOfTitle="instagram_unfollower"/>
+                {instagramUnfollowerTechnologies}
+                {instagramUnfollowerDescription}
+                <ProjectTitle restOfTitle="Pimbay: ¿Qué estás para hacer hoy?"/>
+                {pimbayTechnologies}
+                {pimbayDescription}
             </div>
         </>
     );

@@ -6,7 +6,7 @@ const shootingRangeTechnologies =
     <ProjectTechnologies>
         C# .NET ASP.NET MVC Microsoft SQL Server Microsoft Azure
         <br/>
-        2020 - 1 mes
+        2020 - 1 month
     </ProjectTechnologies>
 
 const modelFirstLink = "https://www.entityframeworktutorial.net/model-first-with-entity-framework.aspx"

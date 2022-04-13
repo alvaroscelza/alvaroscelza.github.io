@@ -5,7 +5,7 @@ const taurusTechnologies =
     <ProjectTechnologies>
         Python Django PostgreSQL AWS
         <br/>
-        2021 - 7 meses
+        2021 - 7 months
     </ProjectTechnologies>
 
 const taurusDescription =
