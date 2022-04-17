@@ -1,6 +1,5 @@
 import classes from "./Pages.module.css";
 import {useEffect} from "react";
-import {Link} from "react-router-dom";
 import englishVideo from '../../videos/english.mp4';
 import ExternalLink from "../UI/ExternalLink";
 import InternalLink from "../UI/InternalLink";
