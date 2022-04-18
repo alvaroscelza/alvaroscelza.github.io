@@ -4,7 +4,10 @@ import createThriveImage from '../../../images/create-thrive.jpg';
 import skollarsImage from '../../../images/skollars.png';
 import CompanyTitle from "./ProjectsPageComponents/CompanyTitle";
 import ProjectTitle from "./ProjectsPageComponents/ProjectTitle";
-import {sunpowerInstantDesignTechnologies, sunpowerInstantDesignDescription} from "./ProjectsDatabase/CreateThrive/SunpowerInstantDesign";
+import {
+    sunpowerInstantDesignTechnologies,
+    sunpowerInstantDesignDescription
+} from "./ProjectsDatabase/CreateThrive/SunpowerInstantDesign";
 import {skollarsDescription} from "./ProjectsDatabase/SkollARS/SkollARS";
 import {skollarsWebsiteDescription, skollarsWebsiteTechnologies} from "./ProjectsDatabase/SkollARS/SkollARSWebsite";
 import {personalWebsiteDescription, personalWebsiteTechnologies} from "./ProjectsDatabase/SkollARS/PersonalWebsite";
@@ -22,6 +25,17 @@ import {
     instagramUnfollowerTechnologies
 } from "./ProjectsDatabase/SkollARS/InstagramUnfollower";
 import {pimbayDescription, pimbayTechnologies} from "./ProjectsDatabase/SkollARS/Pimbay";
+import {
+    beaspa2Description,
+    beaspa2Technologies,
+} from "./ProjectsDatabase/SkollARS/Beaspa2";
+import {beaspaDescription, beaspaTechnologies} from "./ProjectsDatabase/SkollARS/Beaspa";
+import {miroYEntiendoDescription, miroYEntiendoTechnologies} from "./ProjectsDatabase/SkollARS/MiroYEntiendo";
+import {
+    distribuidoraSaturnoDescription,
+    distribuidoraSaturnoTechnologies
+} from "./ProjectsDatabase/SkollARS/DistribuidoraSaturno";
+import {juezOnlineORTDescription, juezOnlineORTTechnologies} from "./ProjectsDatabase/SkollARS/JuezOnlineORT";
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -37,7 +51,8 @@ const ProjectsPage = () => {
             <div className={classes.textAlignCenter}>
                 <CompanyTitle companyImage={createThriveImage} companyImageAltText="create-thrive"
                               companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
-                <ProjectTitle titleLink="https://us.sunpower.com/" linkedTitle="Sunpower" restOfTitle="- InstantDesign"/>
+                <ProjectTitle titleLink="https://us.sunpower.com/" linkedTitle="Sunpower"
+                              restOfTitle="- InstantDesign"/>
                 {sunpowerInstantDesignTechnologies}
                 {sunpowerInstantDesignDescription}
 
@@ -74,6 +89,21 @@ const ProjectsPage = () => {
                 <ProjectTitle restOfTitle="Pimbay: ¿Qué estás para hacer hoy?"/>
                 {pimbayTechnologies}
                 {pimbayDescription}
+                <ProjectTitle restOfTitle="Beaspa V2"/>
+                {beaspa2Technologies}
+                {beaspa2Description}
+                <ProjectTitle restOfTitle="Beaspa"/>
+                {beaspaTechnologies}
+                {beaspaDescription}
+                <ProjectTitle restOfTitle="Miro y Entiendo"/>
+                {miroYEntiendoTechnologies}
+                {miroYEntiendoDescription}
+                <ProjectTitle restOfTitle="Distribuidora Saturno"/>
+                {distribuidoraSaturnoTechnologies}
+                {distribuidoraSaturnoDescription}
+                <ProjectTitle restOfTitle="Juez Online ORT"/>
+                {juezOnlineORTTechnologies}
+                {juezOnlineORTDescription}
             </div>
         </>
     );
