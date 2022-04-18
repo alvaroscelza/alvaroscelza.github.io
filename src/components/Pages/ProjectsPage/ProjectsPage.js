@@ -2,6 +2,7 @@ import classes from "../Pages.module.css";
 import {useEffect} from "react";
 import createThriveImage from '../../../images/create-thrive.jpg';
 import skollarsImage from '../../../images/skollars.png';
+import ripioImage from '../../../images/ripio.png';
 import CompanyTitle from "./ProjectsPageComponents/CompanyTitle";
 import ProjectTitle from "./ProjectsPageComponents/ProjectTitle";
 import {
@@ -36,6 +37,20 @@ import {
     distribuidoraSaturnoTechnologies
 } from "./ProjectsDatabase/SkollARS/DistribuidoraSaturno";
 import {juezOnlineORTDescription, juezOnlineORTTechnologies} from "./ProjectsDatabase/SkollARS/JuezOnlineORT";
+import {otcDescription, otcTechnologies} from "./ProjectsDatabase/Ripio/OTC";
+import {paymaticoDescription, paymaticoTechnologies} from "./ProjectsDatabase/Ripio/Paymatico";
+import {eventuallyDescription, eventuallyTechnologies} from "./ProjectsDatabase/Ripio/Eventually";
+import {documentingCronsDescription, documentingCronsTechnologies} from "./ProjectsDatabase/Ripio/DocumentingCrons";
+import {documentingAPIsDescription, documentingAPIsTechnologies} from "./ProjectsDatabase/Ripio/DocumentingAPIs";
+import {promotionCodesDescription, promotionCodesTechnologies} from "./ProjectsDatabase/Ripio/PromotionCodes";
+import {
+    usersControlServiceDescription,
+    usersControlServiceTechnologies
+} from "./ProjectsDatabase/Ripio/UsersControlService";
+import {
+    documentationProcessesDescription,
+    documentationProcessesTechnologies
+} from "./ProjectsDatabase/Ripio/DocumentationProcesses";
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -104,6 +119,33 @@ const ProjectsPage = () => {
                 <ProjectTitle restOfTitle="Juez Online ORT"/>
                 {juezOnlineORTTechnologies}
                 {juezOnlineORTDescription}
+
+                <CompanyTitle companyImage={ripioImage} companyImageAltText="Ripio"
+                              companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
+                <ProjectTitle restOfTitle="OTC"/>
+                {otcTechnologies}
+                {otcDescription}
+                <ProjectTitle restOfTitle="Paymatico Webhooks"/>
+                {paymaticoTechnologies}
+                {paymaticoDescription}
+                <ProjectTitle restOfTitle="Eventually"/>
+                {eventuallyTechnologies}
+                {eventuallyDescription}
+                <ProjectTitle restOfTitle="Documenting Crons"/>
+                {documentingCronsTechnologies}
+                {documentingCronsDescription}
+                <ProjectTitle restOfTitle="Documenting our APIs for third parties"/>
+                {documentingAPIsTechnologies}
+                {documentingAPIsDescription}
+                <ProjectTitle restOfTitle="Promotion Codes - Requirements Analysis"/>
+                {promotionCodesTechnologies}
+                {promotionCodesDescription}
+                <ProjectTitle restOfTitle="Users Control Service - Documentation Improvement"/>
+                {usersControlServiceTechnologies}
+                {usersControlServiceDescription}
+                <ProjectTitle restOfTitle="Documentation Processes"/>
+                {documentationProcessesTechnologies}
+                {documentationProcessesDescription}
             </div>
         </>
     );
