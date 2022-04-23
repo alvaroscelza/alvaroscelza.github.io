@@ -1,5 +1,4 @@
 import ProjectTechnologies from "../../ProjectsPageComponents/ProjectTechnologies";
-import classes from "../../../Pages.module.css";
 import ProjectDescription from "../../ProjectsPageComponents/ProjectDescription";
 import ExternalLink from "../../../../UI/ExternalLink";
 

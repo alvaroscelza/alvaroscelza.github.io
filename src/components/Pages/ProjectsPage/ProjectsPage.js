@@ -3,6 +3,8 @@ import {useEffect} from "react";
 import createThriveImage from '../../../images/create-thrive.jpg';
 import skollarsImage from '../../../images/skollars.png';
 import ripioImage from '../../../images/ripio.png';
+import BPSImage from '../../../images/bps.png';
+import DNMImage from '../../../images/dnm.gif';
 import CompanyTitle from "./ProjectsPageComponents/CompanyTitle";
 import ProjectTitle from "./ProjectsPageComponents/ProjectTitle";
 import {
@@ -51,6 +53,14 @@ import {
     documentationProcessesDescription,
     documentationProcessesTechnologies
 } from "./ProjectsDatabase/Ripio/DocumentationProcesses";
+import {
+    rp_card_authorizatorDescription,
+    rp_card_authorizatorTechnologies
+} from "./ProjectsDatabase/Ripio/rp_card_authorizator";
+import {ConductorDescription, ConductorTechnologies} from "./ProjectsDatabase/Ripio/Conductor";
+import {SDESConectadosDescription, SDESConectadosTechnologies} from "./ProjectsDatabase/BPS/SDESConectados";
+import {PreCommitHooksDescription, PreCommitHooksTechnologies} from "./ProjectsDatabase/BPS/PreCommitHooks";
+import {GRPDescription, GRPTechnologies} from "./ProjectsDatabase/BPS/GRP";
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -146,6 +156,28 @@ const ProjectsPage = () => {
                 <ProjectTitle restOfTitle="Documentation Processes"/>
                 {documentationProcessesTechnologies}
                 {documentationProcessesDescription}
+                <ProjectTitle restOfTitle="rp_card_authorizator"/>
+                {rp_card_authorizatorTechnologies}
+                {rp_card_authorizatorDescription}
+                <ProjectTitle restOfTitle="Conductor"/>
+                {ConductorTechnologies}
+                {ConductorDescription}
+
+                <CompanyTitle companyImage={BPSImage} companyImageAltText="BPS" companyWebLink="https://www.bps.gub.uy/"
+                              companyName="Banco de Previsión Social"/>
+                <ProjectTitle restOfTitle="SDES Conectados"/>
+                {SDESConectadosTechnologies}
+                {SDESConectadosDescription}
+                <ProjectTitle restOfTitle="pre_commit_hooks"/>
+                {PreCommitHooksTechnologies}
+                {PreCommitHooksDescription}
+                <ProjectTitle restOfTitle="GRP"/>
+                {GRPTechnologies}
+                {GRPDescription}
+
+                <CompanyTitle companyImage={DNMImage} companyImageAltText="DNM"
+                              companyWebLink="https://www.gub.uy/migracion"
+                              companyName="Dirección Nacional de Migración"/>
             </div>
         </>
     );

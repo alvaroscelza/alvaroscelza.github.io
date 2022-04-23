@@ -1,5 +1,4 @@
 import classes from "./Pages.module.css";
-import {Link} from "react-router-dom";
 import {useEffect} from "react";
 import ExternalLink from "../UI/ExternalLink";
 import InternalLink from "../UI/InternalLink";
