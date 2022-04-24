@@ -14,5 +14,6 @@ Personal website.
 ## Deployment WIP
 
 - `npm run build`
-- `ghp-import build -b master`
+- `ghp-import build -b master` Note: you need to have 'ghp-import' installed globally (it's a python package, therefore
+you also need Python and pip). `pip install ghp-import`
 - `git push origin master`
