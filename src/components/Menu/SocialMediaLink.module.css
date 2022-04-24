@@ -1,0 +1,9 @@
+.img {
+    border-radius: 50%;
+    max-width: 140px;
+}
+
+.li {
+    display: inline;
+    margin-right: 5px;
+}
