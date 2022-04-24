@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layouts/Page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layouts/Page.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <workItem from="1650237672112" duration="10466000" />
       <workItem from="1650678617578" duration="4704000" />
       <workItem from="1650762009844" duration="2776000" />
-      <workItem from="1650825375986" duration="2085000" />
+      <workItem from="1650825375986" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="updated project files">
       <created>1649725461792</created>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650764803833</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="styles for menu for small displays">
+      <created>1650841103517</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650841103517</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +213,7 @@
     <MESSAGE value="deleted pelican files" />
     <MESSAGE value="updated instructions to deploy react" />
     <MESSAGE value="added instructions to install ghp-import" />
-    <option name="LAST_COMMIT_MESSAGE" value="added instructions to install ghp-import" />
+    <MESSAGE value="styles for menu for small displays" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles for menu for small displays" />
   </component>
 </project>
