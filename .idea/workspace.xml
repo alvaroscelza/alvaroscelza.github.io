@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/PersonalWebsiteV2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/PersonalWebsite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/PersonalWebsite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layouts/Page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layouts/Page.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <workItem from="1649813910749" duration="31000" />
       <workItem from="1650237672112" duration="10466000" />
       <workItem from="1650678617578" duration="4704000" />
-      <workItem from="1650762009844" duration="1229000" />
+      <workItem from="1650762009844" duration="1260000" />
     </task>
     <task id="LOCAL-00001" summary="updated project files">
       <created>1649725461792</created>
@@ -132,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650762569158</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added personal website version 2">
+      <created>1650763263584</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650763263584</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +153,7 @@
     <MESSAGE value="almost all ripio projects" />
     <MESSAGE value="Finished Ripio{s and BPS's projects. Started with Migracion" />
     <MESSAGE value="Finished migracion projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished migracion projects" />
+    <MESSAGE value="added personal website version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added personal website version 2" />
   </component>
 </project>
