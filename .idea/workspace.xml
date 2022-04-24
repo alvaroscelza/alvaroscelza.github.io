@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ContactPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <workItem from="1649813910749" duration="31000" />
       <workItem from="1650237672112" duration="10466000" />
       <workItem from="1650678617578" duration="4704000" />
-      <workItem from="1650762009844" duration="1639000" />
+      <workItem from="1650762009844" duration="1980000" />
     </task>
     <task id="LOCAL-00001" summary="updated project files">
       <created>1649725461792</created>
@@ -144,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650763315395</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="contact page ready">
+      <created>1650763694030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650763694030</updated>
+    </task>
+    <task id="LOCAL-00013" summary="deleted pelican files">
+      <created>1650763751177</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650763751177</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +175,8 @@
     <MESSAGE value="Finished migracion projects" />
     <MESSAGE value="added personal website version 2" />
     <MESSAGE value="fixed footer layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed footer layout" />
+    <MESSAGE value="contact page ready" />
+    <MESSAGE value="deleted pelican files" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted pelican files" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 # Alvaro Scelza
 
-Personal website and blog.
+Personal website.
 
 ## Technology stack
 - Javascript ES6
@@ -13,6 +13,6 @@ Personal website and blog.
 
 ## Deployment WIP
 
-- `pelican content`
-- `ghp-import output -b master`
+- `npm run build`
+- `ghp-import build -b master`
 - `git push origin master`
