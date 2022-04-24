@@ -63,6 +63,10 @@ import {PreCommitHooksDescription, PreCommitHooksTechnologies} from "./ProjectsD
 import {GRPDescription, GRPTechnologies} from "./ProjectsDatabase/BPS/GRP";
 import {ProceduresRecord2Description, ProceduresRecord2Technologies} from "./ProjectsDatabase/DNM/ProceduresRecord2";
 import {ProceduresRecordDescription, ProceduresRecordTechnologies} from "./ProjectsDatabase/DNM/ProceduresRecord";
+import {
+    personalWebsiteV2Description,
+    personalWebsiteV2Technologies
+} from "./ProjectsDatabase/SkollARS/PersonalWebsiteV2";
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -86,6 +90,9 @@ const ProjectsPage = () => {
                 <CompanyTitle companyImage={skollarsImage} companyImageAltText="SkollARS"
                               companyWebLink="https://skollars.com/" companyName="SkollARS"/>
                 {skollarsDescription}
+                <ProjectTitle restOfTitle="Personal Website V2"/>
+                {personalWebsiteV2Technologies}
+                {personalWebsiteV2Description}
                 <ProjectTitle restOfTitle="SkollARS Website"/>
                 {skollarsWebsiteTechnologies}
                 {skollarsWebsiteDescription}

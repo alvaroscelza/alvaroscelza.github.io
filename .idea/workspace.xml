@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/DNM/ProceduresRecord.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/DNM/ProceduresRecord2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/PersonalWebsiteV2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/PersonalWebsite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/PersonalWebsite.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +34,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/DNM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Loaderon\Desktop\alvaroscelza.github.io\src\components\Pages\ProjectsPage\ProjectsDatabase\SkollARS" />
       <recent name="C:\Users\Loaderon\Desktop\alvaroscelza.github.io\src\components\Pages\ProjectsPage\ProjectsDatabase\DNM" />
     </key>
   </component>
@@ -66,7 +67,7 @@
       <workItem from="1649813910749" duration="31000" />
       <workItem from="1650237672112" duration="10466000" />
       <workItem from="1650678617578" duration="4704000" />
-      <workItem from="1650762009844" duration="495000" />
+      <workItem from="1650762009844" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="updated project files">
       <created>1649725461792</created>
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650683334580</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finished migracion projects">
+      <created>1650762569158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650762569158</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,7 @@
     <MESSAGE value="finished all skollars projects" />
     <MESSAGE value="almost all ripio projects" />
     <MESSAGE value="Finished Ripio{s and BPS's projects. Started with Migracion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Ripio{s and BPS's projects. Started with Migracion" />
+    <MESSAGE value="Finished migracion projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished migracion projects" />
   </component>
 </project>
