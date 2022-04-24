@@ -61,6 +61,8 @@ import {ConductorDescription, ConductorTechnologies} from "./ProjectsDatabase/Ri
 import {SDESConectadosDescription, SDESConectadosTechnologies} from "./ProjectsDatabase/BPS/SDESConectados";
 import {PreCommitHooksDescription, PreCommitHooksTechnologies} from "./ProjectsDatabase/BPS/PreCommitHooks";
 import {GRPDescription, GRPTechnologies} from "./ProjectsDatabase/BPS/GRP";
+import {ProceduresRecord2Description, ProceduresRecord2Technologies} from "./ProjectsDatabase/DNM/ProceduresRecord2";
+import {ProceduresRecordDescription, ProceduresRecordTechnologies} from "./ProjectsDatabase/DNM/ProceduresRecord";
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -178,6 +180,12 @@ const ProjectsPage = () => {
                 <CompanyTitle companyImage={DNMImage} companyImageAltText="DNM"
                               companyWebLink="https://www.gub.uy/migracion"
                               companyName="Dirección Nacional de Migración"/>
+                <ProjectTitle restOfTitle="Procedures Record v2"/>
+                {ProceduresRecord2Technologies}
+                {ProceduresRecord2Description}
+                <ProjectTitle restOfTitle="Procedures Record"/>
+                {ProceduresRecordTechnologies}
+                {ProceduresRecordDescription}
             </div>
         </>
     );
