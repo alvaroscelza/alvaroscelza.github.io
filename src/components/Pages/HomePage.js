@@ -30,7 +30,7 @@ const HomePage = () => {
                     I'm Alvaro
                 </p>
                 <p>
-                    👨‍💻 I'm a <ExternalLink link={titleCertificationLink} text="Software Systems Engineer"/>, I enjoy
+                    👨‍💻 A <ExternalLink link={titleCertificationLink} text="Software Systems Engineer"/>, I enjoy
                     helping in the <ExternalLink link={designThinkingLink} text="creation and validation of ideas"/>,
                     requirements elicitation and analysis, design (Architecture, OOP and User Interfaces), Software
                     building, testing and maintenance, with <InternalLink link='/knowledge' text='multiple technologies'/>.
@@ -38,9 +38,8 @@ const HomePage = () => {
                     teams. <ExternalLink link={skollarsLink} text="Take a look at all I can do for you"/>.
                 </p>
                 <p>
-                    ➿ I'm an enthusiast
-                    of <ExternalLink link={agileManifestoLink} text="agile software development"/> and also of design
-                    methodologies and business development,
+                    ➿ An enthusiast of <ExternalLink link={agileManifestoLink} text="agile software development"/> and
+                    also of design methodologies and business development,
                     like <ExternalLink link={leanStartupLink} text="Lean Startup"/> and&nbsp;
                     <ExternalLink link={designThinkingLink} text="Design Thinking"/>.
                 </p>
@@ -49,24 +48,21 @@ const HomePage = () => {
                     employee and others as entrepreneur.
                 </p>
                 <p>
-                    <img className={classes.emojiIcon} src={uruguayanFlagLink} alt="🇺🇾"/> I'm from Uruguay :)
+                    <img className={classes.emojiIcon} src={uruguayanFlagLink} alt="🇺🇾"/> From Uruguay :)
                 </p>
                 <p>
                     <img className={classes.emojiIcon} src={unitedKingdomFlagLink} alt="🇬🇧"/>
                     Though <InternalLink link='/lets-speak-english' text='we can speak English'/>, if you want.
                 </p>
                 <p>
-                    ✈️ I love travelling.
+                    ✈️ I love Travelling.
                 </p>
                 <p>
-                    ☕ I enjoy coffee and some types of teas
+                    ☕ Coffee adict! But I also enjoy types of teas
                     (specially <ExternalLink link={lapsaungSouchongLink} text="Lapsang Souchong"/>).
                 </p>
                 <p>
                     📈 Crypto and blockchain technologies lover.
-                </p>
-                <p>
-                    📚 I like reading about <ExternalLink link={politicalPhilosophy} text="Political Philosophy"/>.
                 </p>
             </div>
         </>
