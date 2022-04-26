@@ -20,5 +20,10 @@
 .main {
     height: 100vh;
     position: relative;
-    padding-left: 25vw;
+}
+
+@media (min-width: 481px) {
+    .main {
+        padding-left: 25vw;
+    }
 }
