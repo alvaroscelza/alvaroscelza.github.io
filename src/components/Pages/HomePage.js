@@ -16,7 +16,6 @@ const HomePage = () => {
     const uruguayanFlagLink = "https://s.w.org/images/core/emoji/13.1.0/svg/1f1fa-1f1fe.svg";
     const unitedKingdomFlagLink = "https://s.w.org/images/core/emoji/13.1.0/svg/1f1ec-1f1e7.svg";
     const lapsaungSouchongLink = "https://en.wikipedia.org/wiki/Lapsang_souchong";
-    const politicalPhilosophy = "https://en.wikipedia.org/wiki/Political_philosophy";
 
     return (
         <>
@@ -52,7 +51,7 @@ const HomePage = () => {
                 </p>
                 <p>
                     <img className={classes.emojiIcon} src={unitedKingdomFlagLink} alt="🇬🇧"/>
-                    Though <InternalLink link='/lets-speak-english' text='we can speak English'/>, if you want.
+                    Though we can speak English, if you want.
                 </p>
                 <p>
                     ✈️ I love Travelling.

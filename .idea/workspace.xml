@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="">
+    <list default="true" id="a635d7da-c7f3-4096-8dae-efc66ed752eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/alvaroscelza.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alvaroscelza.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layouts/Page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layouts/Page.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -27,185 +31,35 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27fyMgM6AG45sq5h5Rp7wg83SOx" />
+  <component name="ProjectId" id="2L1XSe7ZDNljGZgh3yC8lsTnjse" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/loaderon/Desktop/alvaroscelza.github.io&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Loaderon\Desktop\alvaroscelza.github.io\src\components\Pages\ProjectsPage\ProjectsDatabase\SkollARS" />
-      <recent name="C:\Users\Loaderon\Desktop\alvaroscelza.github.io\src\components\Pages\ProjectsPage\ProjectsDatabase\DNM" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="start" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6f9427a9-2be6-473c-b91f-c00f325dcd2f" name="Changes" comment="" />
-      <created>1649725392911</created>
+      <changelist id="a635d7da-c7f3-4096-8dae-efc66ed752eb" name="Changes" comment="" />
+      <created>1675039565758</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649725392911</updated>
-      <workItem from="1649725396736" duration="3477000" />
-      <workItem from="1649810175927" duration="3678000" />
-      <workItem from="1649813910749" duration="31000" />
-      <workItem from="1650237672112" duration="10466000" />
-      <workItem from="1650678617578" duration="4704000" />
-      <workItem from="1650762009844" duration="2776000" />
-      <workItem from="1650825375986" duration="2501000" />
-      <workItem from="1660491734272" duration="2753000" />
-      <workItem from="1661473590639" duration="540000" />
+      <updated>1675039565758</updated>
+      <workItem from="1675039567405" duration="2383000" />
     </task>
-    <task id="LOCAL-00001" summary="updated project files">
-      <created>1649725461792</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1649725461792</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added several projects">
-      <created>1649727511029</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1649727511029</updated>
-    </task>
-    <task id="LOCAL-00003" summary="refactored all links with components">
-      <created>1649728876249</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1649728876249</updated>
-    </task>
-    <task id="LOCAL-00004" summary="some refactors and new projects">
-      <created>1649813926557</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1649813926557</updated>
-    </task>
-    <task id="LOCAL-00005" summary="deleted unused link tag">
-      <created>1650239235878</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1650239235878</updated>
-    </task>
-    <task id="LOCAL-00006" summary="finished all skollars projects">
-      <created>1650241072245</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1650241072245</updated>
-    </task>
-    <task id="LOCAL-00007" summary="almost all ripio projects">
-      <created>1650249218150</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1650249218150</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Finished Ripio{s and BPS's projects. Started with Migracion">
-      <created>1650683334580</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1650683334580</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Finished migracion projects">
-      <created>1650762569158</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1650762569158</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added personal website version 2">
-      <created>1650763263584</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1650763263584</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fixed footer layout">
-      <created>1650763315395</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1650763315395</updated>
-    </task>
-    <task id="LOCAL-00012" summary="contact page ready">
-      <created>1650763694030</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1650763694030</updated>
-    </task>
-    <task id="LOCAL-00013" summary="deleted pelican files">
-      <created>1650763751177</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1650763751177</updated>
-    </task>
-    <task id="LOCAL-00014" summary="updated instructions to deploy react">
-      <created>1650764079163</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1650764079163</updated>
-    </task>
-    <task id="LOCAL-00015" summary="added instructions to install ghp-import">
-      <created>1650764803833</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1650764803833</updated>
-    </task>
-    <task id="LOCAL-00016" summary="styles for menu for small displays">
-      <created>1650841103517</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1650841103517</updated>
-    </task>
-    <task id="LOCAL-00017" summary="updated descr in index.html">
-      <created>1660493926685</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1660493926685</updated>
-    </task>
-    <task id="LOCAL-00018" summary="name and descr for manifest.json">
-      <created>1660494131056</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1660494131056</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,31 +70,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated project files" />
-    <MESSAGE value="added several projects" />
-    <MESSAGE value="refactored all links with components" />
-    <MESSAGE value="some refactors and new projects" />
-    <MESSAGE value="deleted unused link tag" />
-    <MESSAGE value="finished all skollars projects" />
-    <MESSAGE value="almost all ripio projects" />
-    <MESSAGE value="Finished Ripio{s and BPS's projects. Started with Migracion" />
-    <MESSAGE value="Finished migracion projects" />
-    <MESSAGE value="added personal website version 2" />
-    <MESSAGE value="fixed footer layout" />
-    <MESSAGE value="contact page ready" />
-    <MESSAGE value="deleted pelican files" />
-    <MESSAGE value="updated instructions to deploy react" />
-    <MESSAGE value="added instructions to install ghp-import" />
-    <MESSAGE value="styles for menu for small displays" />
-    <MESSAGE value="updated descr in index.html" />
-    <MESSAGE value="name and descr for manifest.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="name and descr for manifest.json" />
   </component>
 </project>
