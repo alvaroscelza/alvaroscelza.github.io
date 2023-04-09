@@ -8,12 +8,14 @@ Personal website.
 
 ## Installation and running
 
+- Create virtual environment and activate it. Example: `virtualenv venv`
+- Enter environment: Example: `venv\Scripts\activate`
+- Install requirements: `pip install -r requirements.txt`
 - `npm install`
 - `npm start`
 
 ## Deployment WIP
 
 - `npm run build`
-- `ghp-import build -b master` Note: you need to have 'ghp-import' installed globally (it's a python package, therefore
-you also need Python and pip). `pip install ghp-import`
+- `ghp-import build -b master`
 - `git push origin master`
