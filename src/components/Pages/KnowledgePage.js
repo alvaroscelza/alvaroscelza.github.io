@@ -72,6 +72,20 @@ const KnowledgePage = () => {
                 </tbody>
             </table>
 
+            <h2 className={classes.h2}>Versioning</h2>
+            <table className={classes.table}>
+                <TableHead headers={['Name', 'Seniority']}/>
+                <tbody>
+                    <TableRow columns={['Git', '8 years']}/>
+                    <TableRow columns={['Github', '7 years']}/>
+                    <TableRow columns={['Gitlab', '4 years']}/>
+                    <TableRow columns={['SourceTree', '1 year']}/>
+                    <TableRow columns={['Bitbucket', '6 months']}/>
+                    <TableRow columns={['Team Foundation Version Control', '6 months']}/>
+                    <TableRow columns={['SVN', '6 months']}/>
+                </tbody>
+            </table>
+
             <h2 className={classes.h2}>Cloud</h2>
             <table className={classes.table}>
                 <TableHead headers={['Provider', '', 'Seniority']}/>
@@ -148,9 +162,6 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['Git', '8 years']}/>
-                    <TableRow columns={['Github', '7 years']}/>
-                    <TableRow columns={['Gitlab', '4 years']}/>
                     <TableRow columns={['Postman', '4 years']}/>
                     <TableRow columns={['PgAdmin', '3+ years']}/>
                     <TableRow columns={['REST', '3 years']}/>
@@ -160,12 +171,8 @@ const KnowledgePage = () => {
                     <TableRow columns={['Microsoft IIS', '1+ years']}/>
                     <TableRow columns={['Microsoft SQL Server', '1+ years']}/>
                     <TableRow columns={['Microsoft SQL Server Management Studio', '1+ years']}/>
-                    <TableRow columns={['SourceTree', '1 year']}/>
                     <TableRow columns={['Docker + Docker-Compose', '1 year']}/>
                     <TableRow columns={['BNFC', '6 months']}/>
-                    <TableRow columns={['Bitbucket', '6 months']}/>
-                    <TableRow columns={['Team Foundation Version Control', '6 months']}/>
-                    <TableRow columns={['SVN', '6 months']}/>
                     <TableRow columns={['jQuery', '6 months']}/>
                     <TableRow columns={['Desarrollo de Videojuegos', '6 months']}/>
                     <TableRow columns={['SOAP', '3 months']}/>
