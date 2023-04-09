@@ -57,18 +57,24 @@ const KnowledgePage = () => {
                 </tbody>
             </table>
 
-            <h2 className={classes.h2}>Databases</h2>
+            <h2 className={classes.h2}>Database Engines and Managers</h2>
             <p>Always on demand for specific queries to DB. Even though I had advanced DB classes on College, after
                 those I've never worked specifically in that area, and thus, I became a little rusty in it.</p>
             <table className={classes.table}>
                 <TableHead headers={['Engine', 'Seniority']}/>
                 <tbody>
                     <TableRow columns={['PostgreSQL', '4+ years']}/>
+                    <TableRow columns={['PgAdmin', '3+ years']}/>
+                    <TableRow columns={['DBeaver', '2 years']}/>
                     <TableRow columns={['Microsoft SQL Server', '2 years']}/>
+                    <TableRow columns={['Microsoft SQL Server Management Studio', '1+ years']}/>
                     <TableRow columns={['Oracle SQL', '1 year']}/>
                     <TableRow columns={['SQLite', '1 year']}/>
                     <TableRow columns={['MySQL', '6 months']}/>
+                    <TableRow columns={['phpMyAdmin', '2 months']}/>
                     <TableRow columns={['MongoDB', '2 months']}/>
+                    <TableRow columns={['Mongoose', '2 months']}/>
+                    <TableRow columns={['Redis', '1 month']}/>
                 </tbody>
             </table>
 
@@ -163,25 +169,19 @@ const KnowledgePage = () => {
                 <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
                     <TableRow columns={['Postman', '4 years']}/>
-                    <TableRow columns={['PgAdmin', '3+ years']}/>
                     <TableRow columns={['REST', '3 years']}/>
                     <TableRow columns={['Django Rest Framework', '2+ years']}/>
-                    <TableRow columns={['DBeaver', '2 years']}/>
                     <TableRow columns={['VirtualBox', '2 years']}/>
                     <TableRow columns={['Microsoft IIS', '1+ years']}/>
-                    <TableRow columns={['Microsoft SQL Server Management Studio', '1+ years']}/>
                     <TableRow columns={['Docker + Docker-Compose', '1 year']}/>
                     <TableRow columns={['BNFC', '6 months']}/>
                     <TableRow columns={['jQuery', '6 months']}/>
                     <TableRow columns={['Desarrollo de Videojuegos', '6 months']}/>
                     <TableRow columns={['SOAP', '3 months']}/>
                     <TableRow columns={['SOAP UI', '3 months']}/>
-                    <TableRow columns={['Mongoose', '2 months']}/>
-                    <TableRow columns={['phpMyAdmin', '2 months']}/>
                     <TableRow columns={['Smarty', '2 months']}/>
                     <TableRow columns={['MarkDown', '2 months']}/>
                     <TableRow columns={['Selenium', '1 month']}/>
-                    <TableRow columns={['Redis', '1 month']}/>
                     <TableRow columns={['Celery', '1 month']}/>
                     <TableRow columns={['Flower', '1 month']}/>
                     <TableRow columns={['uWSGI', '1 month']}/>
