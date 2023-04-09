@@ -169,7 +169,6 @@ const KnowledgePage = () => {
                     <TableRow columns={['DBeaver', '2 years']}/>
                     <TableRow columns={['VirtualBox', '2 years']}/>
                     <TableRow columns={['Microsoft IIS', '1+ years']}/>
-                    <TableRow columns={['Microsoft SQL Server', '1+ years']}/>
                     <TableRow columns={['Microsoft SQL Server Management Studio', '1+ years']}/>
                     <TableRow columns={['Docker + Docker-Compose', '1 year']}/>
                     <TableRow columns={['BNFC', '6 months']}/>
