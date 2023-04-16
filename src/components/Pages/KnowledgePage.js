@@ -61,7 +61,7 @@ const KnowledgePage = () => {
             <p>Always on demand for specific queries to DB. Even though I had advanced DB classes on College, after
                 those I've never worked specifically in that area, and thus, I became a little rusty in it.</p>
             <table className={classes.table}>
-                <TableHead headers={['Engine', 'Seniority']}/>
+                <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
                     <TableRow columns={['PostgreSQL', '4+ years']}/>
                     <TableRow columns={['PgAdmin', '3+ years']}/>

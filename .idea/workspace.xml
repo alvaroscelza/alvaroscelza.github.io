@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a635d7da-c7f3-4096-8dae-efc66ed752eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="a635d7da-c7f3-4096-8dae-efc66ed752eb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681072939727</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added requirements.txt file and instructions for pip packages">
+      <created>1681073260516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681073260516</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added requirements.txt file and instructions for pip packages">
+      <created>1681073264167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681073264167</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +133,7 @@
     <MESSAGE value="deleted repeated tech" />
     <MESSAGE value="updated worskpace" />
     <MESSAGE value="moved db managers to db list" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved db managers to db list" />
+    <MESSAGE value="added requirements.txt file and instructions for pip packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added requirements.txt file and instructions for pip packages" />
   </component>
 </project>
