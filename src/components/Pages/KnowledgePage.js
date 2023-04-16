@@ -44,6 +44,8 @@ const KnowledgePage = () => {
                 <tbody>
                     <TableRow columns={['Python', '', 'Senior']}/>
                     <TableRow columns={['', 'Django', 'Senior']}/>
+                    <TableRow columns={['', 'Django - Django Rest Framework', 'Senior']}/>
+                    <TableRow columns={['', 'Django - Wagtail', 'Semi Senior']}/>
                     <TableRow columns={['', 'Odoo', 'Semi Senior']}/>
                     <TableRow columns={['', 'Flask', 'Semi Senior']}/>
                     <TableRow columns={['', 'Pelican', 'Junior']}/>
@@ -54,6 +56,7 @@ const KnowledgePage = () => {
                     <TableRow columns={['', 'Java EE', 'Junior']}/>
                     <TableRow columns={['', 'Android Studio', 'Junior']}/>
                     <TableRow columns={['JavaScript', '', 'Semi Senior']}/>
+                    <TableRow columns={['', 'TypeScript', 'Mid Level']}/>
                     <TableRow columns={['', 'NodeJS - ExpressJS', 'Mid Level']}/>
                     <TableRow columns={['', 'NodeJS - ReactJS Library', 'Mid Level']}/>
                     <TableRow columns={['', 'NodeJS - SailsJS', 'Junior']}/>
@@ -87,11 +90,13 @@ const KnowledgePage = () => {
                     <TableRow columns={['', 'phpMyAdmin', 'Mid Level']}/>
                     <TableRow columns={['MongoDB', '', 'Mid Level']}/>
                     <TableRow columns={['', 'Mongoose', 'Mid Level']}/>
+                    <TableRow columns={['', 'MongoDB Compass', 'Mid Level']}/>
+                    <TableRow columns={['', 'Mongo Atlas Search', 'Junior']}/>
                     <TableRow columns={['Redis', '', 'Junior']}/>
                 </tbody>
             </table>
 
-            <h2 className={classes.h2}>Versioning</h2>
+            <h2 className={classes.h2}>Versioning and CI/CD</h2>
             <table className={classes.table}>
                 <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
@@ -100,6 +105,8 @@ const KnowledgePage = () => {
                     <TableRow columns={['Gitlab', 'Semi Senior']}/>
                     <TableRow columns={['SourceTree', 'Semi Senior']}/>
                     <TableRow columns={['SVN', 'Semi Senior']}/>
+                    <TableRow columns={['CircleCI', 'Mid Level']}/>
+                    <TableRow columns={['Github Actions', 'Mid Level']}/>
                     <TableRow columns={['Bitbucket', 'Mid Level']}/>
                     <TableRow columns={['Team Foundation Version Control', 'Mid Level']}/>
                 </tbody>
@@ -112,17 +119,29 @@ const KnowledgePage = () => {
                     <TableRow columns={['GitHub Pages', '', 'Semi Senior']}/>
                     <TableRow columns={['AWS', '', 'Semi Senior']}/>
                     <TableRow columns={['', 'Elastic Beanstalk', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Lambda', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Secrets Manager', 'Semi Senior']}/>
                     <TableRow columns={['', 'EC2', 'Mid Level']}/>
-                    <TableRow columns={['', 'App Engine', 'Mid Level']}/>
+                    <TableRow columns={['', 'Serverless', 'Mid Level']}/>
+                    <TableRow columns={['', 'Serverless Offline', 'Mid Level']}/>
+                    <TableRow columns={['', 'API Gateway', 'Mid Level']}/>
+                    <TableRow columns={['', 'Cloud Watch', 'Mid Level']}/>
+                    <TableRow columns={['', 'DynamoDB', 'Mid Level']}/>
+                    <TableRow columns={['', 'CodeDeploy', 'Junior']}/>
+                    <TableRow columns={['', 'CodePipeline', 'Junior']}/>
+                    <TableRow columns={['', 'IAM', 'Junior']}/>
+                    <TableRow columns={['', 'S3', 'Junior']}/>
+                    <TableRow columns={['', 'SQS', 'Junior']}/>
                     <TableRow columns={['Google Cloud', '', 'Mid Level']}/>
                     <TableRow columns={['', 'Compute Engine', 'Mid Level']}/>
                     <TableRow columns={['', 'App Engine', 'Mid Level']}/>
                     <TableRow columns={['Microsoft Azure', '', 'Mid Level']}/>
                     <TableRow columns={['Heroku', '', 'Junior']}/>
+                    <TableRow columns={['DataDog', 'Junior']}/>
                 </tbody>
             </table>
 
-            <h2 className={classes.h2}>Methodologies and Approaches</h2>
+            <h2 className={classes.h2}>Project Management</h2>
             <table className={classes.table}>
                 <TableHead headers={['Name', '', '', 'Seniority']}/>
                 <tbody>
@@ -137,6 +156,8 @@ const KnowledgePage = () => {
                     <TableRow columns={['Traditional Development', '', '', 'Semi Senior']}/>
                     <TableRow columns={['', '', 'SDLC Waterfall', 'Semi Senior']}/>
                     <TableRow columns={['Design Thinking', '', '', 'Semi Senior']}/>
+                    <TableRow columns={['Team Leadership', '', '', 'Semi Senior']}/>
+                    <TableRow columns={['Negotiation', '', '', 'Mid Level']}/>
                 </tbody>
             </table>
 
@@ -163,6 +184,7 @@ const KnowledgePage = () => {
                     <TableRow columns={['Notepad++', 'Semi Senior']}/>
                     <TableRow columns={['Sublime Text', 'Semi Senior']}/>
                     <TableRow columns={['RubyMine', 'Semi Senior']}/>
+                    <TableRow columns={['Fleet', 'Mid Level']}/>
                     <TableRow columns={['Visual Studio Code', 'Mid Level']}/>
                     <TableRow columns={['WebStorm', 'Mid Level']}/>
                     <TableRow columns={['Unity', 'Junior']}/>
@@ -186,7 +208,6 @@ const KnowledgePage = () => {
                 <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
                     <TableRow columns={['REST', 'Senior']}/>
-                    <TableRow columns={['Django Rest Framework', 'Senior']}/>
                     <TableRow columns={['Docker + Docker-Compose', 'Semi Senior']}/>
                     <TableRow columns={['Postman', 'Semi Senior']}/>
                     <TableRow columns={['Celery', 'Mid Level']}/>
@@ -202,6 +223,9 @@ const KnowledgePage = () => {
                     <TableRow columns={['Selenium', 'Junior']}/>
                     <TableRow columns={['Flower', 'Junior']}/>
                     <TableRow columns={['uWSGI', 'Junior']}/>
+                    <TableRow columns={['Mocha', 'Junior']}/>
+                    <TableRow columns={['Chai', 'Junior']}/>
+                    <TableRow columns={['Fakingoose', 'Junior']}/>
                 </tbody>
             </table>
 
