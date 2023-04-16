@@ -17,6 +17,24 @@ const KnowledgePage = () => {
             <p>
                 I started in the Software World back in 2012, since then I've been learning and using several
                 technologies, approaches and methodologies. <br/>
+                <br/>
+                <b>Reference:</b> <br/>
+                <b>Senior:</b> Techonologies I have the most experience on and feel more comfortable working with, being able to start coding with them inmediately,
+                even in complete new projects, no matter their size and/or tech debt. I know and follow their latest good practices and methodologies. <br/>
+                I have also developed personal techiniques and secrets with these techs, that I will be able to share with you. <br/>
+                <b>Semi Senior:</b> I have worked for considerable time with these technologies and feel quite comfortable with them, I also know good amount
+                of their good practices and know how to apply general programming knowledge, like SOLID principles, OOP and design patterns, effectively applying general
+                Software Engineering knowledge. Nevertheless, I still need some practice to master them, or I have used them long ago and will need a couple of
+                weeks diving into them to get the hand once more. <br/>
+                <b>Mid Level:</b> I have used these techs for some time, but mostly in personal projects and/or career courses. I can apply my career's teachings with them,
+                but I still don't handle it's specifics, details, good practices and behaviours. In general, After a couple of months of professional work exclusively with them, I
+                can reach <i>Semi Senior</i> level. <br/>
+                <b>Junior:</b> Technologies I have used for only a month or two for very specific tasks or short personal projects. I can use them to build small pieces of software,
+                but will definetely need more practice to work on bigger projects. In general, depending on how much they are used in the project in question, I can
+                reach <i>Mid Level</i> in a couple of months. <br/>
+                <b>Novice:</b> These are technologies that I might (or not) know by name, I may even know what they do, or even know how they work (like blockchain technologies),
+                but never actually used them to develop anything. Any technology not present in this page falls into this category. <br/>
+                <br/>
                 (Pro tip: ctrl + f to search what you need 🙂)
             </p>
 
@@ -24,36 +42,31 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Language', 'Framework', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['Python', '', '4+ years']}/>
-                    <TableRow columns={['', 'Django', '2+ years']}/>
-                    <TableRow columns={['', 'Odoo', '2 years']}/>
-                    <TableRow columns={['', 'Flask', '2 months']}/>
-                    <TableRow columns={['', 'Pelican', '1 month']}/>
-                    <TableRow columns={['C#', '', '3+ years']}/>
-                    <TableRow columns={['', 'NET and ASPNET', '3 years']}/>
-                    <TableRow columns={['', 'Unity', '6 months']}/>
-                    <TableRow columns={['Java', '', '3+ years']}/>
-                    <TableRow columns={['', 'No Framework', '2+ years']}/>
-                    <TableRow columns={['', 'Java EE', '6 months']}/>
-                    <TableRow columns={['', 'Android Studio', '6 months']}/>
-                    <TableRow columns={['JavaScript', '', '1 year']}/>
-                    <TableRow columns={['', 'No Framework', '5 months']}/>
-                    <TableRow columns={['', 'NodeJS - ExpressJS', '2 months']}/>
-                    <TableRow columns={['', 'NodeJS - SailsJS', '1 month']}/>
-                    <TableRow columns={['', 'NodeJS - Electron', '1 month']}/>
-                    <TableRow columns={['', 'NodeJS - NightmareJS', '1 month']}/>
-                    <TableRow columns={['', 'ReactJS Library', '5 months']}/>
-                    <TableRow columns={['C++', '', '1 year']}/>
-                    <TableRow columns={['', 'No Framework', '1 year']}/>
-                    <TableRow columns={['Ruby', '', '1 year']}/>
-                    <TableRow columns={['', 'Ruby on Rails', '1 year']}/>
-                    <TableRow columns={['Haskell', '', '1 year']}/>
-                    <TableRow columns={['', 'No Framework', '1 year']}/>
-                    <TableRow columns={['PHP', '', '6 months']}/>
-                    <TableRow columns={['', 'No Framework', '6 months']}/>
-                    <TableRow columns={['Scilab', '', '6 months']}/>
-                    <TableRow columns={['Vue', '', '1 month']}/>
-                    <TableRow columns={['HTML y CSS', '', 'On demand']}/>
+                    <TableRow columns={['Python', '', 'Senior']}/>
+                    <TableRow columns={['', 'Django', 'Senior']}/>
+                    <TableRow columns={['', 'Odoo', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Flask', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Pelican', 'Junior']}/>
+                    <TableRow columns={['C#', '', 'Semi Senior']}/>
+                    <TableRow columns={['', 'NET and ASPNET', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Unity', 'Junior']}/>
+                    <TableRow columns={['Java', '', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Java EE', 'Junior']}/>
+                    <TableRow columns={['', 'Android Studio', 'Junior']}/>
+                    <TableRow columns={['JavaScript', '', 'Semi Senior']}/>
+                    <TableRow columns={['', 'NodeJS - ExpressJS', 'Mid Level']}/>
+                    <TableRow columns={['', 'NodeJS - ReactJS Library', 'Mid Level']}/>
+                    <TableRow columns={['', 'NodeJS - SailsJS', 'Junior']}/>
+                    <TableRow columns={['', 'NodeJS - Electron', 'Junior']}/>
+                    <TableRow columns={['', 'NodeJS - NightmareJS', 'Junior']}/>
+                    <TableRow columns={['HTML y CSS', '', 'Mid Level']}/>
+                    <TableRow columns={['Ruby', '', 'Mid Level']}/>
+                    <TableRow columns={['', 'Ruby on Rails', 'Mid Level']}/>
+                    <TableRow columns={['C++', '', 'Junior']}/>
+                    <TableRow columns={['Haskell', '', 'Junior']}/>
+                    <TableRow columns={['PHP', '', 'Junior']}/>
+                    <TableRow columns={['Scilab', '', 'Junior']}/>
+                    <TableRow columns={['Vue', '', 'Junior']}/>
                 </tbody>
             </table>
 
@@ -61,20 +74,20 @@ const KnowledgePage = () => {
             <p>Always on demand for specific queries to DB. Even though I had advanced DB classes on College, after
                 those I've never worked specifically in that area, and thus, I became a little rusty in it.</p>
             <table className={classes.table}>
-                <TableHead headers={['Name', 'Seniority']}/>
+                <TableHead headers={['Name', '', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['PostgreSQL', '4+ years']}/>
-                    <TableRow columns={['PgAdmin', '3+ years']}/>
-                    <TableRow columns={['DBeaver', '2 years']}/>
-                    <TableRow columns={['Microsoft SQL Server', '2 years']}/>
-                    <TableRow columns={['Microsoft SQL Server Management Studio', '1+ years']}/>
-                    <TableRow columns={['Oracle SQL', '1 year']}/>
-                    <TableRow columns={['SQLite', '1 year']}/>
-                    <TableRow columns={['MySQL', '6 months']}/>
-                    <TableRow columns={['phpMyAdmin', '2 months']}/>
-                    <TableRow columns={['MongoDB', '2 months']}/>
-                    <TableRow columns={['Mongoose', '2 months']}/>
-                    <TableRow columns={['Redis', '1 month']}/>
+                    <TableRow columns={['PostgreSQL', '', 'Semi Senior']}/>
+                    <TableRow columns={['', 'PgAdmin', 'Semi Senior']}/>
+                    <TableRow columns={['', 'DBeaver', 'Semi Senior']}/>
+                    <TableRow columns={['SQLite', '', 'Semi Senior']}/>
+                    <TableRow columns={['Microsoft SQL Server', '', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Microsoft SQL Server Management Studio', 'Semi Senior']}/>
+                    <TableRow columns={['Oracle SQL', '', 'Mid Level']}/>
+                    <TableRow columns={['MySQL', '', 'Mid Level']}/>
+                    <TableRow columns={['', 'phpMyAdmin', 'Mid Level']}/>
+                    <TableRow columns={['MongoDB', '', 'Mid Level']}/>
+                    <TableRow columns={['', 'Mongoose', 'Mid Level']}/>
+                    <TableRow columns={['Redis', '', 'Junior']}/>
                 </tbody>
             </table>
 
@@ -82,13 +95,13 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['Git', '8 years']}/>
-                    <TableRow columns={['Github', '7 years']}/>
-                    <TableRow columns={['Gitlab', '4 years']}/>
-                    <TableRow columns={['SourceTree', '1 year']}/>
-                    <TableRow columns={['Bitbucket', '6 months']}/>
-                    <TableRow columns={['Team Foundation Version Control', '6 months']}/>
-                    <TableRow columns={['SVN', '6 months']}/>
+                    <TableRow columns={['Git', 'Senior']}/>
+                    <TableRow columns={['Github', 'Senior']}/>
+                    <TableRow columns={['Gitlab', 'Semi Senior']}/>
+                    <TableRow columns={['SourceTree', 'Semi Senior']}/>
+                    <TableRow columns={['SVN', 'Semi Senior']}/>
+                    <TableRow columns={['Bitbucket', 'Mid Level']}/>
+                    <TableRow columns={['Team Foundation Version Control', 'Mid Level']}/>
                 </tbody>
             </table>
 
@@ -96,12 +109,16 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Provider', '', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['Google Cloud', '', '6 months']}/>
-                    <TableRow columns={['', 'Compute Engine', '4 months']}/>
-                    <TableRow columns={['', 'App Engine', '2 months']}/>
-                    <TableRow columns={['Microsoft Azure', '', '4 months']}/>
-                    <TableRow columns={['Heroku', '', '1 month']}/>
-                    <TableRow columns={['GitHub Pages', '', '1 month']}/>
+                    <TableRow columns={['GitHub Pages', '', 'Semi Senior']}/>
+                    <TableRow columns={['AWS', '', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Elastic Beanstalk', 'Semi Senior']}/>
+                    <TableRow columns={['', 'EC2', 'Mid Level']}/>
+                    <TableRow columns={['', 'App Engine', 'Mid Level']}/>
+                    <TableRow columns={['Google Cloud', '', 'Mid Level']}/>
+                    <TableRow columns={['', 'Compute Engine', 'Mid Level']}/>
+                    <TableRow columns={['', 'App Engine', 'Mid Level']}/>
+                    <TableRow columns={['Microsoft Azure', '', 'Mid Level']}/>
+                    <TableRow columns={['Heroku', '', 'Junior']}/>
                 </tbody>
             </table>
 
@@ -109,17 +126,17 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Name', '', '', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['Agile Development', '', '', '6 years']}/>
-                    <TableRow columns={['', 'Custom Methodologies', '', '4+ years']}/>
-                    <TableRow columns={['', '', 'SDLC Iterative Incremental', '2+ years']}/>
-                    <TableRow columns={['', '', 'SDLC Incremental', '2 years']}/>
-                    <TableRow columns={['', 'Lean Startup', '', '1 year']}/>
-                    <TableRow columns={['', '', 'SDLC Evolutionary', '1 year']}/>
-                    <TableRow columns={['', 'Scrum', '', '1 year']}/>
-                    <TableRow columns={['', '', 'SDLC Iterative Incremental', '6 months']}/>
-                    <TableRow columns={['Traditional Development', '', '', '2 years']}/>
-                    <TableRow columns={['', '', 'SDLC Waterfall', '2 years']}/>
-                    <TableRow columns={['Design Thinking', '', '', '2 years']}/>
+                    <TableRow columns={['Agile Development', '', '', 'Senior']}/>
+                    <TableRow columns={['', 'Custom Methodologies', '', 'Semi Senior']}/>
+                    <TableRow columns={['', '', 'SDLC Iterative Incremental', 'Semi Senior']}/>
+                    <TableRow columns={['', '', 'SDLC Incremental', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Scrum', '', 'Semi Senior']}/>
+                    <TableRow columns={['', '', 'SDLC Iterative Incremental', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Lean Startup', '', 'Mid Level']}/>
+                    <TableRow columns={['', '', 'SDLC Evolutionary', 'Mid Level']}/>
+                    <TableRow columns={['Traditional Development', '', '', 'Semi Senior']}/>
+                    <TableRow columns={['', '', 'SDLC Waterfall', 'Semi Senior']}/>
+                    <TableRow columns={['Design Thinking', '', '', 'Semi Senior']}/>
                 </tbody>
             </table>
 
@@ -127,12 +144,12 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Name', '', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['Windows', '', '20+ years']}/>
-                    <TableRow columns={['Linux', '', '1+ years']}/>
-                    <TableRow columns={['', 'Ubuntu', '8 months']}/>
-                    <TableRow columns={['', 'Mint', '6 months']}/>
-                    <TableRow columns={['', 'Debian', '4 months']}/>
-                    <TableRow columns={['Mac', '', '2+ years']}/>
+                    <TableRow columns={['Windows', '', 'Senior']}/>
+                    <TableRow columns={['Linux', '', 'Semi Senior']}/>
+                    <TableRow columns={['', 'Ubuntu', 'Mid Level']}/>
+                    <TableRow columns={['', 'Mint', 'Mid Level']}/>
+                    <TableRow columns={['', 'Debian', 'Junior']}/>
+                    <TableRow columns={['Mac', '', 'Semi Senior']}/>
                 </tbody>
             </table>
 
@@ -140,16 +157,16 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['PyCharm', '4+ years']}/>
-                    <TableRow columns={['Visual Studio', '4 years']}/>
-                    <TableRow columns={['Netbeans', '2+ years']}/>
-                    <TableRow columns={['Notepad++', '1+ years']}/>
-                    <TableRow columns={['Visual Studio Code', '1 year']}/>
-                    <TableRow columns={['Sublime Text', '1 year']}/>
-                    <TableRow columns={['RubyMine', '6 months']}/>
-                    <TableRow columns={['Unity', '6 months']}/>
-                    <TableRow columns={['Android Studio', '6 months']}/>
-                    <TableRow columns={['WebStorm', '1 month']}/>
+                    <TableRow columns={['PyCharm', 'Senior']}/>
+                    <TableRow columns={['Visual Studio', 'Senior']}/>
+                    <TableRow columns={['Netbeans', 'Semi Senior']}/>
+                    <TableRow columns={['Notepad++', 'Semi Senior']}/>
+                    <TableRow columns={['Sublime Text', 'Semi Senior']}/>
+                    <TableRow columns={['RubyMine', 'Semi Senior']}/>
+                    <TableRow columns={['Visual Studio Code', 'Mid Level']}/>
+                    <TableRow columns={['WebStorm', 'Mid Level']}/>
+                    <TableRow columns={['Unity', 'Junior']}/>
+                    <TableRow columns={['Android Studio', 'Junior']}/>
                 </tbody>
             </table>
 
@@ -157,10 +174,10 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['Trello', '4+ years']}/>
-                    <TableRow columns={['Jira', '2 years']}/>
-                    <TableRow columns={['Redmine', '2 years']}/>
-                    <TableRow columns={['Pivotal', '6 months']}/>
+                    <TableRow columns={['Trello', 'Senior']}/>
+                    <TableRow columns={['Jira', 'Semi Senior']}/>
+                    <TableRow columns={['Redmine', 'Mid Level']}/>
+                    <TableRow columns={['Pivotal', 'Mid Level']}/>
                 </tbody>
             </table>
 
@@ -168,23 +185,23 @@ const KnowledgePage = () => {
             <table className={classes.table}>
                 <TableHead headers={['Name', 'Seniority']}/>
                 <tbody>
-                    <TableRow columns={['Postman', '4 years']}/>
-                    <TableRow columns={['REST', '3 years']}/>
-                    <TableRow columns={['Django Rest Framework', '2+ years']}/>
-                    <TableRow columns={['VirtualBox', '2 years']}/>
-                    <TableRow columns={['Microsoft IIS', '1+ years']}/>
-                    <TableRow columns={['Docker + Docker-Compose', '1 year']}/>
-                    <TableRow columns={['BNFC', '6 months']}/>
-                    <TableRow columns={['jQuery', '6 months']}/>
-                    <TableRow columns={['Desarrollo de Videojuegos', '6 months']}/>
-                    <TableRow columns={['SOAP', '3 months']}/>
-                    <TableRow columns={['SOAP UI', '3 months']}/>
-                    <TableRow columns={['Smarty', '2 months']}/>
-                    <TableRow columns={['MarkDown', '2 months']}/>
-                    <TableRow columns={['Selenium', '1 month']}/>
-                    <TableRow columns={['Celery', '1 month']}/>
-                    <TableRow columns={['Flower', '1 month']}/>
-                    <TableRow columns={['uWSGI', '1 month']}/>
+                    <TableRow columns={['REST', 'Senior']}/>
+                    <TableRow columns={['Django Rest Framework', 'Senior']}/>
+                    <TableRow columns={['Docker + Docker-Compose', 'Semi Senior']}/>
+                    <TableRow columns={['Postman', 'Semi Senior']}/>
+                    <TableRow columns={['Celery', 'Mid Level']}/>
+                    <TableRow columns={['VirtualBox', 'Mid Level']}/>
+                    <TableRow columns={['Microsoft IIS', 'Mid Level']}/>
+                    <TableRow columns={['jQuery', 'Mid Level']}/>
+                    <TableRow columns={['MarkDown', 'Mid Level']}/>
+                    <TableRow columns={['Smarty', 'Mid Level']}/>
+                    <TableRow columns={['BNFC', 'Junior']}/>
+                    <TableRow columns={['Desarrollo de Videojuegos', 'Junior']}/>
+                    <TableRow columns={['SOAP', 'Junior']}/>
+                    <TableRow columns={['SOAP UI', 'Junior']}/>
+                    <TableRow columns={['Selenium', 'Junior']}/>
+                    <TableRow columns={['Flower', 'Junior']}/>
+                    <TableRow columns={['uWSGI', 'Junior']}/>
                 </tbody>
             </table>
 
