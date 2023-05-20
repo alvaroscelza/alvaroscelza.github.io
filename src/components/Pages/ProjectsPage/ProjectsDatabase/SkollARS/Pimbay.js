@@ -20,17 +20,17 @@ const pimbayDescription =
         We were a team of 5 people for this project. 2 were in charge of the backend development (Java API), another 2
         were in charge of the mobile development with React Native, and finally, I took the role of the team leader,
         quality assurance responsible, documentation responsible and Requirements Engineer, in charge of: <br/>
-        -Preparing the main development methodology and presenting it to the rest of the team. It was an adaptation of
+        - Preparing the main development methodology and presenting it to the rest of the team. It was an adaptation of
         Scrum that I developed personally basing on the
         book <ExternalLink link={agileEstimatingAndPlanningLink} text="Agile Estimating and Planning"/> of Mike
         Cohn. <br/>
-        -I also proposed the usage of Design Thinking to validate our project and all the ideas we had for it. I was
+        - I also proposed the usage of Design Thinking to validate our project and all the ideas we had for it. I was
         also in charge of preparing and planning all the techniques we would use from that methodology for each
         validation week we had (third week of each iteration). <br/>
-        -Layout and writing of the majority of the Thesis's documentation. <br/>
-        -Iteration planning, estimations, metrics and reports. <br/>
-        -Maintenance and continuous analysis of the Release Burndown Chart and the Iteration Burndown Chart. <br/>
-        -Guide for support activities for each iteration: requirements engineering, risks management, quality revisions
+        - Layout and writing of the majority of the Thesis's documentation. <br/>
+        - Iteration planning, estimations, metrics and reports. <br/>
+        - Maintenance and continuous analysis of the Release Burndown Chart and the Iteration Burndown Chart. <br/>
+        - Guide for support activities for each iteration: requirements engineering, risks management, quality revisions
         bugs reporting, SCM, architecture, communication management, among others.
     </ProjectDescription>
 

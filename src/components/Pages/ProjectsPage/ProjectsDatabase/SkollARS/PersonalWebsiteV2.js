@@ -6,7 +6,7 @@ const personalWebsiteV2Technologies =
     <ProjectTechnologies>
         Javascript React GithubPages
         <br/>
-        2022 - 1 month
+        2023 - 2 months
     </ProjectTechnologies>
 
 const personalWebsiteV2Description =

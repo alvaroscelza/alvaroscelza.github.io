@@ -5,6 +5,7 @@ import skollarsImage from '../../../images/skollars.png';
 import ripioImage from '../../../images/ripio.png';
 import BPSImage from '../../../images/bps.png';
 import DNMImage from '../../../images/dnm.gif';
+import elasticHotelImage from '../../../images/elasticHotel.png';
 import CompanyTitle from "./ProjectsPageComponents/CompanyTitle";
 import ProjectTitle from "./ProjectsPageComponents/ProjectTitle";
 import {
@@ -67,6 +68,11 @@ import {
     personalWebsiteV2Description,
     personalWebsiteV2Technologies
 } from "./ProjectsDatabase/SkollARS/PersonalWebsiteV2";
+import {kardDescription, kardTechnologies} from "./ProjectsDatabase/CreateThrive/Kard";
+import {taurus2Description, taurus2Technologies} from "./ProjectsDatabase/SkollARS/Taurus2";
+import {noNerdsDescription, noNerdsTechnologies} from "./ProjectsDatabase/CreateThrive/NoNerdsNoProblem";
+import {convexDescription, convexTechnologies} from "./ProjectsDatabase/CreateThrive/Convex";
+import {elasticHotelDescription, elasticHotelTechnologies} from "./ProjectsDatabase/ElasticHotel/Convex";
 
 const ProjectsPage = () => {
     useEffect(() => {
@@ -80,16 +86,16 @@ const ProjectsPage = () => {
             </h1>
 
             <div className={classes.textAlignCenter}>
-                <CompanyTitle companyImage={createThriveImage} companyImageAltText="create-thrive"
-                              companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
-                <ProjectTitle titleLink="https://us.sunpower.com/" linkedTitle="Sunpower"
-                              restOfTitle="- InstantDesign"/>
-                {sunpowerInstantDesignTechnologies}
-                {sunpowerInstantDesignDescription}
+                <CompanyTitle companyImage={elasticHotelImage} companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
+                <ProjectTitle titleLink="https://backend.elastichotel.com/login" linkedTitle="Backoffice"/>
+                {elasticHotelTechnologies}
+                {elasticHotelDescription}
 
-                <CompanyTitle companyImage={skollarsImage} companyImageAltText="SkollARS"
-                              companyWebLink="https://skollars.com/" companyName="SkollARS"/>
+                <CompanyTitle companyImage={skollarsImage} companyImageAltText="SkollARS" companyWebLink="https://skollars.com/" companyName="SkollARS"/>
                 {skollarsDescription}
+                <ProjectTitle restOfTitle="Taurus V2"/>
+                {taurus2Technologies}
+                {taurus2Description}
                 <ProjectTitle restOfTitle="Personal Website V2"/>
                 {personalWebsiteV2Technologies}
                 {personalWebsiteV2Description}
@@ -139,8 +145,21 @@ const ProjectsPage = () => {
                 {juezOnlineORTTechnologies}
                 {juezOnlineORTDescription}
 
-                <CompanyTitle companyImage={ripioImage} companyImageAltText="Ripio"
-                              companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
+                <CompanyTitle companyImage={createThriveImage} companyImageAltText="create-thrive" companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
+                <ProjectTitle titleLink="https://www.convexlabs.xyz/" linkedTitle="Convex Labs" restOfTitle="- NFT Theft Detection"/>
+                {convexTechnologies}
+                {convexDescription}
+                <ProjectTitle titleLink="https://www.nonerds.com/" linkedTitle="No Nerds No Problem" restOfTitle="- Medl"/>
+                {noNerdsTechnologies}
+                {noNerdsDescription}
+                <ProjectTitle titleLink="https://www.getkard.com/" linkedTitle="Kard" restOfTitle="- RewardsAPIs"/>
+                {kardTechnologies}
+                {kardDescription}
+                <ProjectTitle titleLink="https://us.sunpower.com/" linkedTitle="Sunpower" restOfTitle="- InstantDesign"/>
+                {sunpowerInstantDesignTechnologies}
+                {sunpowerInstantDesignDescription}
+
+                <CompanyTitle companyImage={ripioImage} companyImageAltText="Ripio" companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
                 <ProjectTitle restOfTitle="OTC"/>
                 {otcTechnologies}
                 {otcDescription}
