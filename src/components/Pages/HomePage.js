@@ -31,8 +31,9 @@ const HomePage = () => {
                     I'm Alvaro
                 </p>
                 <p>
-                    👨‍💻 A <ExternalLink link={titleCertificationLink} text="Software Systems Engineer"/>, I enjoy
-                    helping in the <ExternalLink link={designThinkingLink} text="creation and validation of ideas"/>,
+                    👨‍💻 A <ExternalLink link={titleCertificationLink} text="Software Systems Engineer"/> with 12+ years
+                    in the industry, I enjoy helping in
+                    the <ExternalLink link={designThinkingLink} text="creation and validation of ideas"/>,
                     requirements elicitation and analysis, design (Architecture, OOP and User Interfaces), Software
                     building, testing and maintenance, with <InternalLink link='/knowledge' text='multiple technologies'/>.
                     I can also help you in managing projects and leading development
