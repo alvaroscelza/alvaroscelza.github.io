@@ -72,7 +72,7 @@ import {kardDescription, kardTechnologies} from "./ProjectsDatabase/CreateThrive
 import {taurus2Description, taurus2Technologies} from "./ProjectsDatabase/SkollARS/Taurus2";
 import {noNerdsDescription, noNerdsTechnologies} from "./ProjectsDatabase/CreateThrive/NoNerdsNoProblem";
 import {convexDescription, convexTechnologies} from "./ProjectsDatabase/CreateThrive/Convex";
-import {elasticHotelDescription, elasticHotelTechnologies} from "./ProjectsDatabase/ElasticHotel/Convex";
+import {elasticHotelDescription, elasticHotelTechnologies} from "./ProjectsDatabase/ElasticHotel/ElasticHotel";
 
 const ProjectsPage = () => {
     useEffect(() => {
