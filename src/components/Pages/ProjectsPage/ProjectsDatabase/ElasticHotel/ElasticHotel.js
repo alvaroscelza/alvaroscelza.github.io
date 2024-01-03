@@ -3,23 +3,19 @@ import ProjectTechnologies from "../../ProjectsPageComponents/ProjectTechnologie
 
 const elasticHotelTechnologies =
     <ProjectTechnologies>
-        Python, Flask, PostgreSQL, GitHub, Git, Jira, Javascript
+        Python, Django, Flask, PostgreSQL, Machine Learning, DevOps, Terraform, AWS, Azure, GitHub, Git, Jira, Javascript
         <br/>
         <br/>
-        2023 - 3 months
+        2023 - 10 months
     </ProjectTechnologies>
 
 const elasticHotelDescription =
     <ProjectDescription>
-        With deep knowledge in the hospitality industry, we try to provide Hotels with the vest Revenue Management System in the market. <br/>
+        Elastic provides services to hotels in increase their productivity. Our most demanded service is Revenue Management.
         <br/>
-        Best-in-class technology for SMB hotels.<br/>
-        Elastic has a clear goal: to enable hoteliers to focus on the most important thing: delivering a great hospitality experience to their customers:<br/>
-        - A performant, easy-to-use RMS solution with no overhead.<br/>
-        - ElasticHotel's experts and tools save hotels time, manpower and costs.<br/>
-        - Immediate revenue actions for hotels focus on well-defined budget goals.<br/>
-        - No setup costs for new tools or employee training.<br/>
-        - Monthly contracts with no hidden fees.        
+        It's currently a startup with 3 developers including me, which means we do everything and thus, I have a valuable chance
+        to learn from different areas. Here I had the chance to involve in Terraform, Azure, deeper AWS, deeper DevOps,
+        and Machine Learning!
     </ProjectDescription>;
 
 export {elasticHotelTechnologies, elasticHotelDescription};
