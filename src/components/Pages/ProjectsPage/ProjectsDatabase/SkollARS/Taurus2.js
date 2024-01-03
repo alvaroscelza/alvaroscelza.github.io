@@ -5,7 +5,7 @@ const taurus2Technologies =
     <ProjectTechnologies>
         Python, Django, PostgreSQL, Vercel, Typescript, ReactJS
         <br/>
-        2022 to 2023 - 6 months
+        2022 to 2023 - 12 months
     </ProjectTechnologies>
 
 const taurus2Description =
