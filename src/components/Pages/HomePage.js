@@ -19,25 +19,19 @@ const HomePage = () => {
 
     return (
         <>
-            <h1 className={classes.h1}>
-                Home
-            </h1>
+            <br/>
             <div>
                 <p>
-                    Hey! 👋
-                    <br/>
-                    I'm Alvaro
-                </p>
-                <p>
-                    👨‍💻 A <ExternalLink link={titleCertificationLink} text="Software Systems Engineer"/> with:
+                    👨‍💻 <ExternalLink link={titleCertificationLink} text="Software Engineer"/> with:
                     <ul>
-                        <li>More than a decade in the industry.</li>
-                        <li>6+ years using Python, Django and Flask.</li>
-                        <li>6+ years using PostgreSQL.</li>
-                        <li>3+ years of experience with cloud services, including Azure, AWS, GCloud and Heroku.</li>
-                        <li>2+ years using JavaScript, with a focus on React.</li>
-                        <li>Also have experience in Machine Learning, Blockchain technologies, CI/CD
-                        (with Github Actions and CircleCI), Terraform, REST APIs,
+                        <li>12+ years in the industry.</li>
+                        <li>6+ years using <b>Python</b>, <b>Django</b> and <b>Flask</b>.</li>
+                        <li>6+ years using <b>PostgreSQL</b>.</li>
+                        <li>3+ years of experience with <b>Cloud</b> services, including <b>Azure</b>, <b>AWS</b>
+                        , <b>GCloud</b> and <b>Heroku</b>.</li>
+                        <li>2+ years using <b>JavaScript</b>, with a focus on <b>React</b>.</li>
+                        <li>Also have experience in <b>Machine Learning</b>, <b>Blockchain</b> technologies, <b>CI/CD</b>
+                        (with <b>Github Actions</b> and <b>CircleCI</b>), <b>Terraform</b>, <b>REST APIs</b>,
                         and <InternalLink link='/knowledge' text='more'/>.</li>
                     </ul>
                 </p>
