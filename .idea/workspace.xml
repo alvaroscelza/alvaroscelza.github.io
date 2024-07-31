@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ab23448-0f5d-4919-bfaf-b15baf891298" name="Changes" comment="- Moved Pages to its own directory.&#10;-">
+      <change afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperiencePageComponents/ExperienceDescription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperiencePageComponents/ExperienceTechnologies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/alvaroscelza.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alvaroscelza.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ContactPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/KnowledgePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/KnowledgePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Pages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/UI.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/BPS/GRP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/BPS/GRP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/BPS/PreCommitHooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/BPS/PreCommitHooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/BPS/SDESConectados.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/BPS/SDESConectados.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/CreateThrive/Convex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/CreateThrive/Convex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/CreateThrive/Kard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/CreateThrive/Kard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/CreateThrive/NoNerdsNoProblem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/CreateThrive/NoNerdsNoProblem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/CreateThrive/SunpowerInstantDesign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/CreateThrive/SunpowerInstantDesign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/DNM/ProceduresRecord.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/DNM/ProceduresRecord.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/DNM/ProceduresRecord2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/DNM/ProceduresRecord2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/ElasticHotel/ElasticHotel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/ElasticHotel/ElasticHotel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/Conductor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/Conductor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/DocumentationProcesses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/DocumentationProcesses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/DocumentingAPIs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/DocumentingAPIs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/DocumentingCrons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/DocumentingCrons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/Eventually.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/Eventually.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/OTC.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/OTC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/Paymatico.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/Paymatico.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/PromotionCodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/PromotionCodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/UsersControlService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/UsersControlService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/Ripio/rp_card_authorizator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/Ripio/rp_card_authorizator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Beaspa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/Beaspa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Beaspa2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/Beaspa2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/ClaimsAndComplaints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/ClaimsAndComplaints.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/DistribuidoraSaturno.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/DistribuidoraSaturno.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/FinAPP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/FinAPP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/InstagramUnfollower.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/InstagramUnfollower.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/JuezOnlineORT.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/JuezOnlineORT.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/MiroYEntiendo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/MiroYEntiendo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Mortuary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/Mortuary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/PersonalWebsite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/PersonalWebsite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/PersonalWebsiteV2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/PersonalWebsiteV2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Pimbay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/Pimbay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Publisher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/Publisher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/ShootingRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/ShootingRange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/SkollARS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/SkollARS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/SkollARSWebsite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/SkollARSWebsite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Taurus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/Taurus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsDatabase/SkollARS/Taurus2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperienceDatabase/SkollARS/Taurus2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperiencePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/CompanyTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperiencePageComponents/CompanyTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/ProjectDescription.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/ProjectTechnologies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/ProjectsPage/ProjectsPageComponents/ProjectTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperiencePageComponents/ExperienceTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/ExternalLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/ExternalLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/InternalLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/InternalLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/TableHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/TableHead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/TableRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/TableRow.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hZh5iKjuwYpqbNLgudm5q26o6y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Debug",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alvar\OneDrive\Escritorio\alvaroscelza.github.io\src\components\UI" />
+      <recent name="C:\Users\Alvar\OneDrive\Escritorio\alvaroscelza.github.io\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ab23448-0f5d-4919-bfaf-b15baf891298" name="Changes" comment="" />
+      <created>1717807326567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717807326567</updated>
+      <workItem from="1719880634294" duration="1363000" />
+      <workItem from="1720382554728" duration="86000" />
+      <workItem from="1720383133208" duration="283000" />
+      <workItem from="1720384283635" duration="511000" />
+      <workItem from="1722384724361" duration="1385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,220 @@
+import classes from "../../components/UI/UI.module.css";
+import {useEffect} from "react";
+import createThriveImage from '../../images/create-thrive.jpg';
+import skollarsImage from '../../images/skollars.png';
+import ripioImage from '../../images/ripio.png';
+import BPSImage from '../../images/bps.png';
+import DNMImage from '../../images/dnm.gif';
+import elasticHotelImage from '../../images/elasticHotel.png';
+import CompanyTitle from "./ExperiencePageComponents/CompanyTitle";
+import ExperienceTitle from "./ExperiencePageComponents/ExperienceTitle";
+import {
+    sunpowerInstantDesignTechnologies,
+    sunpowerInstantDesignDescription
+} from "./ExperienceDatabase/CreateThrive/SunpowerInstantDesign";
+import {skollarsDescription} from "./ExperienceDatabase/SkollARS/SkollARS";
+import {skollarsWebsiteDescription, skollarsWebsiteTechnologies} from "./ExperienceDatabase/SkollARS/SkollARSWebsite";
+import {personalWebsiteDescription, personalWebsiteTechnologies} from "./ExperienceDatabase/SkollARS/PersonalWebsite";
+import {finappDescription, finappTechnologies} from "./ExperienceDatabase/SkollARS/FinAPP";
+import {taurusDescription, taurusTechnologies} from "./ExperienceDatabase/SkollARS/Taurus";
+import {shootingRangeDescription, shootingRangeTechnologies} from "./ExperienceDatabase/SkollARS/ShootingRange";
+import {mortuaryDescription, mortuaryTechnologies} from "./ExperienceDatabase/SkollARS/Mortuary";
+import {
+    claimsAndComplaintsDescription,
+    claimsAndComplaintsTechnologies
+} from "./ExperienceDatabase/SkollARS/ClaimsAndComplaints";
+import {publisherDescription, publisherTechnologies} from "./ExperienceDatabase/SkollARS/Publisher";
+import {
+    instagramUnfollowerDescription,
+    instagramUnfollowerTechnologies
+} from "./ExperienceDatabase/SkollARS/InstagramUnfollower";
+import {pimbayDescription, pimbayTechnologies} from "./ExperienceDatabase/SkollARS/Pimbay";
+import {
+    beaspa2Description,
+    beaspa2Technologies,
+} from "./ExperienceDatabase/SkollARS/Beaspa2";
+import {beaspaDescription, beaspaTechnologies} from "./ExperienceDatabase/SkollARS/Beaspa";
+import {miroYEntiendoDescription, miroYEntiendoTechnologies} from "./ExperienceDatabase/SkollARS/MiroYEntiendo";
+import {
+    distribuidoraSaturnoDescription,
+    distribuidoraSaturnoTechnologies
+} from "./ExperienceDatabase/SkollARS/DistribuidoraSaturno";
+import {juezOnlineORTDescription, juezOnlineORTTechnologies} from "./ExperienceDatabase/SkollARS/JuezOnlineORT";
+import {otcDescription, otcTechnologies} from "./ExperienceDatabase/Ripio/OTC";
+import {paymaticoDescription, paymaticoTechnologies} from "./ExperienceDatabase/Ripio/Paymatico";
+import {eventuallyDescription, eventuallyTechnologies} from "./ExperienceDatabase/Ripio/Eventually";
+import {documentingCronsDescription, documentingCronsTechnologies} from "./ExperienceDatabase/Ripio/DocumentingCrons";
+import {documentingAPIsDescription, documentingAPIsTechnologies} from "./ExperienceDatabase/Ripio/DocumentingAPIs";
+import {promotionCodesDescription, promotionCodesTechnologies} from "./ExperienceDatabase/Ripio/PromotionCodes";
+import {
+    usersControlServiceDescription,
+    usersControlServiceTechnologies
+} from "./ExperienceDatabase/Ripio/UsersControlService";
+import {
+    documentationProcessesDescription,
+    documentationProcessesTechnologies
+} from "./ExperienceDatabase/Ripio/DocumentationProcesses";
+import {
+    rp_card_authorizatorDescription,
+    rp_card_authorizatorTechnologies
+} from "./ExperienceDatabase/Ripio/rp_card_authorizator";
+import {ConductorDescription, ConductorTechnologies} from "./ExperienceDatabase/Ripio/Conductor";
+import {SDESConectadosDescription, SDESConectadosTechnologies} from "./ExperienceDatabase/BPS/SDESConectados";
+import {PreCommitHooksDescription, PreCommitHooksTechnologies} from "./ExperienceDatabase/BPS/PreCommitHooks";
+import {GRPDescription, GRPTechnologies} from "./ExperienceDatabase/BPS/GRP";
+import {ProceduresRecord2Description, ProceduresRecord2Technologies} from "./ExperienceDatabase/DNM/ProceduresRecord2";
+import {ProceduresRecordDescription, ProceduresRecordTechnologies} from "./ExperienceDatabase/DNM/ProceduresRecord";
+import {
+    personalWebsiteV2Description,
+    personalWebsiteV2Technologies
+} from "./ExperienceDatabase/SkollARS/PersonalWebsiteV2";
+import {kardDescription, kardTechnologies} from "./ExperienceDatabase/CreateThrive/Kard";
+import {taurus2Description, taurus2Technologies} from "./ExperienceDatabase/SkollARS/Taurus2";
+import {noNerdsDescription, noNerdsTechnologies} from "./ExperienceDatabase/CreateThrive/NoNerdsNoProblem";
+import {convexDescription, convexTechnologies} from "./ExperienceDatabase/CreateThrive/Convex";
+import {elasticHotelDescription, elasticHotelTechnologies} from "./ExperienceDatabase/ElasticHotel/ElasticHotel";
+
+const ExperiencePage = () => {
+    useEffect(() => {
+        document.title = "Alvaro Scelza - Projects"
+    }, []);
+
+    return (
+        <>
+            <h1 className={classes.h1}>
+                Projects
+            </h1>
+
+            <div className={classes.textAlignCenter}>
+                <CompanyTitle companyImage={elasticHotelImage} companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
+                <ExperienceTitle titleLink="https://backend.elastichotel.com/login" linkedTitle="Backoffice"/>
+                {elasticHotelTechnologies}
+                {elasticHotelDescription}
+
+                <CompanyTitle companyImage={skollarsImage} companyImageAltText="SkollARS" companyWebLink="https://skollars.com/" companyName="SkollARS"/>
+                {skollarsDescription}
+                <ExperienceTitle restOfTitle="Taurus V2"/>
+                {taurus2Technologies}
+                {taurus2Description}
+                <ExperienceTitle restOfTitle="Personal Website V2"/>
+                {personalWebsiteV2Technologies}
+                {personalWebsiteV2Description}
+                <ExperienceTitle restOfTitle="SkollARS Website"/>
+                {skollarsWebsiteTechnologies}
+                {skollarsWebsiteDescription}
+                <ExperienceTitle restOfTitle="Personal Website"/>
+                {personalWebsiteTechnologies}
+                {personalWebsiteDescription}
+                <ExperienceTitle restOfTitle="FinApp"/>
+                {finappTechnologies}
+                {finappDescription}
+                <ExperienceTitle restOfTitle="Taurus"/>
+                {taurusTechnologies}
+                {taurusDescription}
+                <ExperienceTitle restOfTitle="Shooting Range"/>
+                {shootingRangeTechnologies}
+                {shootingRangeDescription}
+                <ExperienceTitle restOfTitle="Mortuary DEMAL SA"/>
+                {mortuaryTechnologies}
+                {mortuaryDescription}
+                <ExperienceTitle restOfTitle="Claims and Complaints"/>
+                {claimsAndComplaintsTechnologies}
+                {claimsAndComplaintsDescription}
+                <ExperienceTitle restOfTitle="publisher"/>
+                {publisherTechnologies}
+                {publisherDescription}
+                <ExperienceTitle restOfTitle="instagram_unfollower"/>
+                {instagramUnfollowerTechnologies}
+                {instagramUnfollowerDescription}
+                <ExperienceTitle restOfTitle="Pimbay: ¿Qué estás para hacer hoy?"/>
+                {pimbayTechnologies}
+                {pimbayDescription}
+                <ExperienceTitle restOfTitle="Beaspa V2"/>
+                {beaspa2Technologies}
+                {beaspa2Description}
+                <ExperienceTitle restOfTitle="Beaspa"/>
+                {beaspaTechnologies}
+                {beaspaDescription}
+                <ExperienceTitle restOfTitle="Miro y Entiendo"/>
+                {miroYEntiendoTechnologies}
+                {miroYEntiendoDescription}
+                <ExperienceTitle restOfTitle="Distribuidora Saturno"/>
+                {distribuidoraSaturnoTechnologies}
+                {distribuidoraSaturnoDescription}
+                <ExperienceTitle restOfTitle="Juez Online ORT"/>
+                {juezOnlineORTTechnologies}
+                {juezOnlineORTDescription}
+
+                <CompanyTitle companyImage={createThriveImage} companyImageAltText="create-thrive" companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
+                <ExperienceTitle titleLink="https://www.convexlabs.xyz/" linkedTitle="Convex Labs" restOfTitle="- NFT Theft Detection"/>
+                {convexTechnologies}
+                {convexDescription}
+                <ExperienceTitle titleLink="https://www.nonerds.com/" linkedTitle="No Nerds No Problem" restOfTitle="- Medl"/>
+                {noNerdsTechnologies}
+                {noNerdsDescription}
+                <ExperienceTitle titleLink="https://www.getkard.com/" linkedTitle="Kard" restOfTitle="- RewardsAPIs"/>
+                {kardTechnologies}
+                {kardDescription}
+                <ExperienceTitle titleLink="https://us.sunpower.com/" linkedTitle="Sunpower" restOfTitle="- InstantDesign"/>
+                {sunpowerInstantDesignTechnologies}
+                {sunpowerInstantDesignDescription}
+
+                <CompanyTitle companyImage={ripioImage} companyImageAltText="Ripio" companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
+                <ExperienceTitle restOfTitle="OTC"/>
+                {otcTechnologies}
+                {otcDescription}
+                <ExperienceTitle restOfTitle="Paymatico Webhooks"/>
+                {paymaticoTechnologies}
+                {paymaticoDescription}
+                <ExperienceTitle restOfTitle="Eventually"/>
+                {eventuallyTechnologies}
+                {eventuallyDescription}
+                <ExperienceTitle restOfTitle="Documenting Crons"/>
+                {documentingCronsTechnologies}
+                {documentingCronsDescription}
+                <ExperienceTitle restOfTitle="Documenting our APIs for third parties"/>
+                {documentingAPIsTechnologies}
+                {documentingAPIsDescription}
+                <ExperienceTitle restOfTitle="Promotion Codes - Requirements Analysis"/>
+                {promotionCodesTechnologies}
+                {promotionCodesDescription}
+                <ExperienceTitle restOfTitle="Users Control Service - Documentation Improvement"/>
+                {usersControlServiceTechnologies}
+                {usersControlServiceDescription}
+                <ExperienceTitle restOfTitle="Documentation Processes"/>
+                {documentationProcessesTechnologies}
+                {documentationProcessesDescription}
+                <ExperienceTitle restOfTitle="rp_card_authorizator"/>
+                {rp_card_authorizatorTechnologies}
+                {rp_card_authorizatorDescription}
+                <ExperienceTitle restOfTitle="Conductor"/>
+                {ConductorTechnologies}
+                {ConductorDescription}
+
+                <CompanyTitle companyImage={BPSImage} companyImageAltText="BPS" companyWebLink="https://www.bps.gub.uy/"
+                              companyName="Banco de Previsión Social"/>
+                <ExperienceTitle restOfTitle="SDES Conectados"/>
+                {SDESConectadosTechnologies}
+                {SDESConectadosDescription}
+                <ExperienceTitle restOfTitle="pre_commit_hooks"/>
+                {PreCommitHooksTechnologies}
+                {PreCommitHooksDescription}
+                <ExperienceTitle restOfTitle="GRP"/>
+                {GRPTechnologies}
+                {GRPDescription}
+
+                <CompanyTitle companyImage={DNMImage} companyImageAltText="DNM"
+                              companyWebLink="https://www.gub.uy/migracion"
+                              companyName="Dirección Nacional de Migración"/>
+                <ExperienceTitle restOfTitle="Procedures Record v2"/>
+                {ProceduresRecord2Technologies}
+                {ProceduresRecord2Description}
+                <ExperienceTitle restOfTitle="Procedures Record"/>
+                {ProceduresRecordTechnologies}
+                {ProceduresRecordDescription}
+            </div>
+        </>
+    );
+}
+
+export default ExperiencePage;

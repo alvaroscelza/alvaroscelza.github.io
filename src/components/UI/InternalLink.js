@@ -1,4 +1,4 @@
-import classes from "../Pages/Pages.module.css";
+import classes from "../UI/UI.module.css";
 import {Link} from "react-router-dom";
 
 const InternalLink = ({link, text}) => {
