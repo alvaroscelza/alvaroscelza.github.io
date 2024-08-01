@@ -10,12 +10,11 @@ const pimbayTechnologies =
         2018 to 2019 - 1 year
     </ExperienceTechnologies>
 
-const pimbayLink = "https://fi.ort.edu.uy/77855/33/pimbay:-que-estas-para-hacer-hoy-red-social-orientada-a-actividades.html";
 const agileEstimatingAndPlanningLink = "https://books.google.com.uy/books/about/Agile_Estimating_And_Planning.html?id=dzB09hXDPhUC&amp;source=kp_book_description&amp;redir_esc=y";
 
 const pimbayDescription =
     <ExperienceDescription>
-        My end of career Thesis. You can see its abstract <ExternalLink link={pimbayLink} text="here"/>. <br/>
+        My end of career Thesis. <br/>
         <br/>
         We were a team of 5 people for this project. 2 were in charge of the backend development (Java API), another 2
         were in charge of the mobile development with React Native, and finally, I took the role of the team leader,

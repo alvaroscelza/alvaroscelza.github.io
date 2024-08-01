@@ -1,6 +1,5 @@
 import ExperienceTechnologies from "../../ExperiencePageComponents/ExperienceTechnologies";
 import ExperienceDescription from "../../ExperiencePageComponents/ExperienceDescription";
-import ExternalLink from "../../../../components/UI/ExternalLink";
 
 const skollarsWebsiteTechnologies =
     <ExperienceTechnologies>
@@ -12,9 +11,7 @@ const skollarsWebsiteTechnologies =
 const skollarsWebsiteDescription =
     <ExperienceDescription>
         Website to offer my company's services. Since I presently work full-time with my current customer, this
-        project is on pause and its contact form is disabled. <br/>
-        <br/>
-        You can see it <ExternalLink link="https://skollars.com/" text="here"/>.
+        project is on pause and its contact form is disabled.
     </ExperienceDescription>
 
 export {skollarsWebsiteTechnologies, skollarsWebsiteDescription};

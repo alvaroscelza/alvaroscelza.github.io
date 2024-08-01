@@ -101,13 +101,13 @@ const ExperiencePage = () => {
 
                 <CompanyTitle companyImage={skollarsImage} companyImageAltText="SkollARS" companyWebLink="https://skollars.com/" companyName="SkollARS"/>
                 {skollarsDescription}
-                <ExperienceTitle restOfTitle="Taurus V2"/>
+                <ExperienceTitle titleLink="https://www.taurus-dev.site/" linkedTitle="Taurus V2"/>
                 {taurus2Technologies}
                 {taurus2Description}
-                <ExperienceTitle restOfTitle="Personal Website V2"/>
+                <ExperienceTitle titleLink="https://alvaroscelza.github.io/" linkedTitle="Personal Website V2"/>
                 {personalWebsiteV2Technologies}
                 {personalWebsiteV2Description}
-                <ExperienceTitle restOfTitle="SkollARS Website"/>
+                <ExperienceTitle titleLink="https://skollars.com/" linkedTitle="SkollARS Website"/>
                 {skollarsWebsiteTechnologies}
                 {skollarsWebsiteDescription}
                 <ExperienceTitle restOfTitle="Personal Website"/>
@@ -131,10 +131,10 @@ const ExperiencePage = () => {
                 <ExperienceTitle restOfTitle="publisher"/>
                 {publisherTechnologies}
                 {publisherDescription}
-                <ExperienceTitle restOfTitle="instagram_unfollower"/>
+                <ExperienceTitle titleLink="https://github.com/alvaroscelza/instagram-unfollower" linkedTitle="instagram_unfollower"/>
                 {instagramUnfollowerTechnologies}
                 {instagramUnfollowerDescription}
-                <ExperienceTitle restOfTitle="Pimbay: ¿Qué estás para hacer hoy?"/>
+                <ExperienceTitle titleLink="https://fi.ort.edu.uy/77855/33/pimbay:-que-estas-para-hacer-hoy-red-social-orientada-a-actividades.html" linkedTitle="Pimbay: ¿Qué estás para hacer hoy?"/>
                 {pimbayTechnologies}
                 {pimbayDescription}
                 <ExperienceTitle restOfTitle="Beaspa V2"/>
