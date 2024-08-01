@@ -72,7 +72,9 @@ import {kardDescription, kardTechnologies} from "./ExperienceDatabase/CreateThri
 import {taurus2Description, taurus2Technologies} from "./ExperienceDatabase/SkollARS/Taurus2";
 import {noNerdsDescription, noNerdsTechnologies} from "./ExperienceDatabase/CreateThrive/NoNerdsNoProblem";
 import {convexDescription, convexTechnologies} from "./ExperienceDatabase/CreateThrive/Convex";
-import {elasticHotelDescription, elasticHotelTechnologies} from "./ExperienceDatabase/ElasticHotel/ElasticHotel";
+import {versionOneDescription, versionOneTechnologies} from "./ExperienceDatabase/ElasticHotel/Version_1";
+import {versionTwoDescription, versionTwoTechnologies} from "./ExperienceDatabase/ElasticHotel/Version_2";
+import {AIInvestigationDescription, AIInvestigationTechnologies} from "./ExperienceDatabase/ElasticHotel/AIInvestigation";
 
 const ExperiencePage = () => {
     useEffect(() => {
@@ -87,9 +89,15 @@ const ExperiencePage = () => {
 
             <div className={classes.textAlignCenter}>
                 <CompanyTitle companyImage={elasticHotelImage} companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
-                <ExperienceTitle titleLink="https://backend.elastichotel.com/login" linkedTitle="Backoffice"/>
-                {elasticHotelTechnologies}
-                {elasticHotelDescription}
+                <ExperienceTitle titleLink={"https://github.com/alvaroscelza/ai-experiment"} linkedTitle="AI Investigation"/>
+                {AIInvestigationTechnologies}
+                {AIInvestigationDescription}
+                <ExperienceTitle titleLink="https://elastic-frontend.vercel.app/" linkedTitle="Version 2"/>
+                {versionTwoTechnologies}
+                {versionTwoDescription}
+                <ExperienceTitle titleLink="https://backend.elastichotel.com/login" linkedTitle="Version 1"/>
+                {versionOneTechnologies}
+                {versionOneDescription}
 
                 <CompanyTitle companyImage={skollarsImage} companyImageAltText="SkollARS" companyWebLink="https://skollars.com/" companyName="SkollARS"/>
                 {skollarsDescription}
