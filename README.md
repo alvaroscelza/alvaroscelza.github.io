@@ -14,7 +14,7 @@ Personal website.
 - `npm install`
 - `npm start`
 
-## Deployment WIP
+## Deployment
 
 - `npm run build`
 - `ghp-import build -b master`

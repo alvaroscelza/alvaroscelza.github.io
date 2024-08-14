@@ -78,13 +78,13 @@ import {AIInvestigationDescription, AIInvestigationTechnologies} from "./Experie
 
 const ExperiencePage = () => {
     useEffect(() => {
-        document.title = "Alvaro Scelza - Projects"
+        document.title = "Alvaro Scelza - Experience"
     }, []);
 
     return (
         <>
             <h1 className={classes.h1}>
-                Projects
+                Experience
             </h1>
 
             <div className={classes.textAlignCenter}>
