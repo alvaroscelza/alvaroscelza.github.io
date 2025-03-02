@@ -32,9 +32,7 @@ const KnowledgePage = () => {
                 can reach <i>Semi Senior</i> level. <br/>
                 <b>Junior:</b> Technologies I have used for only a month or two for very specific tasks or short personal projects. I can use them to build small pieces of software,
                 but will definetely need more practice to work on bigger projects. In general, depending on how much they are used in the project in question, I can
-                reach <i>Mid Level</i> in a couple of months. <br/>
-                <b>Novice:</b> These are technologies that I might (or not) know by name, I may even know what they do, or even know how they work (like blockchain technologies),
-                but never actually used them to develop anything. Any technology not present in this page falls into this category. <br/>
+                reach <i>Mid Level</i> in a couple of months.
                 <br/>
                 (Pro tip: ctrl + f to search what you need 🙂)
             </p>
