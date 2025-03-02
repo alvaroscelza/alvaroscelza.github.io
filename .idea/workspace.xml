@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab23448-0f5d-4919-bfaf-b15baf891298" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperiencePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ExperiencePage/ExperiencePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="4ab23448-0f5d-4919-bfaf-b15baf891298" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +76,7 @@
       <workItem from="1720384283635" duration="511000" />
       <workItem from="1722384724361" duration="1489000" />
       <workItem from="1722537494909" duration="2214000" />
-      <workItem from="1723671240911" duration="1106000" />
+      <workItem from="1723671240911" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="- Moved Pages to its own directory.&#10;- UI css moved to UI.&#10;- Changed &quot;projects&quot; for &quot;experience&quot;.">
       <option name="closed" value="true" />
@@ -107,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722539677982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed experience page title, fixed routing">
+      <option name="closed" value="true" />
+      <created>1723672851138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723672851138</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +121,7 @@
     <MESSAGE value="- Moved Pages to its own directory.&#10;- UI css moved to UI.&#10;- Changed &quot;projects&quot; for &quot;experience&quot;." />
     <MESSAGE value="Updated elastic experience" />
     <MESSAGE value="Added links to more apps in ExperiencePage.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added links to more apps in ExperiencePage.js" />
+    <MESSAGE value="Fixed experience page title, fixed routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed experience page title, fixed routing" />
   </component>
 </project>
