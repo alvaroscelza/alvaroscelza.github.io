@@ -5,7 +5,7 @@ const finappTechnologies =
     <ExperienceTechnologies>
         Python Django PostgreSQL
         <br/>
-        2021 - 4 months
+        2021 - 5 months
     </ExperienceTechnologies>
 
 const finappDescription =

@@ -6,7 +6,7 @@ const AIInvestigationTechnologies =
       Python, PostgreSQL, Machine Learning, GitHub, Git, Google Collab, DataSpell, Kaggle, openAI, ChatGPT
       <br/>
       <br/>
-      July 2023 - 11 months
+      July 2023 - 1 year
     </ExperienceTechnologies>
 
 const AIInvestigationDescription =

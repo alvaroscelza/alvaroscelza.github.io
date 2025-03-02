@@ -6,7 +6,7 @@ const versionOneTechnologies =
         Python, Flask, PostgreSQL, DevOps, Azure, GitHub, Git, Jira, Javascript
         <br/>
         <br/>
-        2023 to 2024 - 12 months
+        2023 to 2024 - 1 year
     </ExperienceTechnologies>
 
 const versionOneDescription =

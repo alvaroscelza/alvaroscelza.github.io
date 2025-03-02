@@ -89,12 +89,12 @@ const ExperiencePage = () => {
 
             <div className={classes.textAlignCenter}>
                 <CompanyTitle companyImage={elasticHotelImage} companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
-                <ExperienceTitle titleLink={"https://github.com/alvaroscelza/ai-experiment"} linkedTitle="AI Investigation"/>
-                {AIInvestigationTechnologies}
-                {AIInvestigationDescription}
                 <ExperienceTitle titleLink="https://elastic-frontend.vercel.app/" linkedTitle="Version 2"/>
                 {versionTwoTechnologies}
                 {versionTwoDescription}
+                <ExperienceTitle titleLink={"https://github.com/alvaroscelza/ai-experiment"} linkedTitle="AI Investigation"/>
+                {AIInvestigationTechnologies}
+                {AIInvestigationDescription}
                 <ExperienceTitle titleLink="https://backend.elastichotel.com/login" linkedTitle="Version 1"/>
                 {versionOneTechnologies}
                 {versionOneDescription}

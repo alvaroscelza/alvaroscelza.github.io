@@ -6,7 +6,7 @@ const versionTwoTechnologies =
       Python, Django, PostgreSQL, DevOps, Terraform, AWS, GitHub, Git, Jira
       <br/>
       <br/>
-      2023 to 2024 - 11 months
+      2023 to 2025 - 1 year
     </ExperienceTechnologies>
 
 const versionTwoDescription =
