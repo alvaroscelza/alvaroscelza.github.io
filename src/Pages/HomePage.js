@@ -25,15 +25,13 @@ const HomePage = () => {
                 <p>
                     👨‍💻 <ExternalLink link={titleCertificationLink} text="Software Engineer"/> with:
                     <ul>
-                        <li>12+ years in the industry.</li>
-                        <li>6+ years using <b>Python</b>, <b>Django</b> and <b>Flask</b>.</li>
-                        <li>6+ years using <b>PostgreSQL</b>.</li>
-                        <li>3+ years of experience with <b>Cloud</b> services, including <b>Azure</b>, <b>AWS</b>
-                        , <b>GCloud</b> and <b>Heroku</b>.</li>
-                        <li>2+ years using <b>JavaScript</b>, with a focus on <b>React</b>.</li>
-                        <li>1+ year using <b>Machine Learning</b>. Take a look at
-                            my <ExternalLink link={kaggleLink} text="Kaggle"/> account.</li>
-                        <li>Also have experience in <b>Blockchain</b> technologies, <b>CI/CD</b> (with <b>Github
+                        <li>In the industry <b>since 2012</b>.</li>
+                        <li><b>Python</b>, <b>Django</b> and <b>Flask</b> since <b>2018</b>.</li>
+                        <li><b>PostgreSQL</b> since <b>2018</b>.</li>
+                        <li><b>Cloud</b> services, including <b>Azure</b>, <b>AWS</b>, <b>GCloud</b> and <b>Heroku</b> since <b>2020</b>.</li>
+                        <li><b>JavaScript</b>, with a focus on <b>React</b> since <b>2022</b>.</li>
+                        <li><b>Machine Learning</b> since <b>2024</b>. Take a look at my <ExternalLink link={kaggleLink} text="Kaggle"/> account.</li>
+                        <li>Also with experience in <b>Blockchain</b> technologies, <b>CI/CD</b> (with <b>Github
                             Actions</b> and <b>CircleCI</b>), <b>Terraform</b>, <b>REST APIs</b>,
                             and <InternalLink link='/knowledge' text='more'/>.</li>
                     </ul>

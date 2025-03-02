@@ -18,23 +18,14 @@ const KnowledgePage = () => {
                 I joined the Software World back in 2012, since then I've been learning and using several
                 technologies, approaches and methodologies. You will find an exhaustive list of them below.
             </p>
-            <p style={{fontSize: '15px'}}>
-                <b>List Seniority Reference:</b> <br/>
-                <b>Senior:</b> Techonologies I have the most experience on and feel more comfortable working with, being able to start coding with them inmediately,
-                even in complete new projects, no matter their size and/or tech debt. I know and follow their latest good practices and methodologies. <br/>
-                I have also developed personal techiniques and secrets with these techs, that I will be able to share with you. <br/>
-                <b>Semi Senior:</b> I have worked for considerable time with these technologies and feel quite comfortable with them, I also know good amount
-                of their good practices and know how to apply general programming knowledge, like SOLID principles, OOP and design patterns, effectively applying general
-                Software Engineering knowledge. Nevertheless, I still need some practice to master them, or I have used them long ago and will need a couple of
-                weeks diving into them to get the hand once more. <br/>
-                <b>Mid Level:</b> I have used these techs for some time, but mostly in personal projects and/or career courses. I can apply my career's teachings with them,
-                but I still don't handle it's specifics, details, good practices and behaviours. In general, After a couple of months of professional work exclusively with them, I
-                can reach <i>Semi Senior</i> level. <br/>
-                <b>Junior:</b> Technologies I have used for only a month or two for very specific tasks or short personal projects. I can use them to build small pieces of software,
-                but will definetely need more practice to work on bigger projects. In general, depending on how much they are used in the project in question, I can
-                reach <i>Mid Level</i> in a couple of months.
-                <br/>
-                (Pro tip: ctrl + f to search what you need 🙂)
+            <p style={{ fontSize: '15px' }}>
+                <b>Seniority Reference:</b> <br />
+                <b>Senior:</b> Highly experienced and immediately productive with these technologies. I’m well-versed in their latest best practices, methodologies, and have developed personal techniques I can share. Comfortable starting on any project, regardless of size or technical debt. <br />
+                <b>Semi-Senior:</b> Considerably experienced, comfortable, and familiar with its best practices and patterns. I may need a few days to refresh or master them if I haven’t used them recently. <br />
+                <b>Mid-Level:</b> Used these technologies in personal projects or courses. I can apply general software engineering knowledge but need a few weeks of focused work to reach semi-senior level. <br />
+                <b>Junior:</b> Limited experience (1-2 months) with these techs, mainly for small tasks or projects. I can build simple software but need more practice to handle larger projects, potentially reaching mid-level in a few weeks with regular use. <br />
+                <br />
+                (Pro tip: Use Ctrl + F to search for specific technologies! 🙂)
             </p>
 
             <h2 className={classes.h2}>Programming Languages and Frameworks</h2>
