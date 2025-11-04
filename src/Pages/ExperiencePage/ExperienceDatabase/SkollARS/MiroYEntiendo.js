@@ -1,6 +1,5 @@
 import ExperienceTechnologies from "../../ExperiencePageComponents/ExperienceTechnologies";
 import ExperienceDescription from "../../ExperiencePageComponents/ExperienceDescription";
-import miroYEntiendoVideo from '../../../../videos/miro-y-entiendo-bug.mp4';
 import classes from "../../../../components/UI/UI.module.css";
 import ExternalLink from "../../../../components/UI/ExternalLink";
 
@@ -29,7 +28,7 @@ const miroYEntiendoDescription =
         </p>
         <p className={classes.textAlignCenter}>
             <video width="300" height="200" controls>
-                <source src={miroYEntiendoVideo} type="video/mp4"/>
+                <source src="/static/videos/miro-y-entiendo-bug.mp4" type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>
         </p>

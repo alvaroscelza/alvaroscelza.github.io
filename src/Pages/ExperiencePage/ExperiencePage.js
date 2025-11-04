@@ -1,12 +1,5 @@
 import classes from "../../components/UI/UI.module.css";
 import {useEffect} from "react";
-import createThriveImage from '../../images/create-thrive.jpg';
-import skollarsImage from '../../images/skollars.png';
-import ripioImage from '../../images/ripio.png';
-import BPSImage from '../../images/bps.png';
-import DNMImage from '../../images/dnm.gif';
-import elasticHotelImage from '../../images/elasticHotel.png';
-import amoebaAIImage from '../../images/amoeb_ai.jpg';
 import CompanyTitle from "./ExperiencePageComponents/CompanyTitle";
 import ExperienceTitle from "./ExperiencePageComponents/ExperienceTitle";
 import {
@@ -92,12 +85,12 @@ const ExperiencePage = () => {
             </h1>
 
             <div className={classes.textAlignCenter}>
-                <CompanyTitle companyImage={amoebaAIImage} companyImageAltText="Amoeba AI" companyWebLink="https://www.amoeba.ai/" companyName="Amoeba AI"/>
+                <CompanyTitle companyImage="/static/images/amoeb_ai.jpg" companyImageAltText="Amoeba AI" companyWebLink="https://www.amoeba.ai/" companyName="Amoeba AI"/>
                 <ExperienceTitle restOfTitle="Software Engineer"/>
                 {amoebaAITechnologies}
                 {amoebaAIDescription}
 
-                <CompanyTitle companyImage={elasticHotelImage} companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
+                <CompanyTitle companyImage="/static/images/elasticHotel.png" companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
                 <ExperienceTitle titleLink="https://elastic-frontend.vercel.app/" linkedTitle="Version 2"/>
                 {versionTwoTechnologies}
                 {versionTwoDescription}
@@ -108,7 +101,7 @@ const ExperiencePage = () => {
                 {versionOneTechnologies}
                 {versionOneDescription}
 
-                <CompanyTitle companyImage={createThriveImage} companyImageAltText="create-thrive" companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
+                <CompanyTitle companyImage="/static/images/create-thrive.jpg" companyImageAltText="create-thrive" companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
                 <ExperienceTitle titleLink="https://www.convexlabs.xyz/" linkedTitle="Convex Labs" restOfTitle="- NFT Theft Detection"/>
                 {convexTechnologies}
                 {convexDescription}
@@ -122,7 +115,7 @@ const ExperiencePage = () => {
                 {sunpowerInstantDesignTechnologies}
                 {sunpowerInstantDesignDescription}
 
-                <CompanyTitle companyImage={skollarsImage} companyImageAltText="SkollARS" companyWebLink="https://skollars.com/" companyName="SkollARS"/>
+                <CompanyTitle companyImage="/static/images/skollars.png" companyImageAltText="SkollARS" companyWebLink="https://skollars.com/" companyName="SkollARS"/>
                 {skollarsDescription}
                 <ExperienceTitle restOfTitle="Personal Projects"/>
                 {personalProjectsTechnologies}
@@ -179,7 +172,7 @@ const ExperiencePage = () => {
                 {juezOnlineORTTechnologies}
                 {juezOnlineORTDescription}
 
-                <CompanyTitle companyImage={ripioImage} companyImageAltText="Ripio" companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
+                <CompanyTitle companyImage="/static/images/ripio.png" companyImageAltText="Ripio" companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
                 <ExperienceTitle restOfTitle="OTC"/>
                 {otcTechnologies}
                 {otcDescription}
@@ -211,7 +204,7 @@ const ExperiencePage = () => {
                 {ConductorTechnologies}
                 {ConductorDescription}
 
-                <CompanyTitle companyImage={BPSImage} companyImageAltText="BPS" companyWebLink="https://www.bps.gub.uy/"
+                <CompanyTitle companyImage="/static/images/bps.png" companyImageAltText="BPS" companyWebLink="https://www.bps.gub.uy/"
                               companyName="Banco de Previsión Social"/>
                 <ExperienceTitle restOfTitle="SDES Conectados"/>
                 {SDESConectadosTechnologies}
@@ -223,13 +216,13 @@ const ExperiencePage = () => {
                 {GRPTechnologies}
                 {GRPDescription}
 
-                <CompanyTitle companyImage={BPSImage} companyImageAltText="ORT" companyWebLink="https://www.ort.edu.uy/"
+                <CompanyTitle companyImage="/static/images/bps.png" companyImageAltText="ORT" companyWebLink="https://www.ort.edu.uy/"
                               companyName="Universidad ORT Uruguay"/>
                 <ExperienceTitle restOfTitle="Professor of Programming I"/>
                 {professorTechnologies}
                 {professorDescription}
 
-                <CompanyTitle companyImage={DNMImage} companyImageAltText="DNM"
+                <CompanyTitle companyImage="/static/images/dnm.gif" companyImageAltText="DNM"
                               companyWebLink="https://www.gub.uy/migracion"
                               companyName="Dirección Nacional de Migración"/>
                 <ExperienceTitle restOfTitle="Procedures Record v2"/>
