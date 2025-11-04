@@ -10,10 +10,7 @@ const eventuallyTechnologies =
 
 const eventuallyDescription =
     <ExperienceDescription>
-        We needed to build a microservice in charge of registering events in a database NoSQL (because of performance).
-        I was assigned this small project that lasted a month. I gave me the opportunity to incur in MongoDB. <br/>
-        <br/>
-        And yes... I chose the name :)
+        We needed to build a microservice in charge of registering events in a database NoSQL (because of performance). I was assigned this small project that lasted a month. I gave me the opportunity to incur in MongoDB. And yes... I chose the name :)
     </ExperienceDescription>
 
 export {eventuallyTechnologies, eventuallyDescription};

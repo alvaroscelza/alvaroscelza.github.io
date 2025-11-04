@@ -4,6 +4,7 @@ import profileImage from '../../images/profile.webp';
 import linkedinImage from '../../images/linkedin.png';
 import githubImage from '../../images/github.png';
 import stackoverflowImage from '../../images/stackoverflow.png';
+import kaggleImage from '../../images/kaggle.png';
 import SocialMediaLink from "./SocialMediaLink";
 import InternalLinkListItem from "./InternalLinkListItem";
 
@@ -21,6 +22,7 @@ const Menu = () => {
                 <SocialMediaLink name='StackOverflow'
                                  link='https://stackoverflow.com/users/5750078/alvaro-rodriguez-scelza?tab=profile'
                                  image={stackoverflowImage}/>
+                <SocialMediaLink name='Kaggle' link='https://www.kaggle.com/ingalvaroscelza' image={kaggleImage}/>
             </ul>
             <ul className={`${classes.ul} ${classes.topPadding1EM}`}>
                 <InternalLinkListItem text='Knowledge' link='/knowledge'/>
