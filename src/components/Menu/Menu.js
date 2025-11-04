@@ -2,14 +2,13 @@ import classes from './Menu.module.css';
 import {Link} from 'react-router-dom';
 import SocialMediaLink from "./SocialMediaLink";
 import InternalLinkListItem from "./InternalLinkListItem";
-import { generateAndDownloadPDF } from '../../utils/generatePDF';
 
 const Menu = () => {
     return (
         <aside className={classes.aside}>
             <h1 className={classes.h1}>Alvaro Scelza</h1>
             <Link to='/'>
-                <img className={classes.img} src='/static/images/profile.webp' alt='Me'/>
+                <img className={classes.img} src='/static/images/profile_picture.jpg' alt='Me'/>
             </Link>
             <ul className={classes.ul}>
                 <SocialMediaLink name='LinkedIn' link='https://www.linkedin.com/in/ing-alvaro-scelza'
@@ -25,9 +24,6 @@ const Menu = () => {
                 <InternalLinkListItem text='Experience' link='/experience'/>
                 <InternalLinkListItem text='Contact' link='/contact'/>
             </ul>
-            <button className={classes.downloadButton} onClick={generateAndDownloadPDF}>
-                📄 Download CV as PDF
-            </button>
         </aside>
     );
 }
