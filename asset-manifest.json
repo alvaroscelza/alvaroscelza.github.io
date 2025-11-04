@@ -1,18 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.f5403782.css",
-    "main.js": "/static/js/main.a16f46f6.js",
-    "static/media/skollars.png": "/static/media/skollars.89ab9e0747a83e854bb4.png",
-    "static/media/miro-y-entiendo-bug.mp4": "/static/media/miro-y-entiendo-bug.1fea03ca4098fd889201.mp4",
-    "static/media/elasticHotel.png": "/static/media/elasticHotel.a40aaa5ab2ce29650705.png",
-    "static/media/profile.webp": "/static/media/profile.1eaefbbc2409adc97f43.webp",
-    "static/media/dnm.gif": "/static/media/dnm.8e501ea409140db2ffcf.gif",
+    "main.js": "/static/js/main.00b9be21.js",
     "index.html": "/index.html",
     "main.f5403782.css.map": "/static/css/main.f5403782.css.map",
-    "main.a16f46f6.js.map": "/static/js/main.a16f46f6.js.map"
+    "main.00b9be21.js.map": "/static/js/main.00b9be21.js.map"
   },
   "entrypoints": [
     "static/css/main.f5403782.css",
-    "static/js/main.a16f46f6.js"
+    "static/js/main.00b9be21.js"
   ]
 }
