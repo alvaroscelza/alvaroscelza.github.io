@@ -37,6 +37,8 @@ const HomePage = () => {
                             and <InternalLink link='/knowledge' text='more'/>.</li>
                     </ul>
                 </p>
+                <KnowledgeSearch />
+                <h2 className={classes.h2}>More about Me</h2>
                 <p>
                     📝 I enjoy helping in
                     the <ExternalLink link={designThinkingLink} text="creation and validation of ideas"/>,
@@ -70,7 +72,6 @@ const HomePage = () => {
                     🤖 Self-taught technology fanatic with a keen interest in trending topics such as crypto,
                     blockchain, AI, Machine Learning, and more.
                 </p>
-                <KnowledgeSearch />
             </div>
         </>
     );
