@@ -58,14 +58,16 @@ const KnowledgeSearch = () => {
         }
     };
 
-    const handleInputFocus = () => {
+    const handleInputFocus = (e) => {
+        e.target.style.borderColor = '#d9411e';
         setIsUserTyping(true);
         if (intervalRef.current) {
             clearInterval(intervalRef.current);
         }
     };
 
-    const handleInputBlur = () => {
+    const handleInputBlur = (e) => {
+        e.target.style.borderColor = '#ddd';
         const trimmedValue = searchTerm.trim();
         if (trimmedValue === '' || !allSkills.some(skill => skill.toLowerCase() === trimmedValue.toLowerCase())) {
             setIsUserTyping(false);
@@ -116,14 +118,6 @@ const KnowledgeSearch = () => {
                     boxSizing: 'border-box',
                     transition: 'border-color 0.2s',
                     outline: 'none'
-                }}
-                onFocus={(e) => {
-                    e.target.style.borderColor = '#d9411e';
-                    handleInputFocus();
-                }}
-                onBlur={(e) => {
-                    e.target.style.borderColor = '#ddd';
-                    handleInputBlur();
                 }}
             />
             {searchResult && (
