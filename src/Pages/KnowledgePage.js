@@ -1,7 +1,7 @@
 import classes from "../components/UI/UI.module.css";
 import {useEffect} from "react";
 import {Link} from "react-router-dom";
-import {normalizeSeniority, allRows, seniorityDescriptions} from "../utils/knowledgeData";
+import {normalizeSeniority, knowledgeData, seniorityDescriptions} from "../utils/knowledgeData";
 import KnowledgeSearch from "../components/UI/KnowledgeSearch";
 
 const KnowledgePage = () => {
@@ -36,34 +36,12 @@ const KnowledgePage = () => {
         };
         const skillSeniorityMap = {};
 
-        const categoryRanges = [
-            { name: 'Programming Languages and Frameworks', start: 0, end: 31 },
-            { name: 'Artificial Intelligence (AI)', start: 31, end: 38 },
-            { name: 'Database Engines and Managers', start: 38, end: 52 },
-            { name: 'Versioning and CI/CD', start: 52, end: 61 },
-            { name: 'Cloud', start: 61, end: 86 },
-            { name: 'Project Management', start: 86, end: 98 },
-            { name: 'Operative Systems', start: 98, end: 104 },
-            { name: 'IDEs', start: 104, end: 115 },
-            { name: 'Management Tools', start: 115, end: 119 },
-            { name: 'Miscellaneous', start: 119, end: 139 }
-        ];
-
-        categoryRanges.forEach(range => {
-            for (let i = range.start; i < range.end && i < allRows.length; i++) {
-                const row = allRows[i];
-                const seniorityIndex = row.length - 1;
-                const seniority = normalizeSeniority(row[seniorityIndex]);
-                const skillParts = row.slice(0, seniorityIndex).filter(part => part.trim() !== '');
-                
-                skillParts.forEach(skill => {
-                    const trimmedSkill = skill.trim();
-                    if (trimmedSkill !== '' && !seenSkillsByCategory[range.name].has(trimmedSkill)) {
-                        seenSkillsByCategory[range.name].add(trimmedSkill);
-                        categories[range.name].push(trimmedSkill);
-                        skillSeniorityMap[trimmedSkill] = seniority;
-                    }
-                });
+        knowledgeData.forEach(([technology, seniority, category]) => {
+            const normalizedSeniority = normalizeSeniority(seniority);
+            if (technology && category && !seenSkillsByCategory[category].has(technology)) {
+                seenSkillsByCategory[category].add(technology);
+                categories[category].push(technology);
+                skillSeniorityMap[technology] = normalizedSeniority;
             }
         });
 

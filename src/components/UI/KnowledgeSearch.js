@@ -1,9 +1,13 @@
-import {useState} from "react";
+import {useState, useEffect, useRef} from "react";
 import {getAllSkillsData, seniorityDescriptions} from "../../utils/knowledgeData";
 
 const KnowledgeSearch = () => {
-    const [searchTerm, setSearchTerm] = useState('Python');
     const skillSeniorityMap = getAllSkillsData();
+    const allSkills = Object.keys(skillSeniorityMap);
+    const [searchTerm, setSearchTerm] = useState(allSkills[0] || 'Python');
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [isUserTyping, setIsUserTyping] = useState(false);
+    const intervalRef = useRef(null);
 
     const searchKnowledge = (term) => {
         if (!term || term.trim() === '') {
@@ -26,6 +30,61 @@ const KnowledgeSearch = () => {
 
     const searchResult = searchKnowledge(searchTerm);
 
+    useEffect(() => {
+        if (isUserTyping || allSkills.length === 0) {
+            return;
+        }
+
+        intervalRef.current = setInterval(() => {
+            setCurrentIndex((prevIndex) => {
+                const nextIndex = (prevIndex + 1) % allSkills.length;
+                setSearchTerm(allSkills[nextIndex]);
+                return nextIndex;
+            });
+        }, 3000);
+
+        return () => {
+            if (intervalRef.current) {
+                clearInterval(intervalRef.current);
+            }
+        };
+    }, [isUserTyping, allSkills]);
+
+    const handleInputChange = (e) => {
+        setSearchTerm(e.target.value);
+        setIsUserTyping(true);
+        if (intervalRef.current) {
+            clearInterval(intervalRef.current);
+        }
+    };
+
+    const handleInputFocus = () => {
+        setIsUserTyping(true);
+        if (intervalRef.current) {
+            clearInterval(intervalRef.current);
+        }
+    };
+
+    const handleInputBlur = () => {
+        const trimmedValue = searchTerm.trim();
+        if (trimmedValue === '' || !allSkills.some(skill => skill.toLowerCase() === trimmedValue.toLowerCase())) {
+            setIsUserTyping(false);
+            const foundIndex = allSkills.findIndex(skill => skill.toLowerCase() === trimmedValue.toLowerCase());
+            if (foundIndex !== -1) {
+                setCurrentIndex(foundIndex);
+                setSearchTerm(allSkills[foundIndex]);
+            } else if (trimmedValue === '') {
+                setCurrentIndex(0);
+                setSearchTerm(allSkills[0] || '');
+            }
+        } else {
+            const foundIndex = allSkills.findIndex(skill => skill.toLowerCase() === trimmedValue.toLowerCase());
+            if (foundIndex !== -1) {
+                setCurrentIndex(foundIndex);
+            }
+        }
+    };
+
     return (
         <div style={{ marginTop: '20px', marginBottom: '20px' }}>
             <label 
@@ -44,7 +103,9 @@ const KnowledgeSearch = () => {
                 type="text"
                 placeholder="Type a technology name (e.g., Python, React, AWS)..."
                 value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
+                onChange={handleInputChange}
+                onFocus={handleInputFocus}
+                onBlur={handleInputBlur}
                 style={{
                     padding: '10px 14px',
                     fontSize: '1em',
@@ -56,8 +117,14 @@ const KnowledgeSearch = () => {
                     transition: 'border-color 0.2s',
                     outline: 'none'
                 }}
-                onFocus={(e) => e.target.style.borderColor = '#d9411e'}
-                onBlur={(e) => e.target.style.borderColor = '#ddd'}
+                onFocus={(e) => {
+                    e.target.style.borderColor = '#d9411e';
+                    handleInputFocus();
+                }}
+                onBlur={(e) => {
+                    e.target.style.borderColor = '#ddd';
+                    handleInputBlur();
+                }}
             />
             {searchResult && (
                 <div style={{ marginTop: '15px', padding: '15px', backgroundColor: '#f9f9f9', borderRadius: '4px', border: '1px solid #ddd' }}>
