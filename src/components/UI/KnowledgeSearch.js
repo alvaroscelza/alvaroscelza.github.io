@@ -1,5 +1,5 @@
 import {useState, useEffect, useRef} from "react";
-import {getAllSkillsData, seniorityDescriptions} from "../../utils/knowledgeData";
+import {getAllSkillsData, seniorityDescriptions, knowledgeData} from "../../utils/knowledgeData";
 
 const KnowledgeSearch = () => {
     const skillSeniorityMap = getAllSkillsData();
@@ -19,9 +19,20 @@ const KnowledgeSearch = () => {
             skill.toLowerCase() === normalizedTerm.toLowerCase()
         );
         const seniority = foundSkill ? skillSeniorityMap[foundSkill] : null;
+        
+        // Find category from knowledgeData
+        let category = null;
+        if (foundSkill) {
+            const knowledgeEntry = knowledgeData.find(([technology]) => 
+                technology.toLowerCase() === foundSkill.toLowerCase()
+            );
+            category = knowledgeEntry ? knowledgeEntry[2] : null;
+        }
+        
         return {
             name: foundSkill || normalizedTerm,
             seniority: seniority || 'None',
+            category: category || 'None',
             description: seniority 
                 ? seniorityDescriptions[seniority] 
                 : 'Not used yet.'
@@ -127,6 +138,9 @@ const KnowledgeSearch = () => {
                     </div>
                     <div style={{ marginBottom: '5px' }}>
                         <strong>Seniority:</strong> {searchResult.seniority}
+                    </div>
+                    <div style={{ marginBottom: '5px' }}>
+                        <strong>Category:</strong> {searchResult.category}
                     </div>
                     <div>
                         <strong>Description:</strong> {searchResult.description}
