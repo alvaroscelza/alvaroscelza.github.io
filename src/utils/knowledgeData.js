@@ -57,6 +57,13 @@ export const knowledgeData = [
     ['Bidirectional Long Short-Term Memory', 'Mid Level', 'Artificial Intelligence (AI)'],
     ['Rule-based AI', 'Mid Level', 'Artificial Intelligence (AI)'],
     ['RASA', 'Mid Level', 'Artificial Intelligence (AI)'],
+    ['Count Vectorizer', 'Mid Level', 'Artificial Intelligence (AI)'],
+    ['Logistic Regression', 'Mid Level', 'Artificial Intelligence (AI)'],
+    ['Confusion Matrix', 'Mid Level', 'Artificial Intelligence (AI)'],
+    ['Classification Report', 'Mid Level', 'Artificial Intelligence (AI)'],
+    ['PyTorch', 'Mid Level', 'Artificial Intelligence (AI)'],
+    ['Transformers', 'Mid Level', 'Artificial Intelligence (AI)'],
+    ['Compute Unified Device Architecture (CUDA)', 'Mid Level', 'Artificial Intelligence (AI)'],
     
     // Database Engines and Managers
     ['DBeaver', 'Senior', 'Database Engines and Managers'],
