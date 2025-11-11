@@ -2,6 +2,7 @@ import classes from "../components/UI/UI.module.css";
 import {useEffect} from "react";
 import ExternalLink from "../components/UI/ExternalLink";
 import InternalLink from "../components/UI/InternalLink";
+import KnowledgeSearch from "../components/UI/KnowledgeSearch";
 
 const HomePage = () => {
     useEffect(() => {
@@ -69,6 +70,7 @@ const HomePage = () => {
                     🤖 Self-taught technology fanatic with a keen interest in trending topics such as crypto,
                     blockchain, AI, Machine Learning, and more.
                 </p>
+                <KnowledgeSearch />
             </div>
         </>
     );
