@@ -8,7 +8,23 @@
 
 @media (max-width: 480px) {
     .aside {
-        height: 82vh;
+        height: auto;
+        min-height: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .h1 {
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+    }
+    .img {
+        max-width: 100px;
+    }
+    .ul {
+        margin-top: 0.5em;
+    }
+    .topPadding1EM {
+        padding-top: 0.5em;
     }
 }
 
