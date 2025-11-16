@@ -66,12 +66,10 @@ import {kardDescription, kardTechnologies} from "./ExperienceDatabase/CreateThri
 import {taurus2Description, taurus2Technologies} from "./ExperienceDatabase/SkollARS/Taurus2";
 import {noNerdsDescription, noNerdsTechnologies} from "./ExperienceDatabase/CreateThrive/NoNerdsNoProblem";
 import {convexDescription, convexTechnologies} from "./ExperienceDatabase/CreateThrive/Convex";
-import {versionOneDescription, versionOneTechnologies} from "./ExperienceDatabase/ElasticHotel/Version_1";
-import {versionTwoDescription, versionTwoTechnologies} from "./ExperienceDatabase/ElasticHotel/Version_2";
-import {AIInvestigationDescription, AIInvestigationTechnologies} from "./ExperienceDatabase/ElasticHotel/AIInvestigation";
+import {elasticHotelDescription, elasticHotelTechnologies} from "./ExperienceDatabase/ElasticHotel";
 import {personalProjectsDescription, personalProjectsTechnologies} from "./ExperienceDatabase/SkollARS/PersonalProjects";
-import {amoebaAIDescription, amoebaAITechnologies} from "./ExperienceDatabase/AmoebaAI/AmoebaAI";
-import {professorDescription, professorTechnologies} from "./ExperienceDatabase/ORT/Professor";
+import {amoebaAIDescription, amoebaAITechnologies} from "./ExperienceDatabase/AmoebaAI";
+import {professorDescription, professorTechnologies} from "./ExperienceDatabase/Professor";
 
 const ExperiencePage = () => {
     useEffect(() => {
@@ -91,15 +89,9 @@ const ExperiencePage = () => {
                 {amoebaAIDescription}
 
                 <CompanyTitle companyImage="/static/images/elasticHotel.png" companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
-                <ExperienceTitle titleLink="https://elastic-frontend.vercel.app/" linkedTitle="Version 2"/>
-                {versionTwoTechnologies}
-                {versionTwoDescription}
-                <ExperienceTitle titleLink={"https://github.com/alvaroscelza/ai-experiment"} linkedTitle="AI Investigation"/>
-                {AIInvestigationTechnologies}
-                {AIInvestigationDescription}
-                <ExperienceTitle titleLink="https://backend.elastichotel.com/login" linkedTitle="Version 1"/>
-                {versionOneTechnologies}
-                {versionOneDescription}
+                <ExperienceTitle restOfTitle="Software Engineer"/>
+                {elasticHotelTechnologies}
+                {elasticHotelDescription}
 
                 <CompanyTitle companyImage="/static/images/create-thrive.jpg" companyImageAltText="create-thrive" companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
                 <ExperienceTitle titleLink="https://www.convexlabs.xyz/" linkedTitle="Convex Labs" restOfTitle="- NFT Theft Detection"/>

@@ -2,7 +2,22 @@ import ExperienceDescription from "../../ExperiencePageComponents/ExperienceDesc
 
 const skollarsDescription =
     <ExperienceDescription>
-        SkollARS is my personal entrepreneurship, through which I offer my services as a Software Systems Engineer to other companies, by working as a Contractor. SkollARS began as a personal "laboratory" I used to try and practice new techs while also helping small business get software at low price. As such, it has it's own cultural profile: SkollARS's mission is to provide software consulting and development services to small and medium-sized companies, in addition to anyone who requires these services but remains outside of the target audience of large Software Factories. SkollARS's vision is the technologizing of all the economic layers of Uruguay, and eventually beyond. SkollARS values are based on honesty, responsibility and true connection with clients. The idea was always to live their business as own, in order to be able to truly design-for-improving it. Even if SkollARS as it is, was born on september of 2019, I was already developing personal projects since before.
+        Founded SkollARS in September 2019 as a personal innovation lab to experiment with emerging technologies while delivering affordable, high-impact software solutions to small businesses underserved by large development firms. Evolved into a full-fledged contracting practice, I now serve as a Software Systems Engineer for companies worldwide, leading end-to-end product lifecycles—from ideation and architecture to deployment and iteration. Fully self-funded and client-driven, I treat every project as my own to design solutions that genuinely improve operations.
+        <br/>
+        <b>Mission:</b> Deliver expert software consulting and development to small and medium-sized enterprises (SMEs)—and anyone excluded from big-factory ecosystems—enabling accessible digital transformation.
+        <br/>
+        <b>Vision:</b> Drive the technologization of all economic layers in Uruguay and beyond.
+        <br/>
+        <b>Core Values:</b> Honesty, responsibility, and authentic client partnership.
+        <br/>
+        <br/>
+        <b>Key Achievements:</b>
+        <ul>
+            <li>TurnoYa: SaaS booking platform with Stripe + WhatsApp Business API integration (MVP live in under 3 weeks).</li>
+            <li>fin-app.azurewebsites.net: Financial literacy PWA with a 2-tier referral engine (10% + 10% commissions).</li>
+            <li>All-in-One Business Software: Centralized ERP solution for sales, inventory, invoicing, and more. Delivered implementation, hosting, and ongoing maintenance for business growth. Powered by Odoo.</li>
+        </ul>
+        Mastered a modern tech stack (Python/Django, Supabase, Render, OpenAI API) and agile methodologies in high-uncertainty environments, consistently shipping production-ready systems with measurable user impact.
     </ExperienceDescription>
 
 export {skollarsDescription};

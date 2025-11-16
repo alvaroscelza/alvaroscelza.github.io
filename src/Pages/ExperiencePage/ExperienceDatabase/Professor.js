@@ -1,5 +1,5 @@
-import ExperienceDescription from "../../ExperiencePageComponents/ExperienceDescription";
-import ExperienceTechnologies from "../../ExperiencePageComponents/ExperienceTechnologies";
+import ExperienceDescription from "../ExperiencePageComponents/ExperienceDescription";
+import ExperienceTechnologies from "../ExperiencePageComponents/ExperienceTechnologies";
 
 const professorTechnologies =
     <ExperienceTechnologies>
