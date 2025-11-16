@@ -85,7 +85,7 @@ const ExperiencePage = () => {
             </h1>
 
             <div className={classes.textAlignCenter}>
-                <CompanyTitle companyImage="/static/images/amoeb_ai.jpg" companyImageAltText="Amoeba AI" companyWebLink="https://www.amoeba.ai/" companyName="Amoeba AI"/>
+                <CompanyTitle companyImage="/static/images/amoeb_ai.jpg" companyImageAltText="Amoeba AI" companyWebLink="https://www.amoeb.ai/ " companyName="Amoeba AI"/>
                 <ExperienceTitle restOfTitle="Software Engineer"/>
                 {amoebaAITechnologies}
                 {amoebaAIDescription}
