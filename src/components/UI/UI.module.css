@@ -127,3 +127,376 @@
     z-index: 1000;
     pointer-events: none;
 }
+
+.heroSection {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    border-radius: 12px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heroTitle {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+}
+
+.heroSubtitle {
+    font-size: 1.5rem;
+    color: #5a6c7d;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.heroBadges {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.heroBadge {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: default;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.heroBadge::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.heroBadge:nth-child(1)::before {
+    animation: shineAuto1 6.4s ease-in-out infinite;
+}
+
+.heroBadge:nth-child(2)::before {
+    animation: shineAuto2 6.4s ease-in-out infinite;
+}
+
+.heroBadge:nth-child(3)::before {
+    animation: shineAuto3 6.4s ease-in-out infinite;
+}
+
+.heroBadge:nth-child(4)::before {
+    animation: shineAuto4 6.4s ease-in-out infinite;
+}
+
+@keyframes shineAuto1 {
+    0% { left: -100%; }
+    12.5% { left: 100%; }
+    50% { left: 100%; }
+    68.75% { left: 100%; }
+    81.25% { left: -100%; }
+    100% { left: -100%; }
+}
+
+@keyframes shineAuto2 {
+    0% { left: -100%; }
+    6.25% { left: -100%; }
+    18.75% { left: 100%; }
+    50% { left: 100%; }
+    62.5% { left: 100%; }
+    75% { left: -100%; }
+    100% { left: -100%; }
+}
+
+@keyframes shineAuto3 {
+    0% { left: -100%; }
+    12.5% { left: -100%; }
+    25% { left: 100%; }
+    50% { left: 100%; }
+    56.25% { left: 100%; }
+    68.75% { left: -100%; }
+    100% { left: -100%; }
+}
+
+@keyframes shineAuto4 {
+    0% { left: -100%; }
+    18.75% { left: -100%; }
+    31.25% { left: 100%; }
+    50% { left: 100%; }
+    62.5% { left: -100%; }
+    100% { left: -100%; }
+}
+
+.capabilitiesSection {
+    margin: 3rem 0;
+}
+
+.sectionTitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+}
+
+.capabilitiesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+    .capabilitiesGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.capabilityCard {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+}
+
+.capabilityIcon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.capabilityContent {
+    flex: 1;
+}
+
+.capabilityTitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.capabilityList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.capabilityList li {
+    padding: 0.3rem 0;
+    color: #5a6c7d;
+    line-height: 1.6;
+}
+
+.twoColumnSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+@media (max-width: 900px) {
+    .twoColumnSection {
+        grid-template-columns: 1fr;
+    }
+}
+
+.technologiesSection {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.techGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.techLabel {
+    font-weight: 600;
+    color: #2c3e50;
+    min-width: 100px;
+}
+
+.techBadge {
+    background: #e9ecef;
+    color: #495057;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    border: 1px solid #dee2e6;
+    display: inline-block;
+}
+
+.knowledgeSearchSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.knowledgeSearchDescription {
+    color: #5a6c7d;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.moreAboutMeSection {
+    margin: 3rem 0;
+}
+
+.aboutMeGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+    .aboutMeGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.aboutMeCard {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+}
+
+.aboutMeIcon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.aboutMeContent {
+    flex: 1;
+}
+
+.aboutMeTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0 0 0.8rem 0;
+}
+
+.aboutMeList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aboutMeList li {
+    color: #5a6c7d;
+    line-height: 1.8;
+    padding: 0.2rem 0;
+}
+
+.aboutMeText {
+    color: #5a6c7d;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.personalInfoSection {
+    text-align: center;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-top: 3rem;
+}
+
+.personalInfo {
+    color: #5a6c7d;
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.flagIcon {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0 0.3rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.ctaSection {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    border-radius: 12px;
+}
+
+.ctaText {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.calendarLink {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.calendarLink:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+.calendarLink:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shine 0.8s ease-out;
+}
+
+@keyframes shine {
+    to {
+        left: 100%;
+    }
+}
