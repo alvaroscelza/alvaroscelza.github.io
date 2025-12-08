@@ -54,7 +54,7 @@ const ExperiencePage = () => {
                 {bpsTechnologies}
                 {bpsDescription}
 
-                <CompanyTitle companyImage="/static/images/bps.png" companyImageAltText="ORT" companyWebLink="https://www.ort.edu.uy/"
+                <CompanyTitle companyImage="/static/images/ORT.png" companyImageAltText="ORT" companyWebLink="https://www.ort.edu.uy/"
                               companyName="Universidad ORT Uruguay"/>
                 <ExperienceTitle restOfTitle="Professor of Programming I"/>
                 {professorTechnologies}
