@@ -2,10 +2,10 @@ import classes from "../../components/UI/UI.module.css";
 import {useEffect} from "react";
 import CompanyTitle from "./ExperiencePageComponents/CompanyTitle";
 import ExperienceTitle from "./ExperiencePageComponents/ExperienceTitle";
+import {promptiorDescription, promptiorTechnologies} from "./ExperienceDatabase/Promptior";
 import {amoebaAIDescription, amoebaAITechnologies} from "./ExperienceDatabase/AmoebaAI";
 import {elasticHotelDescription, elasticHotelTechnologies} from "./ExperienceDatabase/ElasticHotel";
 import {createThriveDescription, createThriveTechnologies} from "./ExperienceDatabase/CreateThrive";
-import {skollarsDescription, skollarsTechnologies} from "./ExperienceDatabase/SkollARS";
 import {ripioDescription, ripioTechnologies} from "./ExperienceDatabase/Ripio";
 import {bpsDescription, bpsTechnologies} from "./ExperienceDatabase/BPS";
 import {professorDescription, professorTechnologies} from "./ExperienceDatabase/Professor";
@@ -23,6 +23,11 @@ const ExperiencePage = () => {
             </h1>
 
             <div className={classes.textAlignCenter}>
+                <CompanyTitle companyImage="/static/images/Promtior.png" companyImageAltText="Promptior" companyWebLink="https://www.promptior.com/" companyName="Promptior"/>
+                <ExperienceTitle restOfTitle="Software Engineer"/>
+                {promptiorTechnologies}
+                {promptiorDescription}
+
                 <CompanyTitle companyImage="/static/images/amoeb_ai.jpg" companyImageAltText="Amoeba AI" companyWebLink="https://www.amoeb.ai/ " companyName="Amoeba AI"/>
                 <ExperienceTitle restOfTitle="Software Engineer"/>
                 {amoebaAITechnologies}
@@ -37,11 +42,6 @@ const ExperiencePage = () => {
                 <ExperienceTitle restOfTitle="Software Engineer"/>
                 {createThriveTechnologies}
                 {createThriveDescription}
-
-                <CompanyTitle companyImage="/static/images/skollars.png" companyImageAltText="SkollARS" companyWebLink="https://skollars.com/" companyName="SkollARS"/>
-                <ExperienceTitle restOfTitle="Founder & Software Systems Engineer"/>
-                {skollarsTechnologies}
-                {skollarsDescription}
 
                 <CompanyTitle companyImage="/static/images/ripio.png" companyImageAltText="Ripio" companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
                 <ExperienceTitle restOfTitle="Software Engineer"/>
