@@ -1,5 +1,6 @@
-import ExperienceDescription from "../ExperiencePageComponents/ExperienceDescription";
 import ExperienceTechnologies from "../ExperiencePageComponents/ExperienceTechnologies";
+import VisualExperience from "../ExperiencePageComponents/VisualExperience";
+import classes from "../ExperiencePageComponents/VisualExperience.module.css";
 
 const amoebaAITechnologies =
     <ExperienceTechnologies>
@@ -10,17 +11,86 @@ const amoebaAITechnologies =
     </ExperienceTechnologies>
 
 const amoebaAIDescription =
-    <ExperienceDescription>
-        As one of the inaugural Software Engineers at Amoeba AI—an AI-powered data science platform revolutionizing revenue growth for GTM teams through dynamic insights and predictive analytics—I spearheaded the development and maintenance of core financial systems that processed complex multi-channel data to enhance forecasting accuracy and budgeting efficiency.
-        <br/>
-        <b>Key Contributions:</b>
-        <ul>
-            <li>Architected a scalable Pipes and Filters pattern integrated with AWS Lambda to automate financial file ingestion and processing, reducing latency by 40% and enabling real-time ROI optimization for marketing and finance workflows (built on Amoeba's Pulse engine for continuous intelligence).</li>
-            <li>Engineered an early Retrieval-Augmented Generation (RAG) system, delivering a client-facing AI-driven conversational chat that queried proprietary financial datasets for personalized recommendations, simulations of business hypotheses, and actionable next steps—empowering users without data science expertise to drive revenue growth.</li>
-            <li>Collaborated cross-functionally to integrate deep learning models and neural networks, supporting Amoeba's mission to transform static dashboards into adaptive, goal-aligned intelligence for enhanced campaign performance and customer lifecycle management.</li>
-        </ul>
-        These initiatives directly contributed to client testimonials of improved decision-making and predictive insights, solidifying Amoeba's position as a leader in AI-native revenue operations.
-    </ExperienceDescription>;
+    <VisualExperience>
+        <div className={classes.summarySection}>
+            <p className={classes.summaryText}>
+                As one of the inaugural Software Engineers at <strong>Amoeba AI</strong>—an AI-powered data science platform revolutionizing revenue growth for GTM teams—I spearheaded the development of core financial systems that processed complex multi-channel data to enhance forecasting accuracy and budgeting efficiency.
+            </p>
+        </div>
+
+        <div className={classes.metricsGrid}>
+            <div className={classes.metricCard}>
+                <div className={classes.metricValue}>40%</div>
+                <div className={classes.metricLabel}>Latency Reduction</div>
+            </div>
+            <div className={classes.metricCard}>
+                <div className={classes.metricValue}>Real-time</div>
+                <div className={classes.metricLabel}>ROI Optimization</div>
+            </div>
+            <div className={classes.metricCard}>
+                <div className={classes.metricValue}>RAG</div>
+                <div className={classes.metricLabel}>AI System Built</div>
+            </div>
+            <div className={classes.metricCard}>
+                <div className={classes.metricValue}>5</div>
+                <div className={classes.metricLabel}>Months Impact</div>
+            </div>
+        </div>
+
+        <div className={classes.contributionCard}>
+            <div className={classes.contributionTitle}>
+                <span className={classes.contributionIcon}>🏗️</span>
+                <span>Scalable Architecture</span>
+            </div>
+            <p className={classes.contributionDescription}>
+                Architected a <strong>Pipes and Filters pattern</strong> integrated with <strong>AWS Lambda</strong> to automate financial file ingestion and processing. This architecture reduced latency by <strong>40%</strong> and enabled <strong>real-time ROI optimization</strong> for marketing and finance workflows, built on Amoeba's Pulse engine for continuous intelligence.
+            </p>
+            <div className={classes.techStack}>
+                <span className={classes.techTag}>AWS Lambda</span>
+                <span className={classes.techTag}>Pipes & Filters</span>
+                <span className={classes.techTag}>Serverless</span>
+                <span className={classes.techTag}>Event-Driven</span>
+            </div>
+        </div>
+
+        <div className={classes.contributionCard}>
+            <div className={classes.contributionTitle}>
+                <span className={classes.contributionIcon}>🤖</span>
+                <span>AI-Powered RAG System</span>
+            </div>
+            <p className={classes.contributionDescription}>
+                Engineered an early <strong>Retrieval-Augmented Generation (RAG)</strong> system, delivering a client-facing AI-driven conversational chat that queried proprietary financial datasets. The system provided personalized recommendations, business hypothesis simulations, and actionable next steps—empowering users without data science expertise to drive revenue growth.
+            </p>
+            <div className={classes.techStack}>
+                <span className={classes.techTag}>RAG</span>
+                <span className={classes.techTag}>Anthropic Claude</span>
+                <span className={classes.techTag}>OpenAI</span>
+                <span className={classes.techTag}>Conversational AI</span>
+            </div>
+        </div>
+
+        <div className={classes.contributionCard}>
+            <div className={classes.contributionTitle}>
+                <span className={classes.contributionIcon}>📊</span>
+                <span>Platform Integration & Intelligence</span>
+            </div>
+            <p className={classes.contributionDescription}>
+                Collaborated cross-functionally to integrate AI tools with revenue management workflows, supporting Amoeba's mission to transform static dashboards into adaptive, goal-aligned intelligence. This integration enhanced campaign performance and customer lifecycle management, enabling data-driven decision-making across marketing and finance teams.
+            </p>
+            <div className={classes.techStack}>
+                <span className={classes.techTag}>Platform Integration</span>
+                <span className={classes.techTag}>Predictive Analytics</span>
+                <span className={classes.techTag}>Workflow Automation</span>
+                <span className={classes.techTag}>Data-Driven Insights</span>
+            </div>
+        </div>
+
+        <div className={classes.summarySection}>
+            <p className={classes.summaryText}>
+                <strong>Impact:</strong> These initiatives directly contributed to client testimonials of improved decision-making and predictive insights, solidifying Amoeba's position as a leader in AI-native revenue operations.
+            </p>
+        </div>
+    </VisualExperience>;
 
 export {amoebaAITechnologies, amoebaAIDescription};
 

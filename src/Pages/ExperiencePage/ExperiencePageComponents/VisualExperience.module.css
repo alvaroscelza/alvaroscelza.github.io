@@ -1,0 +1,119 @@
+.visualExperience {
+    margin: 2rem 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.metricsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.metricCard {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e8ecf1 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metricCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.metricValue {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3498db;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.metricLabel {
+    font-size: 0.95rem;
+    color: #5a6c7d;
+    font-weight: 500;
+}
+
+.contributionCard {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contributionTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contributionIcon {
+    font-size: 1.5rem;
+}
+
+.contributionDescription {
+    color: #5a6c7d;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.techTag {
+    background: #e9ecef;
+    color: #495057;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    border: 1px solid #dee2e6;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.summarySection {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.summaryText {
+    color: #5a6c7d;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .metricsGrid {
+        grid-template-columns: 1fr;
+    }
+    
+    .metricValue {
+        font-size: 2rem;
+    }
+}
+
