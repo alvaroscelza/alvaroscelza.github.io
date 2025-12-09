@@ -38,7 +38,7 @@ const amoebaAIDescription =
         </div>
 
         <div className={classes.diagramSection}>
-            <div className={classes.diagramTitle}>Non-disclosure-friendly architecture diagram</div>
+            <div className={classes.diagramTitle}>Simplified architecture diagram</div>
             <img 
                 src="/static/images/amoeba_diagram.png" 
                 alt="Amoeba AI simplified architecture diagram showing high-level components and connectors" 
