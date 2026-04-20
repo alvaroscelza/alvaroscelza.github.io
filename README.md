@@ -1,5 +1,4 @@
 # Alvaro Scelza
-
 Personal website.
 
 ## Technology stack
@@ -7,10 +6,8 @@ Personal website.
 - [React 18](https://reactjs.org/docs/getting-started.html)
 
 ## Installation and running
-
 - `npm install`
 - `npm start`
 
 ## Deployment
-
 - `npm run deploy`

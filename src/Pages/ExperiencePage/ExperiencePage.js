@@ -2,6 +2,7 @@ import classes from "../../components/UI/UI.module.css";
 import {useEffect} from "react";
 import CompanyTitle from "./ExperiencePageComponents/CompanyTitle";
 import ExperienceTitle from "./ExperiencePageComponents/ExperienceTitle";
+import {blend360Description, blend360Technologies} from "./ExperienceDatabase/Blend360";
 import {promptiorDescription, promptiorTechnologies} from "./ExperienceDatabase/Promptior";
 import {amoebaAIDescription, amoebaAITechnologies} from "./ExperienceDatabase/AmoebaAI";
 import {elasticHotelDescription, elasticHotelTechnologies} from "./ExperienceDatabase/ElasticHotel";
@@ -23,8 +24,13 @@ const ExperiencePage = () => {
             </h1>
 
             <div className={classes.textAlignCenter}>
-                <CompanyTitle companyImage="/static/images/Promtior.png" companyImageAltText="Promptior" companyWebLink="https://www.promptior.com/" companyName="Promptior"/>
+                <CompanyTitle companyImage="/static/images/blend360.jpg" companyImageAltText="Blend360" companyWebLink="https://www.blend360.com/" companyName="Blend360"/>
                 <ExperienceTitle restOfTitle="Software Engineer"/>
+                {blend360Technologies}
+                {blend360Description}
+
+                <CompanyTitle companyImage="/static/images/Promtior.png" companyImageAltText="Promptior" companyWebLink="https://www.promptior.com/" companyName="Promptior"/>
+                <ExperienceTitle restOfTitle="Full-Cycle Software Engineer"/>
                 {promptiorTechnologies}
                 {promptiorDescription}
 
@@ -34,23 +40,23 @@ const ExperiencePage = () => {
                 {amoebaAIDescription}
 
                 <CompanyTitle companyImage="/static/images/elasticHotel.png" companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
-                <ExperienceTitle restOfTitle="Software Engineer"/>
+                <ExperienceTitle restOfTitle="FullStack Software Engineer"/>
                 {elasticHotelTechnologies}
                 {elasticHotelDescription}
 
                 <CompanyTitle companyImage="/static/images/create-thrive.jpg" companyImageAltText="create-thrive" companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
-                <ExperienceTitle restOfTitle="Software Engineer"/>
+                <ExperienceTitle restOfTitle="FullStack Software Engineer"/>
                 {createThriveTechnologies}
                 {createThriveDescription}
 
                 <CompanyTitle companyImage="/static/images/ripio.png" companyImageAltText="Ripio" companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
-                <ExperienceTitle restOfTitle="Software Engineer"/>
+                <ExperienceTitle restOfTitle="Team Leader"/>
                 {ripioTechnologies}
                 {ripioDescription}
 
                 <CompanyTitle companyImage="/static/images/bps.png" companyImageAltText="BPS" companyWebLink="https://www.bps.gub.uy/"
                               companyName="Banco de Previsión Social"/>
-                <ExperienceTitle restOfTitle="Software Engineer"/>
+                <ExperienceTitle restOfTitle="Developer Technician (Gr. 9) - Software Developer"/>
                 {bpsTechnologies}
                 {bpsDescription}
 

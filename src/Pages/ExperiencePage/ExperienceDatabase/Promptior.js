@@ -7,14 +7,14 @@ const promptiorTechnologies =
         Python, React, Amazon Web Services (AWS), AWS Lambda, Amazon S3, Amazon DynamoDB, AWS Secrets Manager, Amazon Bedrock, Terraform, GitHub Actions, pytest, Serverless Architecture, Microservices, Software Architecture, Stakeholder Management
         <br/>
         <br/>
-        December 2025 - Present
+        December 2025 - April 2026
     </ExperienceTechnologies>
 
 const promptiorDescription =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Designed and implemented a complete <strong>self-service data ingestion platform</strong> for processing large-volume CSV files (up to 500k rows, 100MB) with automatic validation and intelligent column analysis. Built a scalable serverless architecture with AI integration to enable seamless data processing workflows. <strong>Delivered the entire solution in just 2 months</strong>, from initial architecture design to production deployment.
+                Designed and implemented a complete <strong>self-service data ingestion platform</strong> for processing large-volume CSV files (up to 500k rows, 100MB) with automatic validation and intelligent column analysis. Built a scalable serverless architecture with AI integration to enable seamless data processing workflows. The work began as a <strong>two-month contract</strong>, and <strong>I delivered the full product solo</strong>—from architecture through production. The client was so pleased with what shipped that <strong>they signed a permanent contract with Promptior</strong>, turning a time-boxed engagement into a long-term partnership built on that first delivery.
             </p>
         </div>
 
@@ -167,7 +167,7 @@ const promptiorDescription =
 
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                <strong>Impact:</strong> Delivered a production-ready, scalable data ingestion platform that processes enterprise-level CSV files with AI-powered intelligence, robust validation, and an intuitive user experience. The solution enables clients to efficiently ingest and validate large datasets while maintaining data quality and reducing manual configuration overhead.
+                <strong>Impact:</strong> Delivered a production-ready, scalable data ingestion platform that processes enterprise-level CSV files with AI-powered intelligence, robust validation, and an intuitive user experience. The solution enables clients to efficiently ingest and validate large datasets while maintaining data quality and reducing manual configuration overhead. On the business side, that two-month solo delivery became the proof point that convinced the client to commit to Promptior long term—a tangible measure of trust beyond the technical metrics.
             </p>
         </div>
     </VisualExperience>;
