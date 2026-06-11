@@ -22,7 +22,7 @@ const HomePage = () => {
                     Full-Cycle Systems Engineer
                 </h1>
                 <p className={classes.heroSubtitle}>
-                    with 12+ years of industry experience
+                    With 15+ years in the industry (started college at 17)
                 </p>
                 <div className={classes.heroBadges}>
                     <span className={classes.heroBadge}>🏢 International Companies</span>
