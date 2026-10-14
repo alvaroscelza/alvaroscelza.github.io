@@ -7,21 +7,21 @@ const dnmTechnologies =
         PHP, Smarty, MySQL, C#, .NET, Microsoft SQL Server
         <br/>
         <br/>
-        December 2014 to 2017 - 3 years
+        December 2014 to 2017
     </ExperienceTechnologies>
 
 const dnmDescription =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Provided technical support with software development tasks for <strong>Dirección Nacional de Migración (DNM)</strong>, the governmental agency that handles all of Uruguay's immigration procedures. Built backoffice systems to manage and track all immigration procedures performed by the agency.
+                Provided technical support with software development for <strong>Dirección Nacional de Migración (DNM)</strong>, the governmental agency that handles all of Uruguay's immigration procedures. Built two versions of a backoffice system to manage and track immigration procedures.
             </p>
         </div>
 
         <div className={classes.metricsGrid}>
             <div className={classes.metricCard}>
-                <div className={classes.metricValue}>3</div>
-                <div className={classes.metricLabel}>Years</div>
+                <div className={classes.metricValue}>2016-17</div>
+                <div className={classes.metricLabel}>Development Period</div>
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Gov.</div>
@@ -40,17 +40,31 @@ const dnmDescription =
         <div className={classes.contributionCard}>
             <div className={classes.contributionTitle}>
                 <span className={classes.contributionIcon}>📋</span>
-                <span>Procedures Record - Immigration Management System</span>
+                <span>Procedures Record v2</span>
             </div>
             <p className={classes.contributionDescription}>
-                Built a backoffice website for managing all immigration procedures performed by DNM. The system allowed comprehensive tracking and management of procedures. Later implemented <strong>version 2</strong> solving several shortages from the previous version, including UI improvements and enhanced functionality for better procedure management.
+                In <strong>February 2017</strong>, implemented the second version of the Procedures Record system, solving several shortages from the previous version, including UI improvements and enhanced functionality for better procedure management.
+            </p>
+            <div className={classes.techStack}>
+                <span className={classes.techTag}>C#</span>
+                <span className={classes.techTag}>.NET</span>
+                <span className={classes.techTag}>SQL Server</span>
+                <span className={classes.techTag}>Gov. Systems</span>
+            </div>
+        </div>
+
+        <div className={classes.contributionCard}>
+            <div className={classes.contributionTitle}>
+                <span className={classes.contributionIcon}>📋</span>
+                <span>Procedures Record v1</span>
+            </div>
+            <p className={classes.contributionDescription}>
+                In <strong>August 2016</strong>, built a backoffice website for managing all immigration procedures performed by DNM. The system allowed comprehensive tracking and management of procedures.
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>PHP</span>
-                <span className={classes.techTag}>C#</span>
-                <span className={classes.techTag}>.NET</span>
+                <span className={classes.techTag}>Smarty</span>
                 <span className={classes.techTag}>MySQL</span>
-                <span className={classes.techTag}>SQL Server</span>
                 <span className={classes.techTag}>Gov. Systems</span>
             </div>
         </div>
