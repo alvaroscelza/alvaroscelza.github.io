@@ -43,7 +43,8 @@ const blend360Description =
                 <span>Blackstone (BX) - ICS Team</span>
             </div>
             <p className={classes.contributionDescription}>
-                Embedded with <strong>Blackstone</strong>, a leading global investment firm. Initially focused on <strong>dbt data transformation</strong> work (April - October 8, 2026). Since October 8, transitioned to the <strong>ICS (Infrastructure and Cloud Services) team</strong> working fullstack across the entire data and AI technology stack: <strong>dbt for data engineering, C# APIs for backend services, frontend development, and Sigma for analytics</strong>. Contributing to enterprise-grade solutions in a high-stakes financial services environment where reliability, security, and clarity are paramount.
+                {/* TODO: ICS team meaning pending confirmation */}
+                Embedded with <strong>Blackstone</strong>, a leading global investment firm. Initially focused on <strong>dbt data transformation</strong> work (April - October 8, 2026). Since October 8, transitioned to the <strong>ICS team</strong> working fullstack across the entire data and AI technology stack: <strong>dbt for data engineering, C# APIs for backend services, frontend development, and Sigma for analytics</strong>. Contributing to enterprise-grade solutions in a high-stakes financial services environment where reliability, security, and clarity are paramount.
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>Blackstone</span>
@@ -62,19 +63,16 @@ const blend360Description =
                 <span>Bifrost & ONA - AI/Agentic Systems</span>
             </div>
             <p className={classes.contributionDescription}>
-                {/* TODO: Add detailed description of Bifrost collaboration and configurable personal preferences for Claude inside ONA. 
-                    This is a key achievement that needs proper context and metrics once provided by Alvaro.
-                    For now, placeholder text: */}
-                Collaborating on building <strong>&apos;Bifrost&apos;</strong> and introducing <strong>configurable personal preferences for Claude inside ONA</strong> (Organizational Network Assistant). This work represents a significant contribution to agentic AI systems within the Blackstone engagement.
+                Collaborated on building <strong>Bifrost</strong>, an internal platform using Claude inside ONA development environments. Discovered and validated that <strong>ONA&apos;s dotfiles bootstrap configuration enables versioned personal Claude preferences</strong> (personal claude.md files) in Bifrost, shared a reference repository for team adoption, and documented a critical scoping pitfall: because claude.md files are appended into context without origin tracking, repo-scoped rules in personal configurations can leak into Bifrost&apos;s scope.
                 <br/><br/>
-                <strong>TODO:</strong> Detailed achievement description, metrics, and technical context to be added.
+                {/* TODO: Additional Blend360 project details and achievements to be added */}
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>Bifrost</span>
                 <span className={classes.techTag}>ONA</span>
                 <span className={classes.techTag}>Claude</span>
-                <span className={classes.techTag}>Agentic AI</span>
-                <span className={classes.techTag}>Configurable Preferences</span>
+                <span className={classes.techTag}>Dotfiles</span>
+                <span className={classes.techTag}>Dev Environments</span>
             </div>
         </div>
 
