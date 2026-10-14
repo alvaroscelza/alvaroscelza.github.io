@@ -7,7 +7,7 @@ const dnmTechnologies =
         PHP, Smarty, MySQL, C#, .NET, Microsoft SQL Server
         <br/>
         <br/>
-        December 2014 to 2017
+        December 2014 to 2018
     </ExperienceTechnologies>
 
 const dnmDescription =
@@ -20,8 +20,8 @@ const dnmDescription =
 
         <div className={classes.metricsGrid}>
             <div className={classes.metricCard}>
-                <div className={classes.metricValue}>2016-17</div>
-                <div className={classes.metricLabel}>Development Period</div>
+                <div className={classes.metricValue}>~3</div>
+                <div className={classes.metricLabel}>Years</div>
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Gov.</div>
