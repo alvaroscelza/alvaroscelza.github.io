@@ -7,21 +7,21 @@ const dnmTechnologies =
         PHP, Smarty, MySQL, C#, .NET, Microsoft SQL Server
         <br/>
         <br/>
-        2016 to 2017 - 2 months
+        December 2014 to 2017 - 3 years
     </ExperienceTechnologies>
 
 const dnmDescription =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Developed backoffice systems for <strong>Dirección Nacional de Migración (DNM)</strong>, the governmental agency that handles all of Uruguay's immigration procedures. Built systems to manage and track all immigration procedures performed by the agency.
+                Provided technical support with software development tasks for <strong>Dirección Nacional de Migración (DNM)</strong>, the governmental agency that handles all of Uruguay's immigration procedures. Built backoffice systems to manage and track all immigration procedures performed by the agency.
             </p>
         </div>
 
         <div className={classes.metricsGrid}>
             <div className={classes.metricCard}>
-                <div className={classes.metricValue}>2</div>
-                <div className={classes.metricLabel}>Months</div>
+                <div className={classes.metricValue}>3</div>
+                <div className={classes.metricLabel}>Years</div>
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Gov.</div>

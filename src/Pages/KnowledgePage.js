@@ -68,7 +68,7 @@ const KnowledgePage = () => {
                 Knowledge
             </h1>
             <p>
-                I joined the Software World back in 2012, since then I've been learning and using several
+                With 10+ years of software development experience, I've been learning and using several
                 technologies, approaches and methodologies. You will find an exhaustive list of them below and my seniority on 
                 each one as a tooltip when you hover over the skill.
             </p>

@@ -69,7 +69,7 @@ const ExperiencePage = () => {
                 <CompanyTitle companyImage="/static/images/dnm.gif" companyImageAltText="DNM"
                               companyWebLink="https://www.gub.uy/migracion"
                               companyName="Dirección Nacional de Migración"/>
-                <ExperienceTitle restOfTitle="Software Developer"/>
+                <ExperienceTitle restOfTitle="Technical Support - Software Development"/>
                 {dnmTechnologies}
                 {dnmDescription}
             </div>
