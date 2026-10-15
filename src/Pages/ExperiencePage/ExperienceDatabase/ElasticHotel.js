@@ -4,7 +4,7 @@ import classes from "../ExperiencePageComponents/VisualExperience.module.css";
 
 const elasticHotelTechnologies =
     <ExperienceTechnologies>
-        Python, Django, Flask, PostgreSQL, DevOps, Terraform, AWS, Azure, GitHub, Git, Jira, JavaScript, Machine Learning, Google Collab, DataSpell, Kaggle, OpenAI, ChatGPT
+        Python, Django, Flask, PostgreSQL, DevOps, Terraform, AWS, Azure, GitHub, Git, Jira, JavaScript, Machine Learning, Google Colab, DataSpell, Kaggle, OpenAI, ChatGPT
         <br/>
         <br/>
         March 2023 to April 2025 - 2 years 2 months
