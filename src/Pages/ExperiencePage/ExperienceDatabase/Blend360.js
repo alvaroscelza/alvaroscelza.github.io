@@ -4,7 +4,7 @@ import classes from "../ExperiencePageComponents/VisualExperience.module.css";
 
 const blend360Technologies =
     <ExperienceTechnologies>
-        Citrix, Gitlab, DBT, C#, Sigma, AI, Snowflake, Claude, ONA, .NET, Amazon Web Services (AWS), React, JavaScript, TypeScript, Terraform
+        Citrix, Gitlab, dbt, C#, Sigma, AI, Snowflake, Claude, ONA, .NET, Amazon Web Services (AWS), React, JavaScript, TypeScript, Terraform
         <br/>
         <br/>
         April 2026 - Present
