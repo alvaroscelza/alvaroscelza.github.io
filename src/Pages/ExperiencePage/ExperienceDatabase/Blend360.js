@@ -14,7 +14,7 @@ const blend360Description =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, as a <strong>Full-Cycle Engineer</strong> with high autonomy and full ownership of each feature end to end: requirements gathering, data, API, UI and infrastructure. <strong>Blend360</strong> is an AI and data professional services firm for Fortune 1000 clients, and an <strong>AWS Premier</strong> and <strong>Snowflake Premier</strong> partner.
+                Embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, as a <strong>Full-Cycle Engineer</strong> with high autonomy and full ownership of each feature end to end: requirements gathering, data, API, UI and infrastructure. <strong>Blend360</strong> is an AI and data professional services firm serving Fortune 500 clients, and an <strong>AWS Premier Tier Services Partner</strong> and <strong>Snowflake Premier Partner</strong>.
             </p>
         </div>
 
