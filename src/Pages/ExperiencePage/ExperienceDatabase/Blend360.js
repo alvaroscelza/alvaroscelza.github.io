@@ -73,35 +73,6 @@ const blend360Description =
             </div>
         </div>
 
-        <div className={classes.contributionCard}>
-            <div className={classes.contributionTitle}>
-                <span className={classes.contributionIcon}>🏢</span>
-                <span>Enterprise Delivery Standards</span>
-            </div>
-            <p className={classes.contributionDescription}>
-                Contributing to client engagements where reliability, security, and clarity matter: translating requirements into maintainable software, aligning with enterprise standards, and shipping incrementally in close coordination with stakeholders and partner teams.
-            </p>
-            <div className={classes.techStack}>
-                <span className={classes.techTag}>Citrix</span>
-                <span className={classes.techTag}>Gitlab</span>
-                <span className={classes.techTag}>Enterprise delivery</span>
-            </div>
-        </div>
-
-        <div className={classes.contributionCard}>
-            <div className={classes.contributionTitle}>
-                <span className={classes.contributionIcon}>📊</span>
-                <span>Data & AI Engineering</span>
-            </div>
-            <p className={classes.contributionDescription}>
-                Supporting solutions in Blend360&apos;s core lanes—<strong>data engineering, analytics, and AI/ML delivery</strong>—with emphasis on practical integration, quality, and operability so client systems remain understandable and evolvable after handoff.
-            </p>
-            <div className={classes.techStack}>
-                <span className={classes.techTag}>DBT</span>
-                <span className={classes.techTag}>AI</span>
-            </div>
-        </div>
-
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
                 <strong>Context:</strong> Blend360 operates globally across industries (e.g. financial services, healthcare, retail, tech/media/telecom) with deep partnerships including <strong>AWS Premier</strong> and <strong>Snowflake Premier</strong> status—reflecting the kind of enterprise environment this role sits in.
