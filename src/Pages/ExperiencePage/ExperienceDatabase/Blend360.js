@@ -4,7 +4,7 @@ import classes from "../ExperiencePageComponents/VisualExperience.module.css";
 
 const blend360Technologies =
     <ExperienceTechnologies>
-        Citrix, Gitlab, DBT, C#, APIs, Frontend, Sigma, Machine Learning, AI
+        Citrix, Gitlab, DBT, C#, Sigma, AI, Snowflake, Claude, ONA, .NET, Amazon Web Services (AWS), React, JavaScript, TypeScript, Terraform
         <br/>
         <br/>
         April 2026 - Present
@@ -44,7 +44,7 @@ const blend360Description =
             </div>
             <p className={classes.contributionDescription}>
                 {/* TODO: ICS team meaning pending confirmation */}
-                Embedded with <strong>Blackstone</strong>, a leading global investment firm. Initially focused on <strong>dbt data transformation</strong> work (April - October 8, 2026). Since October 8, transitioned to the <strong>ICS team</strong> working fullstack across the entire data and AI technology stack: <strong>dbt for data engineering, C# APIs for backend services, frontend development, and Sigma for analytics</strong>. Contributing to enterprise-grade solutions in a high-stakes financial services environment where reliability, security, and clarity are paramount.
+                Embedded with <strong>Blackstone</strong>, a leading global investment firm. Initially focused on <strong>dbt data transformation</strong> work (April - September 2026). Since September 2026, transitioned to the <strong>ICS team</strong> working fullstack across the entire data and AI technology stack: <strong>dbt for data engineering, C# APIs for backend services, frontend development, and Sigma for analytics</strong>. Contributing to enterprise-grade solutions in a high-stakes financial services environment where reliability, security, and clarity are paramount.
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>Blackstone</span>
