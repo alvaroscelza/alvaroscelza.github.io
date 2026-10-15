@@ -4,7 +4,7 @@ import classes from "../ExperiencePageComponents/VisualExperience.module.css";
 
 const blend360Technologies =
     <ExperienceTechnologies>
-        Citrix, Gitlab, DBT, C#, Sigma, AI, Snowflake, Claude, ONA, .NET, Amazon Web Services (AWS), React, JavaScript, TypeScript, Terraform
+        dbt, Snowflake, C#, .NET, React, TypeScript, AWS, Terraform, Sigma, GitLab, Claude, ONA, Jira, Confluence, Agentic AI
         <br/>
         <br/>
         April 2026 - Present
@@ -14,18 +14,14 @@ const blend360Description =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Software Engineer at <strong>Blend360</strong>, a professional services firm that partners with Fortune 1000 and large enterprise teams on <strong>AI strategy, data, analytics, and agentic deployment</strong>—embedding engineering alongside clients to move initiatives from concept to production. Currently embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, working on the Institutional Client Services (ICS) team delivering fullstack solutions across the data and AI stack.
+                Embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, as a <strong>Full-Cycle Engineer</strong> with high autonomy and full ownership of each feature end to end: requirements gathering, data, API, UI and infrastructure.
             </p>
         </div>
 
         <div className={classes.metricsGrid}>
             <div className={classes.metricCard}>
-                <div className={classes.metricValue}>Blackstone</div>
-                <div className={classes.metricLabel}>Client: BX</div>
-            </div>
-            <div className={classes.metricCard}>
-                <div className={classes.metricValue}>ICS Team</div>
-                <div className={classes.metricLabel}>Fullstack Role</div>
+                <div className={classes.metricValue}>Week 2</div>
+                <div className={classes.metricLabel}>First MRs</div>
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Fullstack</div>
@@ -33,78 +29,116 @@ const blend360Description =
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Bifrost</div>
-                <div className={classes.metricLabel}>Agentic AI</div>
+                <div className={classes.metricLabel}>Own-initiative AI</div>
+            </div>
+            <div className={classes.metricCard}>
+                <div className={classes.metricValue}>Blackstone</div>
+                <div className={classes.metricLabel}>Client: BX</div>
             </div>
         </div>
 
         <div className={classes.contributionCard}>
             <div className={classes.contributionTitle}>
-                <span className={classes.contributionIcon}>🏦</span>
-                <span>Blackstone (BX) - ICS Team</span>
+                <span className={classes.contributionIcon}>🎯</span>
+                <span>Ownership and Initiative</span>
             </div>
             <p className={classes.contributionDescription}>
-                Embedded with <strong>Blackstone</strong>, a leading global investment firm. Initially focused on <strong>dbt data transformation</strong> work (April - September 2026). Since September 2026, transitioned to the <strong>ICS team</strong> working fullstack across the entire data and AI technology stack: <strong>dbt for data engineering, C# APIs for backend services, frontend development, and Sigma for analytics</strong>. Contributing to enterprise-grade solutions in a high-stakes financial services environment where reliability, security, and clarity are paramount.
+                Combined ownership of assigned work with self-driven initiative. Beyond delivering my tasks, I proactively identify and build improvements to how the team works.
             </p>
             <div className={classes.techStack}>
-                <span className={classes.techTag}>Blackstone</span>
+                <span className={classes.techTag}>Full-Cycle</span>
+                <span className={classes.techTag}>Ownership</span>
+                <span className={classes.techTag}>Initiative</span>
+            </div>
+        </div>
+
+        <div className={classes.contributionCard}>
+            <div className={classes.contributionTitle}>
+                <span className={classes.contributionIcon}>⚡</span>
+                <span>dbt from Scratch</span>
+            </div>
+            <p className={classes.contributionDescription}>
+                Learned <strong>dbt from scratch</strong> while building features with it. With AI support, I shipped my <strong>first merge requests in my second week</strong>.
+            </p>
+            <div className={classes.techStack}>
                 <span className={classes.techTag}>dbt</span>
+                <span className={classes.techTag}>Snowflake</span>
+                <span className={classes.techTag}>GitLab</span>
+            </div>
+        </div>
+
+        <div className={classes.contributionCard}>
+            <div className={classes.contributionTitle}>
+                <span className={classes.contributionIcon}>🧩</span>
+                <span>Full-Stack Feature Delivery</span>
+            </div>
+            <p className={classes.contributionDescription}>
+                Delivered features across the full stack: <strong>data models</strong> (dbt, Snowflake), <strong>APIs</strong> (C#/.NET), <strong>UI</strong> (React, TypeScript) and <strong>infrastructure</strong> (AWS, Terraform).
+            </p>
+            <div className={classes.techStack}>
+                <span className={classes.techTag}>dbt</span>
+                <span className={classes.techTag}>Snowflake</span>
                 <span className={classes.techTag}>C#</span>
-                <span className={classes.techTag}>Sigma</span>
-                <span className={classes.techTag}>Financial Services</span>
+                <span className={classes.techTag}>.NET</span>
+                <span className={classes.techTag}>React</span>
+                <span className={classes.techTag}>TypeScript</span>
+                <span className={classes.techTag}>AWS</span>
+                <span className={classes.techTag}>Terraform</span>
+            </div>
+        </div>
+
+        <div className={classes.contributionCard}>
+            <div className={classes.contributionTitle}>
+                <span className={classes.contributionIcon}>🔍</span>
+                <span>User-Focused Delivery</span>
+            </div>
+            <p className={classes.contributionDescription}>
+                Drove user-focused delivery: instead of asking “what do I have to build?”, I ask “what questions would a user want answered when looking at this feature?”
+            </p>
+            <div className={classes.techStack}>
+                <span className={classes.techTag}>Requirements</span>
+                <span className={classes.techTag}>Product Ownership</span>
+                <span className={classes.techTag}>User-Centered</span>
             </div>
         </div>
 
         <div className={classes.contributionCard}>
             <div className={classes.contributionTitle}>
                 <span className={classes.contributionIcon}>🤖</span>
-                <span>Bifrost & ONA - AI/Agentic Systems</span>
+                <span>Bifrost - Cross-Repo AI Platform</span>
             </div>
             <p className={classes.contributionDescription}>
-                Collaborated on building <strong>Bifrost</strong>, an internal platform using Claude inside ONA development environments. Discovered and validated that <strong>ONA&apos;s dotfiles bootstrap configuration enables versioned personal Claude preferences</strong> (personal claude.md files) in Bifrost, shared a reference repository for team adoption, and documented a critical scoping pitfall: because claude.md files are appended into context without origin tracking, repo-scoped rules in personal configurations can leak into Bifrost&apos;s scope.
-                <br/><br/>
-                {/* TODO: Additional Blend360 project details and achievements to be added */}
+                Co-created <strong>Bifrost</strong> on my own initiative (not an assigned task): a <strong>config-driven platform</strong> that lets Claude work across every repo a feature needs (data, API and UI), overcoming the <strong>single-repo limit</strong> of our ONA dev environments. It also keeps personal Claude preferences across environments, defines shared team rules, and connects to Jira, Confluence and Snowflake.
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>Bifrost</span>
-                <span className={classes.techTag}>ONA</span>
                 <span className={classes.techTag}>Claude</span>
-                <span className={classes.techTag}>Dotfiles</span>
-                <span className={classes.techTag}>Dev Environments</span>
+                <span className={classes.techTag}>ONA</span>
+                <span className={classes.techTag}>Jira</span>
+                <span className={classes.techTag}>Confluence</span>
+                <span className={classes.techTag}>Snowflake</span>
+                <span className={classes.techTag}>Agentic AI</span>
             </div>
         </div>
 
         <div className={classes.contributionCard}>
             <div className={classes.contributionTitle}>
-                <span className={classes.contributionIcon}>🏢</span>
-                <span>Enterprise Delivery Standards</span>
+                <span className={classes.contributionIcon}>🚀</span>
+                <span>Team Release Coordination</span>
             </div>
             <p className={classes.contributionDescription}>
-                Contributing to client engagements where reliability, security, and clarity matter: translating requirements into maintainable software, aligning with enterprise standards, and shipping incrementally in close coordination with stakeholders and partner teams.
+                Coordinated team releases: the Jira release issue, tracking each teammate&apos;s tasks, pipeline sign-off, and release approval from the development lead.
             </p>
             <div className={classes.techStack}>
-                <span className={classes.techTag}>Citrix</span>
-                <span className={classes.techTag}>Gitlab</span>
-                <span className={classes.techTag}>Enterprise delivery</span>
-            </div>
-        </div>
-
-        <div className={classes.contributionCard}>
-            <div className={classes.contributionTitle}>
-                <span className={classes.contributionIcon}>📊</span>
-                <span>Data & AI Engineering</span>
-            </div>
-            <p className={classes.contributionDescription}>
-                Supporting solutions in Blend360&apos;s core lanes—<strong>data engineering, analytics, and AI/ML delivery</strong>—with emphasis on practical integration, quality, and operability so client systems remain understandable and evolvable after handoff.
-            </p>
-            <div className={classes.techStack}>
-                <span className={classes.techTag}>DBT</span>
-                <span className={classes.techTag}>AI</span>
+                <span className={classes.techTag}>Jira</span>
+                <span className={classes.techTag}>GitLab</span>
+                <span className={classes.techTag}>Releases</span>
             </div>
         </div>
 
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                <strong>Context:</strong> Blend360 operates globally across industries (e.g. financial services, healthcare, retail, tech/media/telecom) with deep partnerships including <strong>AWS Premier</strong> and <strong>Snowflake Premier</strong> status—reflecting the kind of enterprise environment this role sits in.
+                <strong>Impact:</strong> Brought product ownership and self-direction to a high-stakes financial services client, turning a tooling limitation into a team-wide AI platform and shipping user-centered features end to end.
             </p>
         </div>
     </VisualExperience>;
