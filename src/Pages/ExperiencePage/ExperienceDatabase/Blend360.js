@@ -14,7 +14,7 @@ const blend360Description =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, as a <strong>Full-Cycle Engineer</strong> with high autonomy and full ownership of each feature end to end: requirements gathering, data, API, UI and infrastructure. <strong>Blend360</strong> is an AI and data professional services firm serving Fortune 500 clients, and an <strong>AWS Premier Tier Services Partner</strong> and <strong>Snowflake Premier Partner</strong>.
+                <strong>Blend360</strong> is an AI and data professional services firm serving Fortune 500 clients and an <strong>AWS Premier Tier Services Partner</strong> and <strong>Snowflake Premier Partner</strong>. Embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, as a <strong>Full-Cycle Engineer</strong> with high autonomy and full ownership of each feature end to end: requirements gathering, data, API, UI and infrastructure.
             </p>
         </div>
 
@@ -110,7 +110,7 @@ const blend360Description =
                 <span>Bifrost - Cross-Repo AI Platform</span>
             </div>
             <p className={classes.contributionDescription}>
-                Co-created <strong>Bifrost</strong> on my own initiative (not an assigned task): a <strong>config-driven platform</strong> that lets Claude work across every repo a feature needs (data, API and UI), overcoming the <strong>single-repo limit</strong> of our ONA dev environments. It also defines shared team rules, connects to Jira, Confluence and Snowflake, and includes an automation I built on <strong>ONA&apos;s dotfiles</strong> that embeds each developer&apos;s personal Claude configuration from a private repo, keeping preferences isolated per developer, maintainable with Claude itself, and supporting versioning.
+                Co-created <strong>Bifrost</strong> on my own initiative: a <strong>config-driven platform</strong> that lets Claude work across every repo a feature needs (data, API and UI), overcoming the <strong>single-repo limit</strong> of our ONA dev environments. It also defines shared team rules, connects to Jira, Confluence and Snowflake, and includes an automation I built on <strong>ONA&apos;s dotfiles</strong> that embeds each developer&apos;s personal Claude configuration from a private repo, keeping preferences isolated per developer, maintainable with Claude itself, and supporting versioning.
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>Bifrost</span>
@@ -138,12 +138,6 @@ const blend360Description =
                 <span className={classes.techTag}>GitLab</span>
                 <span className={classes.techTag}>Releases</span>
             </div>
-        </div>
-
-        <div className={classes.summarySection}>
-            <p className={classes.summaryText}>
-                <strong>Impact:</strong> Brought product ownership and self-direction to a high-stakes financial services client, turning a tooling limitation into a team-wide AI platform and shipping user-centered features end to end.
-            </p>
         </div>
     </VisualExperience>;
 
