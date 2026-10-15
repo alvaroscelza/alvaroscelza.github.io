@@ -4,7 +4,7 @@ import classes from "../ExperiencePageComponents/VisualExperience.module.css";
 
 const blend360Technologies =
     <ExperienceTechnologies>
-        dbt, Snowflake, C#, .NET, React, TypeScript, AWS, Terraform, Sigma, GitLab, Claude, ONA, Jira, Confluence, Agentic AI
+        dbt, Snowflake, C#, .NET, React, JavaScript, TypeScript, Amazon Web Services (AWS), Terraform, Sigma, GitLab, Claude, ONA, Jira, Confluence, Agentic AI, Citrix
         <br/>
         <br/>
         April 2026 - Present
@@ -14,7 +14,7 @@ const blend360Description =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, as a <strong>Full-Cycle Engineer</strong> with high autonomy and full ownership of each feature end to end: requirements gathering, data, API, UI and infrastructure.
+                Embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, as a <strong>Full-Cycle Engineer</strong> with high autonomy and full ownership of each feature end to end: requirements gathering, data, API, UI and infrastructure. <strong>Blend360</strong> is an AI and data professional services firm for Fortune 1000 clients, and an <strong>AWS Premier</strong> and <strong>Snowflake Premier</strong> partner.
             </p>
         </div>
 
@@ -84,6 +84,8 @@ const blend360Description =
                 <span className={classes.techTag}>TypeScript</span>
                 <span className={classes.techTag}>AWS</span>
                 <span className={classes.techTag}>Terraform</span>
+                <span className={classes.techTag}>Sigma</span>
+                <span className={classes.techTag}>Financial Services</span>
             </div>
         </div>
 
@@ -108,12 +110,14 @@ const blend360Description =
                 <span>Bifrost - Cross-Repo AI Platform</span>
             </div>
             <p className={classes.contributionDescription}>
-                Co-created <strong>Bifrost</strong> on my own initiative (not an assigned task): a <strong>config-driven platform</strong> that lets Claude work across every repo a feature needs (data, API and UI), overcoming the <strong>single-repo limit</strong> of our ONA dev environments. It also keeps personal Claude preferences across environments, defines shared team rules, and connects to Jira, Confluence and Snowflake.
+                Co-created <strong>Bifrost</strong> on my own initiative (not an assigned task): a <strong>config-driven platform</strong> that lets Claude work across every repo a feature needs (data, API and UI), overcoming the <strong>single-repo limit</strong> of our ONA dev environments. It also keeps personal Claude preferences across environments, defines shared team rules, and connects to Jira, Confluence and Snowflake. Discovered and validated that <strong>ONA&apos;s dotfiles bootstrap configuration enables versioned personal Claude preferences</strong> (personal claude.md files) in Bifrost, shared a reference repository for team adoption, and documented a critical scoping pitfall: because claude.md files are appended into context without origin tracking, repo-scoped rules in personal configurations can leak into Bifrost&apos;s scope.
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>Bifrost</span>
                 <span className={classes.techTag}>Claude</span>
                 <span className={classes.techTag}>ONA</span>
+                <span className={classes.techTag}>Dotfiles</span>
+                <span className={classes.techTag}>Dev Environments</span>
                 <span className={classes.techTag}>Jira</span>
                 <span className={classes.techTag}>Confluence</span>
                 <span className={classes.techTag}>Snowflake</span>
