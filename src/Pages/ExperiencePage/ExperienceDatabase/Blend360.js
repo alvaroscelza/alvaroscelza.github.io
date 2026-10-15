@@ -14,7 +14,7 @@ const blend360Description =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Software Engineer at <strong>Blend360</strong>, a professional services firm that partners with Fortune 1000 and large enterprise teams on <strong>AI strategy, data, analytics, and agentic deployment</strong>—embedding engineering alongside clients to move initiatives from concept to production. Currently embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, working on the ICS team delivering fullstack solutions across the data and AI stack.
+                Software Engineer at <strong>Blend360</strong>, a professional services firm that partners with Fortune 1000 and large enterprise teams on <strong>AI strategy, data, analytics, and agentic deployment</strong>—embedding engineering alongside clients to move initiatives from concept to production. Currently embedded with <strong>Blackstone (BX)</strong>, a leading global investment firm, working on the Institutional Client Services (ICS) team delivering fullstack solutions across the data and AI stack.
             </p>
         </div>
 
@@ -28,8 +28,8 @@ const blend360Description =
                 <div className={classes.metricLabel}>Fullstack Role</div>
             </div>
             <div className={classes.metricCard}>
-                <div className={classes.metricValue}>dbt → Full</div>
-                <div className={classes.metricLabel}>Tech Evolution</div>
+                <div className={classes.metricValue}>Fullstack</div>
+                <div className={classes.metricLabel}>DBT, API, UI</div>
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Bifrost</div>
@@ -43,15 +43,12 @@ const blend360Description =
                 <span>Blackstone (BX) - ICS Team</span>
             </div>
             <p className={classes.contributionDescription}>
-                {/* TODO: ICS team meaning pending confirmation */}
                 Embedded with <strong>Blackstone</strong>, a leading global investment firm. Initially focused on <strong>dbt data transformation</strong> work (April - September 2026). Since September 2026, transitioned to the <strong>ICS team</strong> working fullstack across the entire data and AI technology stack: <strong>dbt for data engineering, C# APIs for backend services, frontend development, and Sigma for analytics</strong>. Contributing to enterprise-grade solutions in a high-stakes financial services environment where reliability, security, and clarity are paramount.
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>Blackstone</span>
                 <span className={classes.techTag}>dbt</span>
                 <span className={classes.techTag}>C#</span>
-                <span className={classes.techTag}>APIs</span>
-                <span className={classes.techTag}>Frontend</span>
                 <span className={classes.techTag}>Sigma</span>
                 <span className={classes.techTag}>Financial Services</span>
             </div>
@@ -101,7 +98,6 @@ const blend360Description =
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>DBT</span>
-                <span className={classes.techTag}>Machine Learning</span>
                 <span className={classes.techTag}>AI</span>
             </div>
         </div>
