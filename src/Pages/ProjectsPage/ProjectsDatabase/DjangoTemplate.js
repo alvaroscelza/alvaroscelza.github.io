@@ -28,12 +28,8 @@ const djangoTemplateDescription =
                 <div className={classes.metricLabel}>Python</div>
             </div>
             <div className={classes.metricCard}>
-                <div className={classes.metricValue}>5</div>
+                <div className={classes.metricValue}>6</div>
                 <div className={classes.metricLabel}>Django</div>
-            </div>
-            <div className={classes.metricCard}>
-                <div className={classes.metricValue}>17</div>
-                <div className={classes.metricLabel}>PostgreSQL</div>
             </div>
         </div>
 
@@ -43,7 +39,7 @@ const djangoTemplateDescription =
                 <span>Django stack</span>
             </div>
             <p className={classes.contributionDescription}>
-                Python 3.13, Django 5, and PostgreSQL 17. Dependencies are managed with uv (<code>pyproject.toml</code> and an optional <code>uv.lock</code>) instead of pip. <code>uv run</code> uses the project virtualenv without activating it.
+                Python 3.13, Django 6, and PostgreSQL. Dependencies are managed with uv (<code>pyproject.toml</code> and an optional <code>uv.lock</code>) instead of pip. <code>uv run</code> uses the project virtualenv without activating it.
             </p>
             <div className={classes.techStack}>
                 <span className={classes.techTag}>Python</span>
