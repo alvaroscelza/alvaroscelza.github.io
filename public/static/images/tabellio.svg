@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12 15 111 120" fill="none">
+  <title>Tabellio</title>
+  <rect x="12" y="15" width="111" height="120" fill="#F3F5F4"/>
+  <path fill="#205E45" d="M18 21h77v21H69v87H44V42H18z"/>
+  <path fill="#0E2221" d="M76 42h25v87H76z"/>
+  <path fill="#91BDA7" d="M101 21h16v21h-16z"/>
+</svg>

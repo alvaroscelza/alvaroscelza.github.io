@@ -22,6 +22,7 @@ const Menu = () => {
             <ul className={`${classes.ul} ${classes.topPadding1EM}`}>
                 <InternalLinkListItem text='Knowledge' link='/knowledge'/>
                 <InternalLinkListItem text='Experience' link='/experience'/>
+                <InternalLinkListItem text='Projects' link='/projects'/>
                 <InternalLinkListItem text='Contact' link='/contact'/>
             </ul>
         </aside>
