@@ -1,10 +1,8 @@
 import classes from "../components/UI/UI.module.css";
 import {useEffect} from "react";
 import {Link} from "react-router-dom";
-import {knowledgeData, seniorityDescriptions, levelOrder} from "../utils/knowledgeData";
+import {knowledgeData, seniorityDescriptions} from "../utils/knowledgeData";
 import KnowledgeSearch from "../components/UI/KnowledgeSearch";
-
-const levelRank = Object.fromEntries(levelOrder.map((level, index) => [level, index]));
 
 const KnowledgePage = () => {
     useEffect(() => {
@@ -46,13 +44,6 @@ const KnowledgePage = () => {
                 categories[category].push(technology);
                 skillSeniorityMap[technology] = level;
             }
-        });
-
-        Object.keys(categories).forEach(category => {
-            categories[category].sort((a, b) => {
-                return (levelRank[skillSeniorityMap[a]] ?? levelOrder.length)
-                    - (levelRank[skillSeniorityMap[b]] ?? levelOrder.length);
-            });
         });
 
         return { categories, skillSeniorityMap };

@@ -1,23 +1,13 @@
-// Structure: [technology, level, category]
-// Favorites stay first so search cycles through them before the rest.
-// Each category section is ordered Expert → Advanced → Proficient → Beginner.
-// The page sorts each category the same way, so a favorite is shown in its level group.
-
-export const levelOrder = ['Expert', 'Advanced', 'Proficient', 'Beginner'];
+// Structure: [technology, seniority, category]
+// Grouped by category. Within each category, order is Expert, then Advanced,
+// then Proficient, then Beginner. Keep the existing relative order when several
+// skills share a seniority. The page renders this array in order, so keep this
+// rule when editing.
 
 export const knowledgeData = [
-    // Favorites
-    ['Python', 'Advanced', 'Programming Languages and Frameworks'],
-    ['Django', 'Expert', 'Programming Languages and Frameworks'],
-    ['PostgreSQL', 'Advanced', 'Database Engines and Managers'],
-    ['Amazon Web Services (AWS)', 'Advanced', 'Cloud'],
-    ['Github Actions', 'Advanced', 'Versioning and CI/CD'],
-    ['Terraform', 'Advanced', 'Versioning and CI/CD'],
-    ['Scrum', 'Advanced', 'Project Management'],
-    ['Team Leadership', 'Proficient', 'Project Management'],
-    ['Representational State Transfer (REST)', 'Expert', 'Miscellaneous'],
-
     // Programming Languages and Frameworks
+    ['Django', 'Expert', 'Programming Languages and Frameworks'],
+    ['Python', 'Advanced', 'Programming Languages and Frameworks'],
     ['Django REST Framework (DRF)', 'Advanced', 'Programming Languages and Frameworks'],
     ['C#', 'Proficient', 'Programming Languages and Frameworks'],
     ['.NET', 'Proficient', 'Programming Languages and Frameworks'],
@@ -89,6 +79,7 @@ export const knowledgeData = [
     ['Kaggle', 'Beginner', 'Artificial Intelligence (AI)'],
 
     // Database Engines and Managers
+    ['PostgreSQL', 'Advanced', 'Database Engines and Managers'],
     ['DBeaver', 'Advanced', 'Database Engines and Managers'],
     ['SQLite', 'Advanced', 'Database Engines and Managers'],
     ['pgAdmin', 'Proficient', 'Database Engines and Managers'],
@@ -124,6 +115,8 @@ export const knowledgeData = [
     // Versioning and CI/CD
     ['Git', 'Expert', 'Versioning and CI/CD'],
     ['Release Engineering', 'Expert', 'Versioning and CI/CD'],
+    ['Github Actions', 'Advanced', 'Versioning and CI/CD'],
+    ['Terraform', 'Advanced', 'Versioning and CI/CD'],
     ['Github', 'Advanced', 'Versioning and CI/CD'],
     ['Infrastructure as Code', 'Advanced', 'Versioning and CI/CD'],
     ['CI/CD', 'Advanced', 'Versioning and CI/CD'],
@@ -135,6 +128,7 @@ export const knowledgeData = [
     ['Team Foundation Version Control', 'Beginner', 'Versioning and CI/CD'],
 
     // Cloud
+    ['Amazon Web Services (AWS)', 'Advanced', 'Cloud'],
     ['Amazon Elastic Compute Cloud (EC2)', 'Advanced', 'Cloud'],
     ['Amazon Simple Storage Service (S3)', 'Advanced', 'Cloud'],
     ['AWS Lambda', 'Advanced', 'Cloud'],
@@ -169,7 +163,9 @@ export const knowledgeData = [
     ['DataDog', 'Beginner', 'Cloud'],
 
     // Project Management
+    ['Scrum', 'Advanced', 'Project Management'],
     ['Agile Development', 'Advanced', 'Project Management'],
+    ['Team Leadership', 'Proficient', 'Project Management'],
     ['Custom Methodologies', 'Proficient', 'Project Management'],
     ['Software Development Life Cycle (SDLC) Iterative Incremental', 'Proficient', 'Project Management'],
     ['Software Development Life Cycle (SDLC) Incremental', 'Proficient', 'Project Management'],
@@ -212,6 +208,7 @@ export const knowledgeData = [
     ['Pivotal', 'Beginner', 'Management Tools'],
 
     // Miscellaneous
+    ['Representational State Transfer (REST)', 'Expert', 'Miscellaneous'],
     ['Software Design Patterns', 'Expert', 'Miscellaneous'],
     ['API Design', 'Expert', 'Miscellaneous'],
     ['Requirements & Documentation', 'Expert', 'Miscellaneous'],
@@ -240,7 +237,7 @@ export const knowledgeData = [
     ['uWSGI', 'Beginner', 'Miscellaneous'],
     ['Mocha', 'Beginner', 'Miscellaneous'],
     ['Chai', 'Beginner', 'Miscellaneous'],
-    ['Fakingoose', 'Beginner', 'Miscellaneous']
+    ['Fakingoose', 'Beginner', 'Miscellaneous'],
 ];
 
 export const getAllSkillsData = () => {
