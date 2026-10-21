@@ -253,7 +253,7 @@ export const getAllSkillsData = () => {
 };
 
 export const seniorityDescriptions = {
-    'Beginner': "I know the theory and have applied it in courses, personal projects or small tasks. I'd need guidance or some ramp-up time to deliver with it in production.",
+    'Beginner': "I know the theory and have applied it in courses, personal projects or small tasks. As a fast self-learner (especially with today's AI tools), I can quickly ramp up to deliver with it in production.",
     'Proficient': "I've used it in real projects and can deliver with it independently, following established best practices.",
     'Advanced': "I've designed or led production solutions with it, handle non-trivial cases and trade-offs, and can guide others.",
     'Expert': "I'm a go-to reference: I define standards and approaches with it, have developed my own techniques, and teach it to others."
