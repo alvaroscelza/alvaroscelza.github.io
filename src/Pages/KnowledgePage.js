@@ -1,12 +1,14 @@
 import classes from "../components/UI/UI.module.css";
 import {useEffect} from "react";
 import {Link} from "react-router-dom";
-import {normalizeSeniority, knowledgeData, seniorityDescriptions} from "../utils/knowledgeData";
+import {knowledgeData, seniorityDescriptions, levelOrder} from "../utils/knowledgeData";
 import KnowledgeSearch from "../components/UI/KnowledgeSearch";
+
+const levelRank = Object.fromEntries(levelOrder.map((level, index) => [level, index]));
 
 const KnowledgePage = () => {
     useEffect(() => {
-        document.title = "Alvaro Scelza - Knowledge"
+        document.title = "Alvaro Scelza - Skills & Technologies"
     }, []);
 
     const extractSkillsByCategory = () => {
@@ -14,6 +16,7 @@ const KnowledgePage = () => {
             'Programming Languages and Frameworks': [],
             'Artificial Intelligence (AI)': [],
             'Database Engines and Managers': [],
+            'Data Engineering': [],
             'Versioning and CI/CD': [],
             'Cloud': [],
             'Project Management': [],
@@ -26,6 +29,7 @@ const KnowledgePage = () => {
             'Programming Languages and Frameworks': new Set(),
             'Artificial Intelligence (AI)': new Set(),
             'Database Engines and Managers': new Set(),
+            'Data Engineering': new Set(),
             'Versioning and CI/CD': new Set(),
             'Cloud': new Set(),
             'Project Management': new Set(),
@@ -36,13 +40,19 @@ const KnowledgePage = () => {
         };
         const skillSeniorityMap = {};
 
-        knowledgeData.forEach(([technology, seniority, category]) => {
-            const normalizedSeniority = normalizeSeniority(seniority);
+        knowledgeData.forEach(([technology, level, category]) => {
             if (technology && category && !seenSkillsByCategory[category].has(technology)) {
                 seenSkillsByCategory[category].add(technology);
                 categories[category].push(technology);
-                skillSeniorityMap[technology] = normalizedSeniority;
+                skillSeniorityMap[technology] = level;
             }
+        });
+
+        Object.keys(categories).forEach(category => {
+            categories[category].sort((a, b) => {
+                return (levelRank[skillSeniorityMap[a]] ?? levelOrder.length)
+                    - (levelRank[skillSeniorityMap[b]] ?? levelOrder.length);
+            });
         });
 
         return { categories, skillSeniorityMap };
@@ -53,6 +63,7 @@ const KnowledgePage = () => {
         'Programming Languages and Frameworks',
         'Artificial Intelligence (AI)',
         'Database Engines and Managers',
+        'Data Engineering',
         'Versioning and CI/CD',
         'Cloud',
         'Project Management',
@@ -65,12 +76,12 @@ const KnowledgePage = () => {
     return (
         <>
             <h1 className={classes.h1}>
-                Knowledge
+                Skills & Technologies
             </h1>
             <p>
-                With 10+ years of software development experience, I've been learning and using several
-                technologies, approaches and methodologies. You will find an exhaustive list of them below and my seniority on 
-                each one as a tooltip when you hover over the skill.
+                With 10+ years of software development experience, I've been learning and using a wide range of
+                skills, technologies and practices. You'll find them listed below, and the level is shown when you
+                hover over each one.
             </p>
             <KnowledgeSearch />
 

@@ -121,7 +121,7 @@ const HomePage = () => {
                     </div>
                     <div className={classes.techGroup}>
                         <span className={classes.techLabel}>More:</span>
-                        <InternalLink link='/knowledge' text='View all technologies'/>
+                        <InternalLink link='/knowledge' text='View all skills & technologies'/>
                     </div>
                 </div>
 
