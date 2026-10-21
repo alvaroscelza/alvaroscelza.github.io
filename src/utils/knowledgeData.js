@@ -99,6 +99,7 @@ export const knowledgeData = [
     ['MongoDB Compass', 'Proficient', 'Database Engines and Managers'],
     ['dbt', 'Proficient', 'Database Engines and Managers'],
     ['Snowflake', 'Proficient', 'Database Engines and Managers'],
+    ['Supabase', 'Proficient', 'Database Engines and Managers'],
     ['Oracle SQL', 'Beginner', 'Database Engines and Managers'],
     ['MySQL', 'Beginner', 'Database Engines and Managers'],
     ['phpMyAdmin', 'Beginner', 'Database Engines and Managers'],
