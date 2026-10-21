@@ -76,6 +76,7 @@ export const knowledgeData = [
     ['XGBoost', 'Proficient', 'Artificial Intelligence (AI)'],
     ['Pricing Optimization', 'Proficient', 'Artificial Intelligence (AI)'],
     ['Prompt Engineering', 'Proficient', 'Artificial Intelligence (AI)'],
+    ['Model Context Protocol (MCP)', 'Proficient', 'Artificial Intelligence (AI)'],
     ['LLMOps & Model Deployment', 'Proficient', 'Artificial Intelligence (AI)'],
     ['Neural Networks', 'Beginner', 'Artificial Intelligence (AI)'],
     ['Bidirectional Long Short-Term Memory', 'Beginner', 'Artificial Intelligence (AI)'],
@@ -189,6 +190,7 @@ export const knowledgeData = [
     ['Debian', 'Beginner', 'Operative Systems'],
 
     // IDEs
+    ['Cursor', 'Expert', 'IDEs'],
     ['PyCharm', 'Advanced', 'IDEs'],
     ['Visual Studio', 'Advanced', 'IDEs'],
     ['Netbeans', 'Proficient', 'IDEs'],
