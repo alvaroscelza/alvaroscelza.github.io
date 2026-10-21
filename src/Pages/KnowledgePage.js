@@ -4,64 +4,61 @@ import {Link} from "react-router-dom";
 import {knowledgeData, seniorityDescriptions} from "../utils/knowledgeData";
 import KnowledgeSearch from "../components/UI/KnowledgeSearch";
 
+const categoryOrder = [
+    'Programming Languages',
+    'Backend Frameworks',
+    'Frontend & Desktop',
+    'Software Architecture & Design',
+    'Generative AI & LLMs',
+    'Machine Learning & Data Science',
+    'Data Engineering',
+    'Database Engines and Managers',
+    'Cloud',
+    'DevOps & CI/CD',
+    'Testing & QA',
+    'Project Management',
+    'Leadership & Soft Skills',
+    'IDEs & Editors',
+    'Operating Systems'
+];
+
 const KnowledgePage = () => {
     useEffect(() => {
         document.title = "Alvaro Scelza - Skills & Technologies"
     }, []);
 
     const extractSkillsByCategory = () => {
-        const categories = {
-            'Programming Languages and Frameworks': [],
-            'Artificial Intelligence (AI)': [],
-            'Database Engines and Managers': [],
-            'Data Engineering': [],
-            'Versioning and CI/CD': [],
-            'Cloud': [],
-            'Project Management': [],
-            'Operative Systems': [],
-            'IDEs': [],
-            'Management Tools': [],
-            'Miscellaneous': []
-        };
-        const seenSkillsByCategory = {
-            'Programming Languages and Frameworks': new Set(),
-            'Artificial Intelligence (AI)': new Set(),
-            'Database Engines and Managers': new Set(),
-            'Data Engineering': new Set(),
-            'Versioning and CI/CD': new Set(),
-            'Cloud': new Set(),
-            'Project Management': new Set(),
-            'Operative Systems': new Set(),
-            'IDEs': new Set(),
-            'Management Tools': new Set(),
-            'Miscellaneous': new Set()
-        };
+        const categories = {};
+        const seenSkillsByCategory = {};
+        categoryOrder.forEach(category => {
+            categories[category] = [];
+            seenSkillsByCategory[category] = new Set();
+        });
         const skillSeniorityMap = {};
 
         knowledgeData.forEach(([technology, level, category]) => {
-            if (technology && category && !seenSkillsByCategory[category].has(technology)) {
-                seenSkillsByCategory[category].add(technology);
-                categories[category].push(technology);
-                skillSeniorityMap[technology] = level;
+            if (!technology || !category) {
+                return;
             }
+            if (!seenSkillsByCategory[category]) {
+                categories[category] = [];
+                seenSkillsByCategory[category] = new Set();
+            }
+            if (seenSkillsByCategory[category].has(technology)) {
+                return;
+            }
+            seenSkillsByCategory[category].add(technology);
+            categories[category].push(technology);
+            skillSeniorityMap[technology] = level;
         });
 
         return { categories, skillSeniorityMap };
     };
 
     const { categories: skillsByCategory, skillSeniorityMap } = extractSkillsByCategory();
-    const categoryOrder = [
-        'Programming Languages and Frameworks',
-        'Artificial Intelligence (AI)',
-        'Database Engines and Managers',
-        'Data Engineering',
-        'Versioning and CI/CD',
-        'Cloud',
-        'Project Management',
-        'Operative Systems',
-        'IDEs',
-        'Management Tools',
-        'Miscellaneous'
+    const orderedCategories = [
+        ...categoryOrder,
+        ...Object.keys(skillsByCategory).filter(category => !categoryOrder.includes(category))
     ];
 
     return (
@@ -77,7 +74,7 @@ const KnowledgePage = () => {
             <KnowledgeSearch />
 
             <div className={classes.skillsSummary}>
-                {categoryOrder.map(category => (
+                {orderedCategories.map(category => (
                     skillsByCategory[category].length > 0 && (
                         <div key={category} className={classes.skillsCategory}>
                             <div className={classes.skillsCategoryTitle}>{category}:</div>
