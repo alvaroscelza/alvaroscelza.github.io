@@ -80,7 +80,7 @@ const KnowledgePage = () => {
             </h1>
             <p>
                 With 10+ years of software development experience, I've been learning and using a wide range of
-                skills, technologies and practices. You'll find them listed below, and the level is shown when you
+                skills, technologies and practices. You'll find them listed below, and the seniority is shown when you
                 hover over each one.
             </p>
             <KnowledgeSearch />

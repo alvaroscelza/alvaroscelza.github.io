@@ -137,7 +137,7 @@ const KnowledgeSearch = () => {
                         {searchResult.name}
                     </div>
                     <div style={{ marginBottom: '5px' }}>
-                        <strong>Level:</strong> {searchResult.seniority}
+                        <strong>Seniority:</strong> {searchResult.seniority}
                     </div>
                     <div style={{ marginBottom: '5px' }}>
                         <strong>Category:</strong> {searchResult.category}
