@@ -77,6 +77,7 @@ export const knowledgeData = [
     ['Prompt Engineering', 'Proficient', 'Generative AI & LLMs'],
     ['Model Context Protocol (MCP)', 'Proficient', 'Generative AI & LLMs'],
     ['LLMOps & Model Deployment', 'Proficient', 'Generative AI & LLMs'],
+    ['Amazon Bedrock', 'Proficient', 'Generative AI & LLMs'],
     ['Rule-based AI', 'Beginner', 'Generative AI & LLMs'],
     ['RASA', 'Beginner', 'Generative AI & LLMs'],
 
@@ -158,7 +159,6 @@ export const knowledgeData = [
     ['GitHub Pages', 'Proficient', 'Cloud'],
     ['Amazon API Gateway (API Gateway)', 'Proficient', 'Cloud'],
     ['Amazon Simple Queue Service (SQS)', 'Proficient', 'Cloud'],
-    ['Amazon Bedrock', 'Proficient', 'Cloud'],
     ['Cost Optimization', 'Proficient', 'Cloud'],
     ['Disaster Recovery', 'Proficient', 'Cloud'],
     ['Google Cloud', 'Beginner', 'Cloud'],
