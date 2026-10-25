@@ -6,11 +6,10 @@ import KnowledgeSearch from "../components/UI/KnowledgeSearch";
 
 const HomePage = () => {
     useEffect(() => {
-        document.title = "Alvaro Scelza - Home"
+        document.title = "Alvaro Scelza – Backend & AI Engineer"
     }, []);
 
     const kaggleLink = "https://www.kaggle.com/ingalvaroscelza";
-    const experienceLink = "/experience";
     const uruguayanFlagLink = "https://s.w.org/images/core/emoji/13.1.0/svg/1f1fa-1f1fe.svg";
     const italianFlagLink = "https://s.w.org/images/core/emoji/13.1.0/svg/1f1ee-1f1f9.svg";
     const unitedKingdomFlagLink = "https://s.w.org/images/core/emoji/13.1.0/svg/1f1ec-1f1e7.svg";
@@ -19,17 +18,37 @@ const HomePage = () => {
         <>
             <div className={classes.heroSection}>
                 <h1 className={classes.heroTitle}>
-                    Full-Cycle Systems Engineer
+                    Backend & AI Engineer
                 </h1>
                 <p className={classes.heroSubtitle}>
-                    With 10+ years building software
+                    Python/AWS, building LLM features in production (Claude, Bedrock, RAG). 10+ years. Currently at Blend360, embedded at Blackstone.
                 </p>
-                <div className={classes.heroBadges}>
-                    <span className={classes.heroBadge}>🏢 International Companies</span>
-                    <span className={classes.heroBadge}>🚀 Startups</span>
-                    <span className={classes.heroBadge}>🔧 Microservices</span>
-                    <span className={classes.heroBadge}>📦 Monolithic</span>
-                </div>
+                <p className={classes.heroMeta}>
+                    Montevideo, Uruguay (UTC-3) · Remote · Italian citizen (EU work authorization)
+                </p>
+                <ul className={classes.heroHighlights}>
+                    <li>
+                        <InternalLink
+                            link="/experience?role=promtior"
+                            text="Solo-built serverless CSV ingestion at Promtior: 5 Lambdas, S3 streaming, up to 500k rows per file, Bedrock column mapping."
+                        />
+                    </li>
+                    <li>
+                        <InternalLink
+                            link="/experience?role=amoeba"
+                            text="RAG chat over customer financial data in production at Amoeba AI (Claude, OpenAI)."
+                        />
+                    </li>
+                    <li>
+                        <InternalLink
+                            link="/experience?role=blend360"
+                            text="Co-created Bifrost, a config-driven platform that lets Claude work across data, API and UI repos at Blackstone."
+                        />
+                    </li>
+                </ul>
+                <a className={classes.cvDownload} href={`${process.env.PUBLIC_URL}/Alvaro-Scelza-CV.pdf`} download="Alvaro-Scelza-CV.pdf">
+                    Download CV (PDF)
+                </a>
             </div>
 
             <div className={classes.capabilitiesSection}>
@@ -56,7 +75,7 @@ const HomePage = () => {
                         <div className={classes.capabilityContent}>
                             <h3 className={classes.capabilityTitle}>Development</h3>
                             <ul className={classes.capabilityList}>
-                                <li><strong>Backend:</strong> Python, Django, Flask, FastAPI</li>
+                                <li><strong>Backend:</strong> Python, Django, Flask</li>
                                 <li><strong>Frontend:</strong> React, JavaScript, TypeScript</li>
                             </ul>
                         </div>
@@ -78,9 +97,9 @@ const HomePage = () => {
                         <div className={classes.capabilityContent}>
                             <h3 className={classes.capabilityTitle}>Operations & Maintenance</h3>
                             <ul className={classes.capabilityList}>
-                                <li>CI/CD pipelines (GitHub Actions, CircleCI)</li>
-                                <li>Infrastructure as Code (Terraform)</li>
-                                <li>Cloud infrastructure (AWS, Azure, GCloud)</li>
+                            <li>CI/CD pipelines (GitHub Actions)</li>
+                            <li>Infrastructure as Code (Terraform)</li>
+                            <li>Cloud infrastructure (AWS, Azure)</li>
                             </ul>
                         </div>
                     </div>
@@ -95,7 +114,12 @@ const HomePage = () => {
                         <span className={classes.techBadge}>Python</span>
                         <span className={classes.techBadge}>Django</span>
                         <span className={classes.techBadge}>Flask</span>
-                        <span className={classes.techBadge}>FastAPI</span>
+                    </div>
+                    <div className={classes.techGroup}>
+                        <span className={classes.techLabel}>AI / LLMs:</span>
+                        <span className={classes.techBadge}>Claude</span>
+                        <span className={classes.techBadge}>Bedrock</span>
+                        <span className={classes.techBadge}>RAG</span>
                     </div>
                     <div className={classes.techGroup}>
                         <span className={classes.techLabel}>Frontend:</span>
@@ -111,13 +135,11 @@ const HomePage = () => {
                         <span className={classes.techLabel}>Cloud:</span>
                         <span className={classes.techBadge}>AWS</span>
                         <span className={classes.techBadge}>Azure</span>
-                        <span className={classes.techBadge}>GCloud</span>
                     </div>
                     <div className={classes.techGroup}>
                         <span className={classes.techLabel}>DevOps:</span>
                         <span className={classes.techBadge}>Terraform</span>
                         <span className={classes.techBadge}>GitHub Actions</span>
-                        <span className={classes.techBadge}>CircleCI</span>
                     </div>
                     <div className={classes.techGroup}>
                         <span className={classes.techLabel}>More:</span>
