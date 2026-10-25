@@ -38,7 +38,7 @@ const promtiorDescription =
 
         <ul className={classes.bulletList}>
             <li>
-                Solo-built a self-service CSV ingestion platform and delivered it in two months, from architecture through production. I was the primary technical contact with the client. After that delivery, the client signed a permanent contract with Promtior.
+                Solo-built a self-service CSV ingestion platform and delivered it in two months, from architecture through production. I was the primary technical contact with the client. The client then signed an ongoing (initially one-year) engagement; Promtior formed a larger team for it, which I joined.
             </li>
             <li>
                 Five <strong>Lambda</strong> functions stream files from <strong>S3</strong>. Files are up to 500k rows and 100MB. <strong>Amazon Bedrock (Claude Opus 4.5)</strong> maps columns across different CSV layouts.

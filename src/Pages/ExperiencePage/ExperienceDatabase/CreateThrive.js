@@ -24,7 +24,7 @@ const createThriveDescription =
                 Led <strong>Sunpower InstantDesign</strong> (one of CreateThrive&apos;s biggest clients). It generates residential solar-panel grids with <strong>CUDA</strong> and neural networks. I ran <strong>Docker Compose</strong>, wired the IDE to the containers, and built <strong>Flask</strong> API endpoints with a React/Vue UI for internal testing. The system was about 3 years old and the original team had left; I worked on maintenance and technical debt.
             </li>
             <li>
-                Built NFT theft detection for <strong>Convex Labs</strong> with <strong>Django</strong> and AWS Lambda, DynamoDB, and API Gateway. Clients included the Boring Ape NFT Collection.
+                Built NFT theft detection for <strong>Convex Labs</strong> with <strong>Django</strong> and AWS Lambda, DynamoDB, and API Gateway. Clients included the Bored Ape Yacht Club.
             </li>
             <li>
                 Built the <strong>Kard</strong> rewards backend with <strong>Node.js</strong>, the AWS Serverless Framework, and Cognito.

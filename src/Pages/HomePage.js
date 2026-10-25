@@ -156,6 +156,13 @@ const HomePage = () => {
                 </div>
             </div>
 
+            <div className={classes.moreAboutMeSection} id="education">
+                <h2 className={classes.sectionTitle}>Education</h2>
+                <p className={classes.aboutMeText}>
+                    <strong>Universidad ORT Uruguay</strong> — Engineer's degree, Computer Software Engineering (2012–2019)
+                </p>
+            </div>
+
             <div className={classes.moreAboutMeSection}>
                 <h2 className={classes.sectionTitle}>More about Me</h2>
                 

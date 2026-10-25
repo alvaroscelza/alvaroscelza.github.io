@@ -10,10 +10,6 @@
  *
  * Then commit public/Alvaro-Scelza-CV.pdf. The file must stay a single
  * page of real text (Helvetica, no images) so it stays ATS-friendly.
- *
- * Education is omitted: the site has no degree, school, or graduation year.
- * The footer name "Ing. Alvaro Rodríguez Scelza" is not expanded into a
- * credential here.
  */
 import React from "react";
 import {Document, Link, Page, renderToFile, StyleSheet, Text, View} from "@react-pdf/renderer";
@@ -137,7 +133,7 @@ const doc = el(
         job(
             "Promtior — Full-Cycle Software Engineer · Contract (client engagement)",
             "December 2025 – April 2026",
-            "Solo-built a serverless CSV ingestion platform, delivered in two months: 5 Lambdas, S3 streaming, files up to 500k rows, and Bedrock column mapping. Client onboarding went from 40+ hours to 15 minutes. After delivery, the client signed a permanent contract with Promtior.",
+            "Solo-built a serverless CSV ingestion platform, delivered in two months: 5 Lambdas, S3 streaming, files up to 500k rows, and Bedrock column mapping. Client onboarding went from 40+ hours to 15 minutes. The client then signed an ongoing (initially one-year) engagement; Promtior formed a larger team for it, which I joined.",
         ),
         job(
             "Career break — personal products",
@@ -152,12 +148,12 @@ const doc = el(
         job(
             "Elastic Hotel — FullStack Software Engineer",
             "March 2023 – April 2025",
-            "Platform used by hotels generating €263M in revenue. Led the migration from Flask to Django; CI/CD on Terraform and AWS, 30% faster feature deployment. Review-rating model at 86% accuracy. Revenue managers scaled from 4 hotels each to 15.",
+            "Platform used by hotels generating €263M in revenue. Led the migration from Flask to Django; CI/CD on Terraform and AWS, 30% faster feature deployment. Review-rating model at 87.97% test accuracy. Revenue managers scaled from 4 hotels each to 15.",
         ),
         job(
             "CreateThrive — FullStack Software Engineer",
             "January 2022 – February 2023",
-            "Agency projects including Sunpower InstantDesign (solar grid generation), Convex Labs (NFT security), and Kard (payments).",
+            "Sunpower InstantDesign (solar grids), Convex Labs (Bored Ape Yacht Club), and Kard (payments).",
         ),
         job(
             "Ripio — Team Leader",
@@ -179,6 +175,8 @@ const doc = el(
             "December 2014 – 2018",
             "Backoffice systems for Uruguay's immigration procedures, including Procedures Record v1 (PHP) and v2 (C#/.NET).",
         ),
+        text(styles.section, "Education"),
+        text(styles.bullet, "Universidad ORT Uruguay — Engineer's degree, Computer Software Engineering (2012–2019)."),
         text(styles.section, "Skills"),
         text(styles.bullet, "Backend: Python, Django, Flask, C#, .NET, PostgreSQL, AWS (Lambda, S3, DynamoDB), Terraform, GitHub Actions."),
         text(styles.bullet, "AI: Claude, Amazon Bedrock, retrieval-augmented generation (RAG), OpenAI."),
