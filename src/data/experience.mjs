@@ -3,7 +3,10 @@ const a = (link, text) => ({link, text});
 
 /**
  * Experience entries in page order. `kind: "break"` is the career-break line.
- * Bullets are rich-text runs. The PDF generator reads these same runs.
+ * Bullets are rich-text runs. The PDF generator reads these same runs and
+ * prints the ones listed in `pdfBulletIndexes` (2–3 for the latest roles,
+ * 1 for older roles). Dates use one style: "Apr 2026 – Present",
+ * "Mar 2023 – Apr 2025", or "2018 – 2020".
  */
 const experience = [
     {
@@ -14,7 +17,7 @@ const experience = [
         image: "/static/images/blend360.jpg",
         imageAlt: "Blend360",
         technologies: "dbt, Snowflake, C#, .NET, React, JavaScript, TypeScript, Amazon Web Services (AWS), Terraform, Sigma, GitLab, Claude, ONA, Jira, Confluence, Agentic AI, Citrix",
-        dates: "April 2026 - Present",
+        dates: "Apr 2026 – Present",
         summary: [
             "Embedded at ",
             b("Blackstone"),
@@ -23,16 +26,17 @@ const experience = [
             " (Fortune 500 clients, AWS Premier Tier Services Partner, Snowflake Premier Partner). I own each feature from requirements through data, API, UI, and infrastructure.",
         ],
         metrics: [
-            {value: "Bifrost", label: "ICS team of 8; 4 other Blackstone teams"},
+            {value: "Bifrost", label: "ICS team of 8; 4 other teams"},
             {value: "Fullstack", label: "DBT, API, UI"},
             {value: "Blackstone", label: "Client: Blackstone"},
             {value: "Week 2", label: "First MRs"},
         ],
+        pdfBulletIndexes: [0, 1, 2],
         bullets: [
             [
                 "Co-created ",
                 b("Bifrost"),
-                " on my own initiative: a config-driven platform that lets Claude work across the data, API, and UI repos a feature needs, past the single-repo limit of our ONA dev environments. It sets shared team rules, connects to Jira, Confluence, and Snowflake, and an automation I built on ONA's dotfiles loads each developer's Claude config from a private repo (isolated per person, editable with Claude, versioned). Adopted by the entire ICS team (8 people, from engineers to PMs and design), with 4 other Blackstone teams requesting access or adopting its approach for their own setups.",
+                ": a config-driven platform that lets Claude work across the data, API, and UI repos a feature needs, past the single-repo limit of our ONA dev environments. It sets shared team rules, connects to Jira, Confluence, and Snowflake, and an automation I built on ONA's dotfiles loads each developer's Claude config from a private repo (isolated per person, editable with Claude, versioned). Adopted by the entire ICS team (8 people, from engineers to PMs and design), with 4 other teams requesting access or adopting its approach for their own setups.",
             ],
             [
                 "Delivered features across data models (",
@@ -67,7 +71,7 @@ const experience = [
         image: "/static/images/Promtior.png",
         imageAlt: "Promtior",
         technologies: "Python, React, Amazon Web Services (AWS), AWS Lambda, Amazon S3, Amazon DynamoDB, AWS Secrets Manager, Amazon Bedrock, Terraform, GitHub Actions, pytest, Serverless Architecture, Microservices, Software Architecture, Stakeholder Management",
-        dates: "December 2025 - April 2026",
+        dates: "Dec 2025 – Apr 2026",
         metrics: [
             {value: "40+ hrs→15min", label: "Onboarding Time"},
             {value: "500k", label: "Rows per File"},
@@ -78,8 +82,9 @@ const experience = [
             src: "/static/images/promtior_diagram.png",
             alt: "Serverless data ingestion platform architecture diagram showing components and connectors",
         },
+        pdfBulletIndexes: [0, 1, 3],
         bullets: [
-            "Solo-built a self-service CSV ingestion platform and delivered it in two months, from architecture through production. I was the primary technical contact with the client. The client then signed an ongoing (initially one-year) engagement; Promtior formed a larger team for it, which I joined.",
+            "Solo-built a self-service serverless CSV ingestion platform and delivered it in two months, from architecture through production. I was the primary technical contact with the client. The client then signed an ongoing (initially one-year) engagement; Promtior formed a larger team for it, which I joined.",
             [
                 "Five ",
                 b("Lambda"),
@@ -111,7 +116,7 @@ const experience = [
     {
         kind: "break",
         id: "career-break",
-        text: "Sep–Nov 2025 — Career break: built personal products (Tabellio, FinApp)",
+        text: "Sep 2025 – Nov 2025 — Career break: built personal products (Tabellio, FinApp)",
         link: "/projects",
     },
     {
@@ -122,7 +127,7 @@ const experience = [
         image: "/static/images/amoeb_ai.jpg",
         imageAlt: "Amoeba AI",
         technologies: "Python, JavaScript, TypeScript, Amazon Web Services (AWS), AWS Lambda, Anthropic Claude, Machine Learning, Node.js, Serverless Framework, Amazon Dynamodb, Amazon SQS, Amazon CloudWatch, OpenAI, Software Architecture, Retrieval-Augmented Generation (RAG)",
-        dates: "April 2025 - August 2025 (5 months)",
+        dates: "Apr 2025 – Aug 2025",
         metrics: [
             {value: "40%", label: "Faster customer AI chat"},
         ],
@@ -131,6 +136,7 @@ const experience = [
             src: "/static/images/amoeba_diagram.png",
             alt: "Amoeba AI simplified architecture diagram showing high-level components and connectors",
         },
+        pdfBulletIndexes: [0, 1, 2],
         bullets: [
             [
                 "Joined as one of the first software engineers. Built a ",
@@ -160,16 +166,17 @@ const experience = [
         image: "/static/images/elasticHotel.png",
         imageAlt: "elastic-hotel",
         technologies: "Python, Django, Flask, PostgreSQL, DevOps, Terraform, AWS, Azure, GitHub, Git, Jira, JavaScript, Machine Learning, Google Colab, DataSpell, Kaggle, OpenAI, ChatGPT",
-        dates: "March 2023 to April 2025 - 2 years 2 months",
+        dates: "Mar 2023 – Apr 2025",
         metrics: [
             {value: "€263M", label: "Revenue of hotels on the platform"},
             {value: "30%", label: "Faster Deployment"},
             {value: "87.97%", label: "Review model test accuracy"},
             {value: "4→15", label: "Hotels per Manager"},
         ],
+        pdfBulletIndexes: [0, 1, 2],
         bullets: [
             [
-                "With two other developers, built on Elastic Hotel's revenue platform for European hotels (dynamic pricing and analytics, including Kondo OS). The platform is used by hotels generating over ",
+                "With two other developers, worked on Elastic Hotel's revenue platform for European hotels (dynamic pricing and analytics, including Kondo OS). Hotels on the platform generate over ",
                 b("€263M"),
                 " in revenue.",
             ],
@@ -205,10 +212,11 @@ const experience = [
         image: "/static/images/create-thrive.jpg",
         imageAlt: "create-thrive",
         technologies: "Python, Django, Flask, PostgreSQL, JavaScript, Node.js, React, Vue.js, Docker, Docker-Compose, Redis, Celery, AWS, MongoDB, Serverless Framework, Git, GitHub, CircleCI, Neural Networks, CUDA",
-        dates: "January 2022 to February 2023 - 1 year 2 months",
+        dates: "Jan 2022 – Feb 2023",
         metrics: [
             {value: "4", label: "Client Projects"},
         ],
+        pdfBulletIndexes: [0],
         bullets: [
             [
                 "Led ",
@@ -253,7 +261,8 @@ const experience = [
         image: "/static/images/ripio.png",
         imageAlt: "Ripio",
         technologies: "Python, Django, Django REST Framework, PostgreSQL, JavaScript, Node.js, Express.js, MongoDB, AWS, Git, GitHub, CircleCI",
-        dates: "February 2020 to December 2021 - 1 year 11 months",
+        dates: "Feb 2020 – Dec 2021",
+        pdfBulletIndexes: [0],
         bullets: [
             [
                 "Led a new team for ",
@@ -288,7 +297,8 @@ const experience = [
         image: "/static/images/bps.png",
         imageAlt: "BPS",
         technologies: "Python, Odoo, PostgreSQL, Design Thinking",
-        dates: "2018 to 2020 - 2 years",
+        dates: "2018 – 2020",
+        pdfBulletIndexes: [0],
         bullets: [
             [
                 "Spent two years on ",
@@ -318,7 +328,8 @@ const experience = [
         image: "/static/images/ORT.png",
         imageAlt: "ORT",
         technologies: "Teaching, Team Leadership, Leadership Development, University Teaching, University Lecturing, Universities, Java, NetBeans, Scratch",
-        dates: "August 2018 to December 2018 (5 months)",
+        dates: "Aug 2018 – Dec 2018",
+        pdfBulletIndexes: [0],
         bullets: [
             [
                 "Taught ",
@@ -343,7 +354,8 @@ const experience = [
         image: "/static/images/dnm.gif",
         imageAlt: "DNM",
         technologies: "PHP, Smarty, MySQL, C#, .NET, Microsoft SQL Server",
-        dates: "December 2014 to 2018",
+        dates: "Dec 2014 – 2018",
+        pdfBulletIndexes: [0],
         bullets: [
             [
                 "In August 2016 I built ",

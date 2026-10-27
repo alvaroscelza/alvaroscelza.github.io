@@ -1,4 +1,5 @@
 import experience from "./experience.mjs";
+import {getCvTechnologyGroups} from "../utils/knowledgeData.js";
 
 /**
  * Copy the site renders. The CV PDF is built from this module during
@@ -31,7 +32,7 @@ const profile = {
         email: {href: "mailto:alvaroscelza@gmail.com", text: "alvaroscelza@gmail.com"},
         github: {href: "https://github.com/alvaroscelza", text: "https://github.com/alvaroscelza"},
         linkedin: {href: "https://www.linkedin.com/in/ing-alvaro-scelza/", text: "https://www.linkedin.com/in/ing-alvaro-scelza/"},
-        kaggle: {href: "https://www.kaggle.com/ingalvaroscelza", text: "Kaggle"},
+        kaggle: {href: "https://www.kaggle.com/ingalvaroscelza", text: "https://www.kaggle.com/ingalvaroscelza", label: "Kaggle"},
         calendar: {href: "https://calendar.app.google/vKUuMw3BbaUW2Qwx7", text: "Schedule an interview"},
     },
     languages: {
@@ -42,17 +43,12 @@ const profile = {
     education: {
         heading: "Education",
         school: "Universidad ORT Uruguay",
-        credential: "Engineer's degree, Computer Software Engineering (2012–2019)",
+        credential: "Engineer's degree, Computer Software Engineering (2012 – 2019)",
     },
     keyTechnologies: {
         heading: "Key Technologies",
         groups: [
-            {label: "Backend", items: ["Python", "Django", "Flask"]},
-            {label: "AI / LLMs", items: ["Claude", "Bedrock", "RAG"]},
-            {label: "Frontend", items: ["React", "JavaScript", "TypeScript"]},
-            {label: "Database", items: ["PostgreSQL"]},
-            {label: "Cloud", items: ["AWS", "Azure"]},
-            {label: "DevOps", items: ["Terraform", "GitHub Actions"]},
+            ...getCvTechnologyGroups(),
             {label: "More", link: "/knowledge", linkText: "View all skills & technologies"},
         ],
     },
