@@ -3,6 +3,7 @@ import {useEffect} from "react";
 import ExternalLink from "../components/UI/ExternalLink";
 import InternalLink from "../components/UI/InternalLink";
 import KnowledgeSearch from "../components/UI/KnowledgeSearch";
+import Certifications from "../components/Certifications/Certifications";
 
 const HomePage = () => {
     useEffect(() => {
@@ -201,7 +202,11 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                
+            </div>
+
+            <Certifications />
+
+            <div className={classes.moreAboutMeSection}>
                 <div className={classes.ctaSection}>
                     <p className={classes.ctaText}>
                         Want to know more? Let's talk!
