@@ -128,7 +128,7 @@ const doc = el(
         job(
             "Blend360 — Software Engineer",
             "April 2026 – Present",
-            "Embedded at Blackstone. Co-created Bifrost, a config-driven platform that lets Claude work across data, API and UI repos, overcoming the single-repo limit of ONA dev environments, with shared team rules and connections to Jira, Confluence and Snowflake. Delivered features across dbt/Snowflake, C#/.NET, React/TypeScript, and AWS/Terraform.",
+            "Embedded at Blackstone. Co-created Bifrost, a config-driven platform that lets Claude work across data, API and UI repos, overcoming the single-repo limit of ONA dev environments, with shared team rules and connections to Jira, Confluence and Snowflake. Adopted by the entire ICS team (8 people, from engineers to PMs and design), with 4 other Blackstone teams requesting access or adopting its approach for their own setups. Delivered features across dbt/Snowflake, C#/.NET, React/TypeScript, and AWS/Terraform.",
         ),
         job(
             "Promtior — Full-Cycle Software Engineer · Contract (client engagement)",
