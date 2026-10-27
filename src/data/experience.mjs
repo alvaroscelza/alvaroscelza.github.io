@@ -176,7 +176,7 @@ const experience = [
         pdfBulletIndexes: [0, 1, 2],
         bullets: [
             [
-                "One of three developers on Elastic Hotel's revenue platform for European hotels (dynamic pricing and analytics, including Kondo OS), used by hotels generating over ",
+                "One of three core engineers on Elastic Hotel's revenue platform for European hotels (dynamic pricing and analytics, including Kondo OS), used by hotels generating over ",
                 b("€263M"),
                 " in revenue.",
             ],
