@@ -16,7 +16,7 @@ const experience = [
         companyUrl: "https://www.blend360.com/",
         image: "/static/images/blend360.jpg",
         imageAlt: "Blend360",
-        technologies: "dbt, Snowflake, C#, .NET, React, JavaScript, TypeScript, Amazon Web Services (AWS), Terraform, Sigma, GitLab, Claude, ONA, Jira, Confluence, Agentic AI, Citrix",
+        technologies: "dbt, Snowflake, Fivetran, C#, .NET, Dapper, Flyway, MySQL, DynamoDB, React, TypeScript, JavaScript, Amazon Web Services (AWS), Terraform, GitLab, Sigma, Claude, Agentic AI, ONA, Jira, Confluence",
         dates: "Apr 2026 – Present",
         summary: [
             "Embedded at ",
