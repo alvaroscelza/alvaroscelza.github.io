@@ -14,14 +14,14 @@ const blend360Description =
     <VisualExperience>
         <div className={classes.summarySection}>
             <p className={classes.summaryText}>
-                Embedded at <strong>Blackstone (BX)</strong> through <strong>Blend360</strong> (Fortune 500 clients, AWS Premier Tier Services Partner, Snowflake Premier Partner). I own each feature from requirements through data, API, UI, and infrastructure.
+                Embedded at <strong>Blackstone</strong> through <strong>Blend360</strong> (Fortune 500 clients, AWS Premier Tier Services Partner, Snowflake Premier Partner). I own each feature from requirements through data, API, UI, and infrastructure.
             </p>
         </div>
 
         <div className={classes.metricsGrid}>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Bifrost</div>
-                <div className={classes.metricLabel}>ICS team of 8; 4 other BX teams</div>
+                <div className={classes.metricLabel}>ICS team of 8; 4 other Blackstone teams</div>
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Fullstack</div>
@@ -29,7 +29,7 @@ const blend360Description =
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Blackstone</div>
-                <div className={classes.metricLabel}>Client: BX</div>
+                <div className={classes.metricLabel}>Client: Blackstone</div>
             </div>
             <div className={classes.metricCard}>
                 <div className={classes.metricValue}>Week 2</div>
