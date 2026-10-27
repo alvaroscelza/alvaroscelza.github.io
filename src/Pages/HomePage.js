@@ -134,7 +134,7 @@ const HomePage = () => {
                         <div className={classes.aboutMeContent}>
                             <h3 className={classes.aboutMeTitle}>Interests</h3>
                             <ul className={classes.aboutMeList}>
-                                <li><strong>AI</strong> & <strong>Machine Learning</strong> (<ExternalLink link={profile.links.kaggle.href} text={profile.links.kaggle.text}/>)</li>
+                                <li><strong>AI</strong> & <strong>Machine Learning</strong> (<ExternalLink link={profile.links.kaggle.href} text={profile.links.kaggle.label}/>)</li>
                                 <li>Crypto, blockchain & emerging technologies</li>
                                 <li>Continuous improvement & high-quality solutions</li>
                             </ul>
