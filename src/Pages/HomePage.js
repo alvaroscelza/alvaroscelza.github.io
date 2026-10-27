@@ -4,13 +4,13 @@ import ExternalLink from "../components/UI/ExternalLink";
 import InternalLink from "../components/UI/InternalLink";
 import KnowledgeSearch from "../components/UI/KnowledgeSearch";
 import Certifications from "../components/Certifications/Certifications";
+import profile from "../data/profile.mjs";
 
 const HomePage = () => {
     useEffect(() => {
-        document.title = "Alvaro Scelza – Backend & AI Engineer"
+        document.title = profile.documentTitle
     }, []);
 
-    const kaggleLink = "https://www.kaggle.com/ingalvaroscelza";
     const uruguayanFlagLink = "https://s.w.org/images/core/emoji/13.1.0/svg/1f1fa-1f1fe.svg";
     const italianFlagLink = "https://s.w.org/images/core/emoji/13.1.0/svg/1f1ee-1f1f9.svg";
     const unitedKingdomFlagLink = "https://s.w.org/images/core/emoji/13.1.0/svg/1f1ec-1f1e7.svg";
@@ -19,35 +19,22 @@ const HomePage = () => {
         <>
             <div className={classes.heroSection}>
                 <h1 className={classes.heroTitle}>
-                    Backend & AI Engineer
+                    {profile.hero.title}
                 </h1>
                 <p className={classes.heroSubtitle}>
-                    Python/AWS, building LLM features in production (Claude, Bedrock, RAG). 10+ years. Currently at Blend360, embedded at Blackstone.
+                    {profile.hero.subtitle}
                 </p>
                 <p className={classes.heroMeta}>
-                    Montevideo, Uruguay (UTC-3) · Remote · Italian citizen (EU work authorization)
+                    {profile.hero.location}
                 </p>
                 <ul className={classes.heroHighlights}>
-                    <li>
-                        <InternalLink
-                            link="/experience?role=promtior"
-                            text="Solo-built serverless CSV ingestion at Promtior: 5 Lambdas, S3 streaming, up to 500k rows per file, Bedrock column mapping."
-                        />
-                    </li>
-                    <li>
-                        <InternalLink
-                            link="/experience?role=amoeba"
-                            text="RAG chat over customer financial data in production at Amoeba AI (Claude, OpenAI)."
-                        />
-                    </li>
-                    <li>
-                        <InternalLink
-                            link="/experience?role=blend360"
-                            text="Co-created Bifrost, a config-driven platform that lets Claude work across data, API and UI repos at Blackstone."
-                        />
-                    </li>
+                    {profile.hero.highlights.map((highlight) => (
+                        <li key={highlight.link}>
+                            <InternalLink link={highlight.link} text={highlight.text}/>
+                        </li>
+                    ))}
                 </ul>
-                <a className={classes.cvDownload} href={`${process.env.PUBLIC_URL}/Alvaro-Scelza-CV.pdf`} download="Alvaro-Scelza-CV.pdf">
+                <a className={classes.cvDownload} href={`${process.env.PUBLIC_URL}/${profile.cvFileName}`} download={profile.cvFileName}>
                     Download CV (PDF)
                 </a>
             </div>
@@ -109,43 +96,17 @@ const HomePage = () => {
 
             <div className={classes.twoColumnSection}>
                 <div className={classes.technologiesSection}>
-                    <h2 className={classes.sectionTitle}>Key Technologies</h2>
-                    <div className={classes.techGroup}>
-                        <span className={classes.techLabel}>Backend:</span>
-                        <span className={classes.techBadge}>Python</span>
-                        <span className={classes.techBadge}>Django</span>
-                        <span className={classes.techBadge}>Flask</span>
-                    </div>
-                    <div className={classes.techGroup}>
-                        <span className={classes.techLabel}>AI / LLMs:</span>
-                        <span className={classes.techBadge}>Claude</span>
-                        <span className={classes.techBadge}>Bedrock</span>
-                        <span className={classes.techBadge}>RAG</span>
-                    </div>
-                    <div className={classes.techGroup}>
-                        <span className={classes.techLabel}>Frontend:</span>
-                        <span className={classes.techBadge}>React</span>
-                        <span className={classes.techBadge}>JavaScript</span>
-                        <span className={classes.techBadge}>TypeScript</span>
-                    </div>
-                    <div className={classes.techGroup}>
-                        <span className={classes.techLabel}>Database:</span>
-                        <span className={classes.techBadge}>PostgreSQL</span>
-                    </div>
-                    <div className={classes.techGroup}>
-                        <span className={classes.techLabel}>Cloud:</span>
-                        <span className={classes.techBadge}>AWS</span>
-                        <span className={classes.techBadge}>Azure</span>
-                    </div>
-                    <div className={classes.techGroup}>
-                        <span className={classes.techLabel}>DevOps:</span>
-                        <span className={classes.techBadge}>Terraform</span>
-                        <span className={classes.techBadge}>GitHub Actions</span>
-                    </div>
-                    <div className={classes.techGroup}>
-                        <span className={classes.techLabel}>More:</span>
-                        <InternalLink link='/knowledge' text='View all skills & technologies'/>
-                    </div>
+                    <h2 className={classes.sectionTitle}>{profile.keyTechnologies.heading}</h2>
+                    {profile.keyTechnologies.groups.map((group) => (
+                        <div className={classes.techGroup} key={group.label}>
+                            <span className={classes.techLabel}>{group.label}:</span>
+                            {group.items
+                                ? group.items.map((item) => (
+                                    <span className={classes.techBadge} key={item}>{item}</span>
+                                ))
+                                : <InternalLink link={group.link} text={group.linkText}/>}
+                        </div>
+                    ))}
                 </div>
 
                 <div className={classes.knowledgeSearchSection}>
@@ -158,9 +119,9 @@ const HomePage = () => {
             </div>
 
             <div className={classes.moreAboutMeSection} id="education">
-                <h2 className={classes.sectionTitle}>Education</h2>
+                <h2 className={classes.sectionTitle}>{profile.education.heading}</h2>
                 <p className={classes.aboutMeText}>
-                    <strong>Universidad ORT Uruguay</strong> — Engineer's degree, Computer Software Engineering (2012–2019)
+                    <strong>{profile.education.school}</strong> — {profile.education.credential}
                 </p>
             </div>
 
@@ -173,7 +134,7 @@ const HomePage = () => {
                         <div className={classes.aboutMeContent}>
                             <h3 className={classes.aboutMeTitle}>Interests</h3>
                             <ul className={classes.aboutMeList}>
-                                <li><strong>AI</strong> & <strong>Machine Learning</strong> (<ExternalLink link={kaggleLink} text="Kaggle"/>)</li>
+                                <li><strong>AI</strong> & <strong>Machine Learning</strong> (<ExternalLink link={profile.links.kaggle.href} text={profile.links.kaggle.text}/>)</li>
                                 <li>Crypto, blockchain & emerging technologies</li>
                                 <li>Continuous improvement & high-quality solutions</li>
                             </ul>
@@ -188,15 +149,15 @@ const HomePage = () => {
                                 <li>
                                     <img className={classes.flagIcon} src={uruguayanFlagLink} alt="🇺🇾"/>
                                     <img className={classes.flagIcon} src={italianFlagLink} alt="🇮🇹"/>
-                                    Uruguayan & Italian citizen
+                                    {profile.languages.citizenship}
                                 </li>
                                 <li>
                                     <img className={classes.flagIcon} src={unitedKingdomFlagLink} alt="🇬🇧"/>
-                                    Fluent in Spanish & English
+                                    {profile.languages.fluent}
                                 </li>
                                 <li>
                                     <span className={classes.flagIcon}>✈️</span>
-                                    Open to relocation
+                                    {profile.languages.relocation}
                                 </li>
                             </ul>
                         </div>
@@ -212,8 +173,8 @@ const HomePage = () => {
                         Want to know more? Let's talk!
                     </p>
                     <ExternalLink 
-                        link="https://calendar.app.google/vKUuMw3BbaUW2Qwx7" 
-                        text="Schedule an interview"
+                        link={profile.links.calendar.href} 
+                        text={profile.links.calendar.text}
                         className={classes.calendarLink}
                     />
                 </div>

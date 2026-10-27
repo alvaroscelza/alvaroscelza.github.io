@@ -13,7 +13,9 @@
     "gh-pages": "^6.1.1"
   },
   "scripts": {
+    "prestart": "node scripts/generate-cv.mjs",
     "start": "react-scripts start",
+    "prebuild": "node scripts/generate-cv.mjs",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

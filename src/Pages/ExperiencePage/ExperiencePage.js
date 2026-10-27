@@ -3,16 +3,68 @@ import {useEffect} from "react";
 import {useSearchParams} from "react-router-dom";
 import CompanyTitle from "./ExperiencePageComponents/CompanyTitle";
 import ExperienceTitle from "./ExperiencePageComponents/ExperienceTitle";
+import ExperienceTechnologies from "./ExperiencePageComponents/ExperienceTechnologies";
+import VisualExperience from "./ExperiencePageComponents/VisualExperience";
+import visual from "./ExperiencePageComponents/VisualExperience.module.css";
 import InternalLink from "../../components/UI/InternalLink";
-import {blend360Description, blend360Technologies} from "./ExperienceDatabase/Blend360";
-import {promtiorDescription, promtiorTechnologies} from "./ExperienceDatabase/Promtior";
-import {amoebaAIDescription, amoebaAITechnologies} from "./ExperienceDatabase/AmoebaAI";
-import {elasticHotelDescription, elasticHotelTechnologies} from "./ExperienceDatabase/ElasticHotel";
-import {createThriveDescription, createThriveTechnologies} from "./ExperienceDatabase/CreateThrive";
-import {ripioDescription, ripioTechnologies} from "./ExperienceDatabase/Ripio";
-import {bpsDescription, bpsTechnologies} from "./ExperienceDatabase/BPS";
-import {professorDescription, professorTechnologies} from "./ExperienceDatabase/Professor";
-import {dnmDescription, dnmTechnologies} from "./ExperienceDatabase/DNM";
+import RichText from "../../components/RichText";
+import profile from "../../data/profile.mjs";
+
+const ExperienceRole = ({role}) => {
+    return (
+        <div id={role.id}>
+            <CompanyTitle
+                companyImage={role.image}
+                companyImageAltText={role.imageAlt}
+                companyWebLink={role.companyUrl}
+                companyName={role.company}
+            />
+            <ExperienceTitle restOfTitle={role.title}/>
+            <ExperienceTechnologies>
+                {role.technologies}
+                <br/>
+                <br/>
+                {role.dates}
+            </ExperienceTechnologies>
+            <VisualExperience>
+                {role.summary && (
+                    <div className={visual.summarySection}>
+                        <p className={visual.summaryText}>
+                            <RichText runs={role.summary}/>
+                        </p>
+                    </div>
+                )}
+                {role.metrics && (
+                    <div className={visual.metricsGrid}>
+                        {role.metrics.map((metric) => (
+                            <div className={visual.metricCard} key={metric.label}>
+                                <div className={visual.metricValue}>{metric.value}</div>
+                                <div className={visual.metricLabel}>{metric.label}</div>
+                            </div>
+                        ))}
+                    </div>
+                )}
+                {role.diagram && (
+                    <div className={visual.diagramSection}>
+                        <div className={visual.diagramTitle}>{role.diagram.title}</div>
+                        <img
+                            src={role.diagram.src}
+                            alt={role.diagram.alt}
+                            className={visual.diagramImage}
+                        />
+                    </div>
+                )}
+                <ul className={visual.bulletList}>
+                    {role.bullets.map((bullet, index) => (
+                        <li key={index}>
+                            <RichText runs={bullet}/>
+                        </li>
+                    ))}
+                </ul>
+            </VisualExperience>
+        </div>
+    );
+};
 
 const ExperiencePage = () => {
     const [searchParams] = useSearchParams();
@@ -35,70 +87,22 @@ const ExperiencePage = () => {
     return (
         <>
             <h1 className={classes.h1}>
-                Experience
+                {profile.experienceHeading}
             </h1>
 
             <div className={classes.textAlignCenter}>
-                <div id="blend360">
-                <CompanyTitle companyImage="/static/images/blend360.jpg" companyImageAltText="Blend360" companyWebLink="https://www.blend360.com/" companyName="Blend360"/>
-                <ExperienceTitle restOfTitle="Software Engineer"/>
-                {blend360Technologies}
-                {blend360Description}
-                </div>
-
-                <div id="promtior">
-                <CompanyTitle companyImage="/static/images/Promtior.png" companyImageAltText="Promtior" companyWebLink="https://home.promtior.ai/" companyName="Promtior"/>
-                <ExperienceTitle restOfTitle="Full-Cycle Software Engineer · Contract (client engagement)"/>
-                {promtiorTechnologies}
-                {promtiorDescription}
-                </div>
-
-                <div id="career-break" className={classes.careerBreak}>
-                    <h2 className={classes.h2}>
-                        <InternalLink link="/projects" text="Sep–Nov 2025 — Career break: built personal products (Tabellio, FinApp)"/>
-                    </h2>
-                </div>
-
-                <div id="amoeba">
-                <CompanyTitle companyImage="/static/images/amoeb_ai.jpg" companyImageAltText="Amoeba AI" companyWebLink="https://www.amoeb.ai/" companyName="Amoeba AI"/>
-                <ExperienceTitle restOfTitle="Software Engineer · Early-stage startup"/>
-                {amoebaAITechnologies}
-                {amoebaAIDescription}
-                </div>
-
-                <CompanyTitle companyImage="/static/images/elasticHotel.png" companyImageAltText="elastic-hotel" companyWebLink="https://www.elastichotel.com/" companyName="Elastic Hotel"/>
-                <ExperienceTitle restOfTitle="FullStack Software Engineer"/>
-                {elasticHotelTechnologies}
-                {elasticHotelDescription}
-
-                <CompanyTitle companyImage="/static/images/create-thrive.jpg" companyImageAltText="create-thrive" companyWebLink="https://www.createthrive.com/" companyName="CreateThrive"/>
-                <ExperienceTitle restOfTitle="FullStack Software Engineer"/>
-                {createThriveTechnologies}
-                {createThriveDescription}
-
-                <CompanyTitle companyImage="/static/images/ripio.png" companyImageAltText="Ripio" companyWebLink="https://www.ripio.com/ar/" companyName="Ripio"/>
-                <ExperienceTitle restOfTitle="Team Leader"/>
-                {ripioTechnologies}
-                {ripioDescription}
-
-                <CompanyTitle companyImage="/static/images/bps.png" companyImageAltText="BPS" companyWebLink="https://www.bps.gub.uy/"
-                              companyName="Banco de Previsión Social"/>
-                <ExperienceTitle restOfTitle="Software Developer"/>
-                {bpsTechnologies}
-                {bpsDescription}
-
-                <CompanyTitle companyImage="/static/images/ORT.png" companyImageAltText="ORT" companyWebLink="https://www.ort.edu.uy/"
-                              companyName="Universidad ORT Uruguay"/>
-                <ExperienceTitle restOfTitle="Professor of Programming I"/>
-                {professorTechnologies}
-                {professorDescription}
-
-                <CompanyTitle companyImage="/static/images/dnm.gif" companyImageAltText="DNM"
-                              companyWebLink="https://www.gub.uy/migracion"
-                              companyName="Dirección Nacional de Migración"/>
-                <ExperienceTitle restOfTitle="Technical Support - Software Development"/>
-                {dnmTechnologies}
-                {dnmDescription}
+                {profile.experience.map((entry) => {
+                    if (entry.kind === "break") {
+                        return (
+                            <div id={entry.id} className={classes.careerBreak} key={entry.id}>
+                                <h2 className={classes.h2}>
+                                    <InternalLink link={entry.link} text={entry.text}/>
+                                </h2>
+                            </div>
+                        );
+                    }
+                    return <ExperienceRole role={entry} key={entry.company}/>;
+                })}
             </div>
         </>
     );

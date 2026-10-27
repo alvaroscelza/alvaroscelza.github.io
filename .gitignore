@@ -11,6 +11,9 @@
 # production
 /build
 
+# CV PDF is generated from src/data during npm run build
+/public/Alvaro-Scelza-CV.pdf
+
 # misc
 .DS_Store
 .env.local
