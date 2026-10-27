@@ -1,0 +1,24 @@
+.card {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.badgeLink {
+    flex-shrink: 0;
+    line-height: 0;
+}
+
+.badgeImage {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .badgeImage {
+        width: 140px;
+        height: 140px;
+    }
+}
