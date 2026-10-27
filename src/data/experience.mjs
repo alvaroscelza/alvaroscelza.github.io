@@ -39,9 +39,9 @@ const experience = [
                 ": a config-driven platform that lets Claude work across the data, API, and UI repos a feature needs, past the single-repo limit of our ONA dev environments. It sets shared team rules, connects to Jira, Confluence, and Snowflake, and an automation I built on ONA's dotfiles loads each developer's Claude config from a private repo (isolated per person, editable with Claude, versioned). Adopted by the entire ICS team (8 people, from engineers to PMs and design), with 4 other teams requesting access or adopting its approach for their own setups.",
             ],
             [
-                "Learned ",
+                "Ramped up on ",
                 b("dbt"),
-                " from scratch while building with it. With AI support, I shipped my first merge requests in week 2.",
+                " from zero and merged my first changes in week 2, using AI agents to learn an unfamiliar codebase fast.",
             ],
             [
                 "Delivered features across data models (",
