@@ -4,7 +4,7 @@ import classes from "../../ExperiencePage/ExperiencePageComponents/VisualExperie
 
 const djangoTemplateTechnologies =
     <ExperienceTechnologies>
-        Python, Django, PostgreSQL, uv, React, Webpack
+        Python, Django, PostgreSQL, uv, React, Webpack, Django REST Framework
         <br/>
         <br/>
         Reusable starter. First published in 2021.
@@ -12,56 +12,20 @@ const djangoTemplateTechnologies =
 
 const djangoTemplateDescription =
     <VisualExperience>
-        <div className={classes.summarySection}>
-            <p className={classes.summaryText}>
-                Reusable starter for Django MVC projects, maintained since 2021. The repository description is "Basic project setup for Django MVC project."
-            </p>
-        </div>
-
-        <div className={classes.metricsGrid}>
-            <div className={classes.metricCard}>
-                <div className={classes.metricValue}>2021</div>
-                <div className={classes.metricLabel}>First published</div>
-            </div>
-            <div className={classes.metricCard}>
-                <div className={classes.metricValue}>3.13</div>
-                <div className={classes.metricLabel}>Python</div>
-            </div>
-            <div className={classes.metricCard}>
-                <div className={classes.metricValue}>6</div>
-                <div className={classes.metricLabel}>Django</div>
-            </div>
-        </div>
-
-        <div className={classes.contributionCard}>
-            <div className={classes.contributionTitle}>
-                <span className={classes.contributionIcon}>🐍</span>
-                <span>Django stack</span>
-            </div>
-            <p className={classes.contributionDescription}>
-                Python 3.13, Django 6, and PostgreSQL. Dependencies are managed with uv (<code>pyproject.toml</code> and an optional <code>uv.lock</code>) instead of pip. <code>uv run</code> uses the project virtualenv without activating it.
-            </p>
-            <div className={classes.techStack}>
-                <span className={classes.techTag}>Python</span>
-                <span className={classes.techTag}>Django</span>
-                <span className={classes.techTag}>PostgreSQL</span>
-                <span className={classes.techTag}>uv</span>
-            </div>
-        </div>
-
-        <div className={classes.contributionCard}>
-            <div className={classes.contributionTitle}>
-                <span className={classes.contributionIcon}>⚛️</span>
-                <span>React frontend via webpack</span>
-            </div>
-            <p className={classes.contributionDescription}>
-                The webpack dev server watches React files in <code>src/</code> and hot-reloads the browser. API calls are proxied from <code>localhost:3000</code> to the Django server on <code>localhost:8000</code>.
-            </p>
-            <div className={classes.techStack}>
-                <span className={classes.techTag}>React</span>
-                <span className={classes.techTag}>Webpack</span>
-            </div>
-        </div>
+        <ul className={classes.bulletList}>
+            <li>
+                Starter I have maintained since 2021 for new Django projects. <strong>Python 3.13</strong>, <strong>Django 6.0.3</strong> (the version in <strong>uv.lock</strong>), <strong>PostgreSQL</strong> via psycopg (written for PostgreSQL 17). Dependencies are <strong>uv</strong>: <strong>uv sync</strong> installs them, and <strong>uv run</strong> uses the project virtualenv without activating it.
+            </li>
+            <li>
+                The <strong>React</strong> app (React 19) is built with <strong>webpack</strong>. The dev server on port 3000 hot-reloads <strong>src/</strong> and proxies API calls to Django on port 8000.
+            </li>
+            <li>
+                The API is Django REST Framework with JWT (<strong>POST /api/v1/sessions/</strong>), Swagger via drf-yasg at <strong>/api/v1/swagger/</strong>, and <strong>django-tenants</strong> (tenant and domain models). Tests run with pytest. The core router is still a stub.
+            </li>
+            <li>
+                Google auth libraries are included (authlib, google-auth). The React screens in this repo are a finance UI titled FinApp (dashboard, transactions, accounts, concepts, investments, financial strategy). The app I run on Vercel is a later Supabase rebuild, listed separately.
+            </li>
+        </ul>
     </VisualExperience>;
 
 export {djangoTemplateTechnologies, djangoTemplateDescription};
