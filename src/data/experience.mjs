@@ -28,7 +28,7 @@ const experience = [
         metrics: [
             {value: "Bifrost", label: "ICS team of 8; 4 other teams"},
             {value: "Fullstack", label: "DBT, API, UI"},
-            {value: "Blackstone", label: "Client: Blackstone"},
+            {value: "Blackstone", label: "Client"},
             {value: "Week 2", label: "First MRs"},
         ],
         pdfBulletIndexes: [0, 1, 2],
