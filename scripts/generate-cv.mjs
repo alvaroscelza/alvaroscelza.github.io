@@ -3,10 +3,11 @@
  * React pages render). `npm run build` runs this first, and `npm run deploy`
  * runs the build, so a deploy publishes a PDF of the current site text.
  *
- * The file is gitignored. It is one A4 page of selectable Helvetica text.
- * Each role contributes its leading bullets, as many as still fit on that
- * page (at least the first). Headings, dates, education, key technologies,
- * and certifications are the strings from the data, not a second writeup.
+ * The file is gitignored. It is selectable Helvetica text, two A4 pages when
+ * the recent roles need the extra room. Each role prints the bullets listed
+ * in `pdfBulletIndexes` (the first bullet when that field is absent).
+ * Headings, dates, education, key technologies, and certifications are the
+ * strings from the data, not a second writeup.
  */
 import React from "react";
 import {readFileSync} from "fs";
@@ -43,13 +44,24 @@ const styles = StyleSheet.create({
     meta: {
         marginBottom: 2,
     },
-    contact: {
-        fontSize: 8.5,
+    contactRow: {
+        flexDirection: "row",
+        flexWrap: "wrap",
+        alignItems: "center",
         marginBottom: 6,
     },
+    contactItem: {
+        flexDirection: "row",
+        alignItems: "center",
+    },
+    contactSep: {
+        fontSize: 8.5,
+        marginHorizontal: 4,
+    },
     link: {
-        color: "#111111",
-        textDecoration: "none",
+        fontSize: 8.5,
+        color: "#1155CC",
+        textDecoration: "underline",
     },
     section: {
         fontFamily: "Helvetica-Bold",
@@ -82,7 +94,26 @@ const styles = StyleSheet.create({
 
 const noHyphen = (word) => [word];
 const text = (style, content) => el(Text, {style, hyphenationCallback: noHyphen}, content);
-const link = (href, label) => el(Link, {src: href, style: styles.link}, label);
+const link = (href, label) => el(
+    Link,
+    {src: href, style: styles.link, hyphenationCallback: noHyphen},
+    label,
+);
+
+const contactItem = (item, leadingSep) => el(
+    View,
+    {style: styles.contactItem},
+    leadingSep ? text(styles.contactSep, "·") : null,
+    link(item.href, item.text),
+);
+
+const contactLine = (...items) => el(
+    View,
+    {style: styles.contactRow},
+    ...items.map((item, index) => contactItem(item, index > 0)),
+);
+
+const block = (...children) => el(View, {wrap: false}, ...children);
 
 const job = (title, dates, bullets) => el(
     View,
@@ -96,12 +127,19 @@ const job = (title, dates, bullets) => el(
     ...bullets.filter(Boolean).map((bullet) => text(styles.bullet, bullet)),
 );
 
-const experienceBlocks = (bulletCount) => profile.experience.map((entry) => {
+const bulletText = (entry) => {
+    const indexes = entry.pdfBulletIndexes ?? [0];
+    return indexes
+        .map((index) => entry.bullets[index])
+        .filter(Boolean)
+        .map((bullet) => `• ${plainText(bullet)}`);
+};
+
+const experienceBlocks = () => profile.experience.map((entry) => {
     if (entry.kind === "break") {
         return job(entry.text, "", []);
     }
-    const bullets = entry.bullets.slice(0, bulletCount).map((bullet) => plainText(bullet));
-    return job(`${entry.company} — ${entry.title}`, entry.dates, bullets);
+    return job(`${entry.company} — ${entry.title}`, entry.dates, bulletText(entry));
 });
 
 const skillLines = profile.keyTechnologies.groups
@@ -112,7 +150,7 @@ const certificationLines = profile.certifications.map((certification) => (
     `${certification.title} — ${certification.issuer}. Issued ${certification.issued.label}. Expires ${certification.expires.label}.`
 ));
 
-const documentFor = (bulletCount) => el(
+const document = el(
     Document,
     {
         title: profile.documentTitle,
@@ -127,28 +165,26 @@ const documentFor = (bulletCount) => el(
         text(styles.meta, profile.hero.subtitle),
         text(styles.meta, profile.hero.location),
         text(styles.meta, profile.languages.fluent),
-        el(
-            Text,
-            {style: styles.contact, hyphenationCallback: noHyphen},
-            link(profile.links.email.href, profile.links.email.text),
-            "  ·  ",
-            link(profile.links.linkedin.href, profile.links.linkedin.text),
-            "  ·  ",
-            link(profile.links.github.href, profile.links.github.text),
-        ),
-        el(
-            Text,
-            {style: styles.contact, hyphenationCallback: noHyphen},
-            link(profile.links.kaggle.href, profile.links.kaggle.text),
+        contactLine(
+            profile.links.email,
+            profile.links.linkedin,
+            profile.links.github,
+            profile.links.kaggle,
         ),
         text(styles.section, profile.experienceHeading),
-        ...experienceBlocks(bulletCount),
-        text(styles.section, profile.education.heading),
-        text(styles.bullet, `${profile.education.school} — ${profile.education.credential}.`),
-        text(styles.section, profile.keyTechnologies.heading),
-        ...skillLines.map((line) => text(styles.bullet, line)),
-        text(styles.section, profile.certifications[0].heading),
-        ...certificationLines.map((line) => text(styles.bullet, line)),
+        ...experienceBlocks(),
+        block(
+            text(styles.section, profile.education.heading),
+            text(styles.bullet, `${profile.education.school} — ${profile.education.credential}.`),
+        ),
+        block(
+            text(styles.section, profile.keyTechnologies.heading),
+            ...skillLines.map((line) => text(styles.bullet, line)),
+        ),
+        block(
+            text(styles.section, profile.certifications[0].heading),
+            ...certificationLines.map((line) => text(styles.bullet, line)),
+        ),
     ),
 );
 
@@ -161,15 +197,6 @@ const pageCount = (filePath) => {
     return Number(counts[counts.length - 1][1]);
 };
 
-// Leading bullets only. Prefer two per role when that still fits on one page.
-let bulletsPerRole = 2;
-await renderToFile(documentFor(bulletsPerRole), outPath);
-if (pageCount(outPath) > 1) {
-    bulletsPerRole = 1;
-    await renderToFile(documentFor(bulletsPerRole), outPath);
-}
+await renderToFile(document, outPath);
 const pages = pageCount(outPath);
-if (pages !== 1) {
-    throw new Error(`CV PDF is ${pages} pages; it must stay on one page.`);
-}
-console.log(`Wrote ${outPath} (${bulletsPerRole} bullet${bulletsPerRole === 1 ? "" : "s"} per role, 1 page)`);
+console.log(`Wrote ${outPath} (${pages} page${pages === 1 ? "" : "s"})`);
