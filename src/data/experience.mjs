@@ -28,7 +28,7 @@ const experience = [
         metrics: [
             {value: "Bifrost", label: "ICS team of 8; 4 other teams"},
             {value: "Fullstack", label: "DBT, API, UI"},
-            {value: "Blackstone", label: "Client: Blackstone"},
+            {value: "Blackstone", label: "Client"},
             {value: "Week 2", label: "First MRs"},
         ],
         pdfBulletIndexes: [0, 1, 2],
@@ -37,6 +37,11 @@ const experience = [
                 "Co-created ",
                 b("Bifrost"),
                 ": a config-driven platform that lets Claude work across the data, API, and UI repos a feature needs, past the single-repo limit of our ONA dev environments. It sets shared team rules, connects to Jira, Confluence, and Snowflake, and an automation I built on ONA's dotfiles loads each developer's Claude config from a private repo (isolated per person, editable with Claude, versioned). Adopted by the entire ICS team (8 people, from engineers to PMs and design), with 4 other teams requesting access or adopting its approach for their own setups.",
+            ],
+            [
+                "Learned ",
+                b("dbt"),
+                " from scratch while building with it. With AI support, I shipped my first merge requests in week 2.",
             ],
             [
                 "Delivered features across data models (",
@@ -54,11 +59,6 @@ const experience = [
                 ", ",
                 b("Terraform"),
                 ").",
-            ],
-            [
-                "Learned ",
-                b("dbt"),
-                " from scratch while building with it. With AI support, I shipped my first merge requests in week 2.",
             ],
             "Coordinated team releases: the Jira release issue, each teammate's tasks, pipeline sign-off, and approval from the development lead.",
         ],
@@ -176,7 +176,7 @@ const experience = [
         pdfBulletIndexes: [0, 1, 2],
         bullets: [
             [
-                "With two other developers, worked on Elastic Hotel's revenue platform for European hotels (dynamic pricing and analytics, including Kondo OS). Hotels on the platform generate over ",
+                "One of three developers on Elastic Hotel's revenue platform for European hotels (dynamic pricing and analytics, including Kondo OS), used by hotels generating over ",
                 b("€263M"),
                 " in revenue.",
             ],
