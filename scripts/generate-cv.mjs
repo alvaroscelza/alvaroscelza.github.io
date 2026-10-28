@@ -150,6 +150,11 @@ const certificationLines = profile.certifications.map((certification) => (
     `${certification.title} — ${certification.issuer}. Issued ${certification.issued.label}. Expires ${certification.expires.label}.`
 ));
 
+const anthropicCourses = profile.courses.items.filter((course) => course.issuer === "Anthropic");
+certificationLines.push(
+    `Anthropic courses (2026): ${anthropicCourses.map((course) => course.title).join(", ")}.`
+);
+
 const document = el(
     Document,
     {

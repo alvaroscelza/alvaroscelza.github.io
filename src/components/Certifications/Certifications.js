@@ -3,8 +3,26 @@ import classes from "./Certifications.module.css";
 import ExternalLink from "../UI/ExternalLink";
 import profile from "../../data/profile.mjs";
 
+const Courses = () => (
+    <section className={ui.moreAboutMeSection} id="courses" aria-labelledby="courses-heading">
+        <h2 id="courses-heading" className={ui.sectionTitle}>{profile.courses.heading}</h2>
+        <article className={ui.aboutMeCard}>
+            <div className={ui.aboutMeContent}>
+                <ul className={ui.aboutMeList}>
+                    {profile.courses.items.map((course) => (
+                        <li key={course.title}>
+                            {course.url ? <ExternalLink link={course.url} text={course.title}/> : course.title}
+                            {` · ${course.issuer} · ${course.issued}`}
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </article>
+    </section>
+);
+
 const Certifications = () => {
-    return profile.certifications.map((certification) => (
+    return [...profile.certifications.map((certification) => (
         <section className={ui.moreAboutMeSection} id="certifications" aria-labelledby="certifications-heading" key={certification.title}>
             <h2 id="certifications-heading" className={ui.sectionTitle}>{certification.heading}</h2>
             <article className={`${ui.aboutMeCard} ${classes.card}`}>
@@ -39,7 +57,7 @@ const Certifications = () => {
                 </div>
             </article>
         </section>
-    ));
+    )), <Courses key="courses"/>];
 }
 
 export default Certifications;
