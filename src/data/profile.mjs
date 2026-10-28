@@ -68,6 +68,17 @@ const profile = {
             linkText: "View badge on Credly",
         },
     ],
+    courses: {
+        heading: "Courses & other certificates",
+        items: [
+            {title: "Claude Code in Action", issuer: "Anthropic", issued: "Aug 2026", url: "https://verify.skilljar.com/c/ziri44v6p6d9"},
+            {title: "Building with the Claude API", issuer: "Anthropic", issued: "Jul 2026", url: "https://verify.skilljar.com/c/za9hfcdk8mbp"},
+            {title: "Introduction to Model Context Protocol", issuer: "Anthropic", issued: "Jul 2026", url: "https://verify.skilljar.com/c/2xpzahgz2b5w"},
+            {title: "Introduction to agent skills", issuer: "Anthropic", issued: "Jul 2026", url: "https://verify.skilljar.com/c/zsar6ego7u8k"},
+            {title: "AI Fluency: Framework & Foundations", issuer: "Anthropic", issued: "Jul 2026", url: "https://verify.skilljar.com/c/f5n7ddoqryas"},
+            {title: "First Certificate in English", issuer: "University of Cambridge", issued: "Jan 2010"},
+        ],
+    },
     experienceHeading: "Experience",
     experience,
 };
