@@ -36,7 +36,7 @@ const experience = [
             [
                 "Co-created ",
                 b("Bifrost"),
-                ": a config-driven platform that lets Claude work across the data, API, and UI repos a feature needs, past the single-repo limit of our ONA dev environments. It sets shared team rules, connects to Jira, Confluence, and Snowflake, and an automation I built on ONA's dotfiles loads each developer's Claude config from a private repo (isolated per person, editable with Claude, versioned). Used by engineers and PMs on the team (PMs for design and Jira work), with 4 other teams requesting access or adopting its approach for their own setups.",
+                ": a config-driven platform that lets Claude work across the data, API, and UI repos a feature needs, past the single-repo limit of our ONA dev environments. It routes the agent through specialized roles, developer commands, task-triggered skills and per-repo maps loaded only when a task needs them, keeping the always-loaded context small (core rules file cut from 231 to 106 lines with no rule lost). It connects to Jira, Confluence, and Snowflake, and an automation I built on ONA's dotfiles loads each developer's Claude config from a private repo (isolated per person, editable with Claude, versioned). Used by engineers and PMs on the team (PMs for design and Jira work), with 4 other teams requesting access or adopting its approach for their own setups.",
             ],
             [
                 "Ramped up on ",
