@@ -69,7 +69,6 @@ const profile = {
         },
     ],
     courses: {
-        heading: "Courses & other certificates",
         items: [
             {title: "Claude Code in Action", issuer: "Anthropic", issued: "Aug 2026", url: "https://verify.skilljar.com/c/ziri44v6p6d9"},
             {title: "Building with the Claude API", issuer: "Anthropic", issued: "Jul 2026", url: "https://verify.skilljar.com/c/za9hfcdk8mbp"},
