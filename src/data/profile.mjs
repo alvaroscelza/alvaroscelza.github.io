@@ -11,7 +11,7 @@ const profile = {
     cvFileName: "Alvaro-Scelza-CV.pdf",
     hero: {
         title: "Backend & AI Engineer",
-        subtitle: "Python/AWS, building LLM features in production (Claude, Bedrock, RAG). 10+ years. Currently at Blend360, embedded at Blackstone.",
+        subtitle: "Python/AWS, building LLM features in production (Claude, Bedrock, RAG). Currently at Blend360, embedded at Blackstone.",
         location: "Montevideo, Uruguay (UTC-3) · Remote · Italian citizen (EU work authorization)",
         highlights: [
             {
