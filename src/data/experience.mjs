@@ -26,12 +26,12 @@ const experience = [
             " (Fortune 500 clients, AWS Premier Tier Services Partner, Snowflake Premier Partner). I own each feature from requirements through data, API, UI, and infrastructure.",
         ],
         metrics: [
-            {value: "Bifrost", label: "ICS team of 8; 4 other teams"},
+            {value: "Bifrost", label: "Engineers + PMs; 4 other teams"},
             {value: "Fullstack", label: "DBT, API, UI"},
             {value: "Blackstone", label: "Client"},
             {value: "Week 2", label: "First MRs"},
         ],
-        pdfBulletIndexes: [0, 1, 2],
+        pdfBulletIndexes: [0, 2, 5],
         bullets: [
             [
                 "Co-created ",
@@ -62,6 +62,11 @@ const experience = [
                 " reporting, and coordinated its release to production.",
             ],
             "Coordinated team releases: the Jira release issue, each teammate's tasks, pipeline sign-off, and approval from the development lead.",
+            [
+                "Recognized by the client's SVP in Blend360's client satisfaction (NPS) survey for improving ",
+                b("developer effectiveness"),
+                " across the team: reducing friction in how engineers build, test, and deliver, with reusable approaches that benefit engineers beyond any single project.",
+            ],
         ],
     },
     {
