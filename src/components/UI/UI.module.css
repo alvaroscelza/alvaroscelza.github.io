@@ -65,6 +65,17 @@
     margin-bottom: 30px;
 }
 
+.seniorityAppendix {
+    margin-top: 2.5rem;
+    padding-top: 0.25rem;
+    border-top: #eeeeee 1px solid;
+}
+
+.seniorityDescription {
+    margin: 0;
+    line-height: 1.45;
+}
+
 .skillsCategory {
     margin-bottom: 20px;
 }

@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 import {knowledgeData, seniorityDescriptions} from "../utils/knowledgeData";
 import KnowledgeSearch from "../components/UI/KnowledgeSearch";
 
+const seniorityLevelOrder = ['Expert', 'Advanced', 'Proficient', 'Beginner'];
+
 const categoryOrder = [
     'Programming Languages',
     'Backend Frameworks',
@@ -101,6 +103,16 @@ const KnowledgePage = () => {
             </div>
 
             <p>Is something missing? <Link to="/contact" className={classes.link}>Let me know!</Link> :)</p>
+
+            <section className={classes.seniorityAppendix} aria-labelledby="seniority-levels-heading">
+                <h2 id="seniority-levels-heading" className={classes.h2}>Seniority levels</h2>
+                {seniorityLevelOrder.map((level) => (
+                    <div key={level} className={classes.skillsCategory}>
+                        <div className={classes.skillsCategoryTitle}>{level}</div>
+                        <p className={classes.seniorityDescription}>{seniorityDescriptions[level]}</p>
+                    </div>
+                ))}
+            </section>
         </>
     );
 }
