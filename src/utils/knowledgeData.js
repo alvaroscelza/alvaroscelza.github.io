@@ -4,6 +4,10 @@
 // skills share a seniority. The page renders this array in order, so keep this
 // rule when editing.
 //
+// The meaning of each seniority level is defined in `seniorityDescriptions`
+// at the end of this file (also used by the search and the Seniority levels
+// appendix).
+//
 // Optional `cv` is {group, order, label?}. The CV and the homepage Key
 // Technologies section read those entries (see getCvTechnologyGroups) instead
 // of keeping a second copy of the names. `label` is only the shorter CV name.
