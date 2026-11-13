@@ -24,6 +24,34 @@ const HomePage = () => {
                 <p className={classes.heroSubtitle}>
                     {profile.hero.subtitle}
                 </p>
+                {profile.certifications.filter((certification) => certification.featured).map((certification) => (
+                    <a
+                        className={classes.certBanner}
+                        href={certification.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        key={certification.title}
+                    >
+                        <img
+                            className={classes.certBannerImage}
+                            src={certification.image}
+                            width={certification.imageWidth}
+                            height={certification.imageHeight}
+                            alt=""
+                        />
+                        <span className={classes.certBannerBody}>
+                            <span className={classes.certBannerKicker}>{certification.issuer.split(",")[0]}</span>
+                            <span className={classes.certBannerTitle}>{certification.title}</span>
+                            <span className={classes.certBannerMeta}>
+                                Issued {certification.issued.label}
+                                {" · "}
+                                Expires {certification.expires.label}
+                                {" · "}
+                                Verify on Credly
+                            </span>
+                        </span>
+                    </a>
+                ))}
                 <p className={classes.heroMeta}>
                     {profile.hero.location}
                 </p>

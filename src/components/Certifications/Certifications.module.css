@@ -2,6 +2,17 @@
     align-items: center;
 }
 
+.featured {
+    background: #fff;
+    border: 1px solid rgba(192, 86, 47, 0.45);
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.08);
+}
+
+.featured .badgeImage {
+    width: 200px;
+    height: 200px;
+}
+
 .badgeLink {
     flex-shrink: 0;
     line-height: 0;
@@ -21,7 +32,8 @@
         align-items: flex-start;
     }
 
-    .badgeImage {
+    .badgeImage,
+    .featured .badgeImage {
         width: 140px;
         height: 140px;
     }
