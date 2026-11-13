@@ -55,6 +55,20 @@ const profile = {
     certifications: [
         {
             heading: "Certifications",
+            featured: true,
+            title: "Claude Certified Architect – Foundations (CCA-F)",
+            image: "/static/images/claude-certified-architect-foundations.png",
+            imageAlt: "Claude Certified Architect – Foundations (CCA-F), issued by Anthropic",
+            imageWidth: 672,
+            imageHeight: 352,
+            url: "https://www.credly.com/badges/e5c4f2c9-b418-448e-8256-189f85641191/public_url",
+            issuer: "Anthropic, via Credly",
+            issued: {dateTime: "2026-11-13", label: "November 13, 2026"},
+            expires: {dateTime: "2027-11-13", label: "November 13, 2027"},
+            description: "Anthropic credential for solution architects. Earners can design and build production-grade applications with Claude using Claude Code, the Claude Agent SDK, the Claude API, and MCP.",
+            linkText: "View badge on Credly",
+        },
+        {
             title: "Claude Partner Badge - Claude Code",
             image: "/static/images/claude-partner-badge-claude-code.png",
             imageAlt: "Claude Partner Badge - Claude Code, issued by Anthropic",

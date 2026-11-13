@@ -146,14 +146,18 @@ const skillLines = profile.keyTechnologies.groups
     .filter((group) => group.items)
     .map((group) => `${group.label}: ${group.items.join(", ")}.`);
 
-const certificationLines = profile.certifications.map((certification) => (
-    `${certification.title} — ${certification.issuer}. Issued ${certification.issued.label}. Expires ${certification.expires.label}.`
-));
+const certificationLine = (certification) => el(
+    Text,
+    {style: styles.bullet, hyphenationCallback: noHyphen},
+    link(certification.url, certification.title),
+    ` — ${certification.issuer}. Issued ${certification.issued.label}. Expires ${certification.expires.label}.`,
+);
 
 const anthropicCourses = profile.courses.items.filter((course) => course.issuer === "Anthropic");
-certificationLines.push(
-    `Anthropic courses (2026): ${anthropicCourses.map((course) => course.title).join(", ")}.`
-);
+const certificationLines = [
+    ...profile.certifications.map(certificationLine),
+    text(styles.bullet, `Anthropic courses (2026): ${anthropicCourses.map((course) => course.title).join(", ")}.`),
+];
 
 const document = el(
     Document,
@@ -188,7 +192,7 @@ const document = el(
         ),
         block(
             text(styles.section, profile.certifications[0].heading),
-            ...certificationLines.map((line) => text(styles.bullet, line)),
+            ...certificationLines,
         ),
     ),
 );

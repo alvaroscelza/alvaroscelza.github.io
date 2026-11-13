@@ -7,7 +7,7 @@ const Certifications = () => (
     <section className={ui.moreAboutMeSection} id="certifications" aria-labelledby="certifications-heading">
         <h2 id="certifications-heading" className={ui.sectionTitle}>{profile.certifications[0].heading}</h2>
         {profile.certifications.map((certification) => (
-            <article className={`${ui.aboutMeCard} ${classes.card}`} key={certification.title}>
+            <article className={`${ui.aboutMeCard} ${classes.card} ${certification.featured ? classes.featured : ""}`} key={certification.title}>
                 <a
                     className={classes.badgeLink}
                     href={certification.url}
