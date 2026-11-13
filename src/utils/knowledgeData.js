@@ -70,10 +70,10 @@ export const knowledgeData = [
     ['Simple Object Access Protocol (SOAP)', 'Beginner', 'Software Architecture & Design'],
 
     // Generative AI & LLMs
-    ['Anthropic Claude', 'Expert', 'Generative AI & LLMs', {group: 'AI/LLMs', order: 10, label: 'Claude'}],
-    ['Context Engineering', 'Expert', 'Generative AI & LLMs'],
-    ['Structured Output & Tool Calling', 'Expert', 'Generative AI & LLMs'],
-    ['AI Solution Architecture', 'Expert', 'Generative AI & LLMs'],
+    ['Anthropic Claude', 'Advanced', 'Generative AI & LLMs', {group: 'AI/LLMs', order: 10, label: 'Claude'}],
+    ['Context Engineering', 'Advanced', 'Generative AI & LLMs'],
+    ['Structured Output & Tool Calling', 'Advanced', 'Generative AI & LLMs'],
+    ['AI Solution Architecture', 'Advanced', 'Generative AI & LLMs'],
     ['Retrieval-Augmented Generation (RAG)', 'Advanced', 'Generative AI & LLMs', {group: 'AI/LLMs', order: 30, label: 'RAG'}],
     ['AI-Powered Data Extraction', 'Advanced', 'Generative AI & LLMs'],
     ['Model Selection & Trade-offs', 'Advanced', 'Generative AI & LLMs'],
