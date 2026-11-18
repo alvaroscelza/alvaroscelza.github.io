@@ -10,7 +10,69 @@ import InternalLink from "../../components/UI/InternalLink";
 import RichText from "../../components/RichText";
 import profile from "../../data/profile.mjs";
 
+const Diagram = ({diagram}) => {
+    if (diagram.scroll) {
+        return (
+            <figure className={visual.diagramSection}>
+                <div className={visual.diagramTitle}>{diagram.title}</div>
+                {diagram.caption && (
+                    <p className={visual.diagramCaption}>{diagram.caption}</p>
+                )}
+                <div
+                    className={visual.diagramScroller}
+                    tabIndex={0}
+                    role="region"
+                    aria-label={`${diagram.title}. Scroll horizontally to see the full diagram.`}
+                >
+                    <a
+                        className={visual.diagramScrollLink}
+                        href={diagram.src}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={diagram.src}
+                            alt={diagram.alt}
+                            width={diagram.width}
+                            height={diagram.height}
+                            draggable="false"
+                            className={visual.diagramScrollImage}
+                            style={{width: diagram.width, height: diagram.height, maxWidth: "none"}}
+                        />
+                    </a>
+                </div>
+            </figure>
+        );
+    }
+
+    return (
+        <div className={visual.diagramSection}>
+            <div className={visual.diagramTitle}>{diagram.title}</div>
+            <img
+                src={diagram.src}
+                alt={diagram.alt}
+                className={visual.diagramImage}
+            />
+        </div>
+    );
+};
+
+const BulletList = ({bullets, className}) => (
+    <ul className={className}>
+        {bullets.map((bullet, index) => (
+            <li key={index}>
+                <RichText runs={bullet}/>
+            </li>
+        ))}
+    </ul>
+);
+
 const ExperienceRole = ({role}) => {
+    const afterBullet = role.diagram?.afterBullet;
+    const diagramInList = Number.isInteger(afterBullet);
+    const bulletsBefore = diagramInList ? role.bullets.slice(0, afterBullet + 1) : role.bullets;
+    const bulletsAfter = diagramInList ? role.bullets.slice(afterBullet + 1) : [];
+
     return (
         <div id={role.id}>
             <CompanyTitle
@@ -44,23 +106,15 @@ const ExperienceRole = ({role}) => {
                         ))}
                     </div>
                 )}
-                {role.diagram && (
-                    <div className={visual.diagramSection}>
-                        <div className={visual.diagramTitle}>{role.diagram.title}</div>
-                        <img
-                            src={role.diagram.src}
-                            alt={role.diagram.alt}
-                            className={visual.diagramImage}
-                        />
-                    </div>
+                {role.diagram && !diagramInList && <Diagram diagram={role.diagram}/>}
+                <BulletList
+                    bullets={bulletsBefore}
+                    className={diagramInList ? `${visual.bulletList} ${visual.bulletListFollowedByDiagram}` : visual.bulletList}
+                />
+                {diagramInList && <Diagram diagram={role.diagram}/>}
+                {bulletsAfter.length > 0 && (
+                    <BulletList bullets={bulletsAfter} className={visual.bulletList}/>
                 )}
-                <ul className={visual.bulletList}>
-                    {role.bullets.map((bullet, index) => (
-                        <li key={index}>
-                            <RichText runs={bullet}/>
-                        </li>
-                    ))}
-                </ul>
             </VisualExperience>
         </div>
     );

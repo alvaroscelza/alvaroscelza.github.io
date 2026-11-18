@@ -8,6 +8,7 @@
  * in `pdfBulletIndexes` (the first bullet when that field is absent).
  * Headings, dates, education, key technologies, and certifications are the
  * strings from the data, not a second writeup.
+ * Role diagrams (`diagram`) are website-only and are not drawn here.
  */
 import React from "react";
 import {readFileSync} from "fs";
