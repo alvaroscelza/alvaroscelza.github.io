@@ -31,6 +31,16 @@ const experience = [
             {value: "Blackstone", label: "Client"},
             {value: "Week 2", label: "First MRs"},
         ],
+        diagram: {
+            title: "Bifrost architecture",
+            caption: "Scroll to see the full diagram. Click to open it full size.",
+            src: "/static/images/bifrost.png",
+            width: 3962,
+            height: 742,
+            scroll: true,
+            afterBullet: 0,
+            alt: "Four-panel diagram of Bifrost. Panel 1, the problem: separate ONA environments and agents for data (dbt/Snowflake), API (.NET), and UI (React). One environment equals one repo, so the agent is blind, even though features span data, API, and UI. A GitLab token for one agent worked, but it was limited and tied to that token. Panel 2, Bifrost architecture: Claude Code, with personal rules in dotfiles, routes through Bifrost into data, API, UI, and infra (Terraform) roles. Tools are Jira, Confluence, GitLab, and Snowflake. Panel 3, the multi-repo context decision: hooks that force-load rules, subagents per repo, and recursive CLAUDE.md loading were considered. The chosen approach is one general rule that reads each repo's rules before working there, plus dev review — low risk, with human review. Panel 4, anatomy of Bifrost: CLAUDE.md is always loaded and acts as the router to agents and roles, dev slash commands, skills auto-picked by task, multi-repo workflows, repo maps, and project state and memories. Discovery is hand-made from references and routing tables in CLAUDE.md. Memories live in git under .workspace/claude-memory and are copied to ~/.claude on container rebuild.",
+        },
         pdfBulletIndexes: [0, 2, 5],
         bullets: [
             [

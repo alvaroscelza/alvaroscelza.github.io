@@ -120,6 +120,10 @@
     margin: 0.7rem 0;
 }
 
+.bulletListFollowedByDiagram {
+    margin-bottom: 0.5rem;
+}
+
 .diagramSection {
     background: #ffffff;
     border: 1px solid #e9ecef;
@@ -141,6 +145,63 @@
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.diagramScroller {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    text-align: left;
+    border-radius: 8px;
+    line-height: 0;
+    scrollbar-color: #b7c3ce #eef1f4;
+    scrollbar-width: thin;
+}
+
+.diagramScroller:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 2px;
+}
+
+.diagramScroller::-webkit-scrollbar {
+    height: 10px;
+}
+
+.diagramScroller::-webkit-scrollbar-track {
+    background: #eef1f4;
+    border-radius: 999px;
+}
+
+.diagramScroller::-webkit-scrollbar-thumb {
+    background: #b7c3ce;
+    border-radius: 999px;
+}
+
+.diagramScrollLink {
+    display: block;
+    width: max-content;
+    line-height: 0;
+}
+
+.diagramScrollImage {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.diagramCaption {
+    margin: -0.35rem 0 0.85rem;
+    color: #5a6c7d;
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 
 @media (max-width: 768px) {
